@@ -1,7 +1,7 @@
-id: L-jw71kqc025RBcxQOuNFw
+id: 1mA9FJVP1UKmAA2HbyjB6Q
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-04T04:12:43.7251358Z
+created: 2022-07-04T05:21:15.6212267Z
 protocol: 1
 tests:
 - id: zlEZgI2j90egCT_2kxpceA
@@ -19,7 +19,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-04T03:36:48.0000000
-  modificationDate: 2022-07-04T04:11:53.0000000
+  modificationDate: 2022-07-04T05:20:22.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -117,7 +117,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: hazim
+      value: hazim93
       direction: Input
     conditions: []
     validations: []
@@ -170,9 +170,9 @@ tests:
     type: Addon
     elementId: Su93I_FtyUy3siJvfPFkPw
     settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -505,19 +505,19 @@ tests:
       value: '{{addLine22}}'
       direction: Output
     - name: pathResultThree
-      value: '{{postcode1}}'
+      value: '{{postcode2}}'
       direction: Output
     - name: pathResultFour
-      value: '{{city1}}'
+      value: '{{city2}}'
       direction: Output
     - name: pathResultFive
-      value: '{{state1}}'
+      value: '{{state2}}'
       direction: Output
     - name: pathResultSix
-      value: '{{price1}}'
+      value: '{{price2}}'
       direction: Output
     - name: pathResultSeven
-      value: '{{auctionDate1}}'
+      value: '{{auctionDate2}}'
       direction: Output
     - name: pathResultEight
       value: ''
@@ -925,8 +925,8 @@ tests:
       field: result
       value: '{{currentDate1}} is before {{auctionDate1}}'
     contexts: []
-  - id: eIKye4YFFEGqf1tSo8p0pA
-    comments: ''
+  - id: 8tmxdLQLFkim9r7E7nx42g
+    comments: 2
     enabled: true
     invertResult: false
     order: 30
@@ -944,10 +944,183 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: Jalan Jalil Perwira 2, Bukit Jalil, TESTING LINE 2, 47500 Bukit Jalil, Wilayah Persekutuan Kuala Lumpur
+      value: '{{addLine12}}, {{addLine22}}, {{postcode2}} {{city2}}, {{state2}}'
       direction: Input
     conditions: []
     validations: []
+    contexts: []
+  - id: dA7qbCeTS0-_vzGix9cMng
+    comments: 2
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: bIdtzkpS1EywjqFfFvNCUQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{city2}}, {{state2}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jWWENGYwxEmFazYYrGhXqg
+    comments: 2
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    elementId: VJIJooeE10WTzcB309LkJg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{amount2}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wEc5Gzp9SUSLliOxdaHDoQ
+    comments: 2
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -DoDu7HvOEa-_xGdCWQH-Q
+      source: Store
+      addonId: GeAOQXvdY0CkfHDs9c_yHA
+    parameterMaps:
+    - name: input
+      value: '{{amount2}}'
+      direction: Input
+    - name: output
+      value: '{{amount2}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: output
+      value: '{{price2}}'
+    contexts: []
+  - id: C3VwNSdl5kKSViCRADB5bA
+    comments: 2
+    enabled: true
+    invertResult: false
+    order: 34
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5GV2lTHvjke3_Wo1NzOuHg
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: output
+      value: '{{auctionDate2}}'
+      direction: Output
+    - name: regex
+      value: ^([^T])+
+      direction: Input
+    - name: input
+      value: '{{auctionDate2}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: h6KxdpHRoEWfho7TAHIOaA
+    comments: 2
+    enabled: true
+    invertResult: false
+    order: 35
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: ZrQnHZWNkkKqSMe6hGqh1Q
+      source: Store
+      addonId: 9k_I6NoN_06CR22QXqBpAQ
+    parameterMaps:
+    - name: format
+      value: yyyy-MM-dd
+      direction: Input
+    - name: result
+      value: '{{currentDate2}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zHOm_1V6mUai-m8HLnRLFg
+    comments: 2
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: O5qq26JTBkmp_D9rWE8SLQ
+      source: Store
+      addonId: MSHCupRETUmZoTYn1n4kiw
+    parameterMaps:
+    - name: dateOne
+      value: '{{currentDate2}}'
+      direction: Input
+    - name: dateTwo
+      value: '{{auctionDate2}}'
+      direction: Input
+    - name: format
+      value: yyyy-MM-dd
+      direction: Input
+    - name: result
+      value: '{{compareDate2}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: result
+      value: '{{currentDate2}} is before {{auctionDate2}}'
     contexts: []
   parameters:
   - name: auctionList
@@ -1039,6 +1212,38 @@ tests:
     value: ''
     type: Input
   - name: addLine22
+    description: ''
+    value: ''
+    type: Input
+  - name: postcode2
+    description: ''
+    value: ''
+    type: Input
+  - name: city2
+    description: ''
+    value: ''
+    type: Input
+  - name: state2
+    description: ''
+    value: ''
+    type: Input
+  - name: price2
+    description: ''
+    value: ''
+    type: Input
+  - name: auctionDate2
+    description: ''
+    value: ''
+    type: Input
+  - name: amount2
+    description: ''
+    value: ''
+    type: Input
+  - name: currentDate2
+    description: ''
+    value: ''
+    type: Input
+  - name: compareDate2
     description: ''
     value: ''
     type: Input
@@ -1247,13 +1452,13 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = '{{addLine11}}, {{addLine21}}, {{postcode1}} {{city1}}, {{state1}}']
+    value: //android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[1]
     priority: 0
   - name: XPATH
-    value: //android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[1]
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
     priority: 1
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    value: //android.widget.TextView[@text = '{{addLine11}}, {{addLine21}}, {{postcode1}} {{city1}}, {{state1}}']
     priority: 2
 - id: IzhoCsSaZUqdy3sNZlkUEg
   name: Kuchai Lama, Wilayah Persekutuan Kual...5
@@ -1295,13 +1500,45 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = 'Jalan Jalil Perwira 2, Bukit Jalil, TESTING LINE 2, 47500 Bukit Jalil, Wilayah Persekutuan Kuala Lumpur']
+    value: //android.widget.TextView[@text = '{{addLine12}}, {{addLine22}}, {{postcode2}} {{city2}}, {{state2}}']
     priority: 0
   - name: XPATH
     value: //android.view.ViewGroup[3]/android.view.ViewGroup/android.widget.TextView[1]
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: bIdtzkpS1EywjqFfFvNCUQ
+  name: Bukit Jalil, Wilayah Persekutuan Kual...1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{city2}}, {{state2}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[3]//android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: VJIJooeE10WTzcB309LkJg
+  name: RM 8,601,234.001
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'RM 8,601,234.00']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[3]//android.widget.TextView[4]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.TextView[4]
     priority: 2
 projectParameters: []
 addons:
