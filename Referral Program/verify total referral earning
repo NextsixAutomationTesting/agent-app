@@ -1,0 +1,258 @@
+id: vsbB1QA8Wku1zoM73agc-g
+projectId: gMe-5i6TlEGZDLCgoTwVNQ
+projectName: Agent App
+created: 2022-07-04T03:48:17.9086631Z
+protocol: 1
+tests:
+- id: 4mn0XGhUKka2kPSP-EUmrw
+  name: verify total referral earning
+  description: This test was auto generated from steps of the 'Verify Case Listing - New' test
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 1.0
+  creationDate: 2021-11-16T03:05:10.0000000
+  modificationDate: 2021-11-16T09:15:29.0000000
+  settings:
+    automationAssistant: true
+    deviceId: AQH0217B18001233
+    appId: kElKIqVg90iaE06V3xahLQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: kElKIqVg90iaE06V3xahLQ
+    androidActivity: host.exp.exponent.MainActivity
+    androidPackage: com.nextsix.proforma
+    name: NextSix Agent
+    platform: Android
+  steps:
+  - id: v2oXReqP5kuw8hSSt7JJAg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/enquiry/referral/getAgentEarning
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+             "agentId":"6119d3e633d285329c95a315"
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: '{{totalEarn}}'
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2RmftFP-s0GO3-GL_Gv2jw
+    comments: verify total earning title
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: u0uo41Ck-06LINdzWq0UOw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 'Total Referral Earnings:'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: O2bY1-WXDkCJnn-4bIsUSw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 6vcl2V5C3U-xZA5nTcVj4w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{amount}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: q1lvjpPT7ky87PJqPMdXpA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -DoDu7HvOEa-_xGdCWQH-Q
+      source: Store
+      addonId: GeAOQXvdY0CkfHDs9c_yHA
+    parameterMaps:
+    - name: input
+      value: '{{amount}}'
+      direction: Input
+    - name: output
+      value: '{{amount}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: output
+      value: '{{totalEarn}}'
+    contexts: []
+  parameters:
+  - name: totalEarn
+    description: ''
+    value: ''
+    type: Input
+  - name: amount
+    description: ''
+    value: ''
+    type: Input
+auxTests: []
+elements:
+- id: u0uo41Ck-06LINdzWq0UOw
+  name: Total Referral Earnings:1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Total Referral Earnings:']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: 6vcl2V5C3U-xZA5nTcVj4w
+  name: RM1,421
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'RM1,421']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup/android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 2
+projectParameters: []
+addons:
+- id: Ujn6E4VbkEa6QU2XChYMyQ
+  source: Store
+  version: 1.6.2
+  actions:
+  - id: 3pyX37O89EenPV590WXfPQ
+    name: HTTP POST Request
+    description: POST {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.PostAction
+  minSdkLevel: 2
+  minSdkVersion: 0.63.0
+  sdkGeneration: 1
+  language: Java
+  hash: FA10C67EDC22B4905CC11ED9A527F6F6A0B836BABAB5E64ABD39FEF0C8C47AE0
+- id: GeAOQXvdY0CkfHDs9c_yHA
+  source: Store
+  version: 0.1
+  actions:
+  - id: -DoDu7HvOEa-_xGdCWQH-Q
+    name: Remove non numeric characters
+    description: Remove all non numeric characters from {{input}}
+    className: io.testproject.addon.FilterDigits
+  minSdkLevel: 2
+  minSdkVersion: 0.52.0
+  sdkGeneration: 1
+  language: Java
+  hash: BE04F6E562274E0D603398030BD9EBF9EACC87977AF0496C8851A72740D33B7B

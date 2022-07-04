@@ -1,0 +1,387 @@
+id: g11Mp3hBhEGKs6x6OaGgpg
+projectId: gMe-5i6TlEGZDLCgoTwVNQ
+projectName: Agent App
+created: 2022-07-04T03:47:57.7894718Z
+protocol: 1
+tests:
+- id: u-ZZz23vjUmyfqmcf5s7aw
+  name: '[Agent App] - Guidance'
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2021-05-19T07:57:40.0000000
+  modificationDate: 2021-08-13T02:14:22.0000000
+  settings:
+    automationAssistant: true
+    deviceId: AQH0217B18001233
+    appId: kElKIqVg90iaE06V3xahLQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: kElKIqVg90iaE06V3xahLQ
+    androidActivity: host.exp.exponent.MainActivity
+    androidPackage: com.nextsix.proforma
+    name: NextSix Agent
+    platform: Android
+  steps:
+  - id: NGf4MfQdFUCen7AY6tojEA
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XM5PDRE0QkqAJbtnzRDY9A
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: RW4xlniBvkS6tZ_AvhQSEQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uy5cxaxRi0uehEJTXel_9g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 0JXLAh10YU6AcRCg-FZCCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xMpfQN6sskOaxuCMhqW_Gg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: tRUktgs3jEe6n3PGbX4RJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GdY6dAL-r0-7lm70POyLlA
+    comments: 1. Call API from Guidance DB
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/academy/guidance
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: "{\r\n     \"agentId\":\"5e69ed25ca612e08545b0e3b\", \r\n    \r\n     \"category\": \"Category 1\"\r\n}"
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: ''
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: V-6IX78JtkK91BMqOyc6ZQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{Category1}}'
+      direction: Input
+    - name: jsonPaths
+      value: >-
+        $.data[0].subject
+
+        $.data[0].caption
+
+        $.data[1].subject
+
+        $.data[1].caption
+
+        $.data[1].videos[0]
+
+        $.data[1].videos[1]
+
+        $.data[1].images[0]
+
+        $.data[1].images[1]
+
+        $.data[1].images[2]
+
+        $.data[1].files[0]
+      direction: Input
+    - name: pathResultOne
+      value: '{{GuidanceTitle1}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{SynopsisTitle1}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{GuidanceTitle2}}'
+      direction: Output
+    - name: pathResultFour
+      value: '{{SynopsisTitle2}}'
+      direction: Output
+    - name: pathResultFive
+      value: '{{VideoTitle1}}'
+      direction: Output
+    - name: pathResultSix
+      value: '{{VideoTitle2}}'
+      direction: Output
+    - name: pathResultSeven
+      value: '{{ImageTitle1}}'
+      direction: Output
+    - name: pathResultEight
+      value: '{{ImageTitle2}}'
+      direction: Output
+    - name: pathResultNine
+      value: '{{ImageTitle3}}'
+      direction: Output
+    - name: pathResultTen
+      value: '{{UploadedFileTitle1}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: Category1
+    description: ''
+    value: ''
+    type: Input
+  - name: GuidanceTitle1
+    description: ''
+    value: ''
+    type: Input
+  - name: SynopsisTitle1
+    description: ''
+    value: ''
+    type: Input
+  - name: GuidanceTitle2
+    description: ''
+    value: ''
+    type: Input
+  - name: SynopsisTitle2
+    description: ''
+    value: ''
+    type: Input
+  - name: VideoTitle1
+    description: ''
+    value: ''
+    type: Input
+  - name: VideoTitle2
+    description: ''
+    value: ''
+    type: Input
+  - name: ImageTitle1
+    description: ''
+    value: ''
+    type: Input
+  - name: ImageTitle2
+    description: ''
+    value: ''
+    type: Input
+  - name: ImageTitle3
+    description: ''
+    value: ''
+    type: Input
+  - name: UploadedFileTitle1
+    description: ''
+    value: ''
+    type: Input
+  - name: UploadFileTitle1
+    description: ''
+    value: ''
+    type: Input
+auxTests: []
+elements:
+- id: RW4xlniBvkS6tZ_AvhQSEQ
+  name: ANDROID.WIDGET.IMAGEVIEW10
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[7]//android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[7]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+    priority: 1
+- id: 0JXLAh10YU6AcRCg-FZCCQ
+  name: Guidance
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Guidance']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: tRUktgs3jEe6n3PGbX4RJQ
+  name: Category 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Category 1']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.HorizontalScrollView/android.view.ViewGroup[1]/android.view.ViewGroup[2]//android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+projectParameters: []
+addons:
+- id: Ujn6E4VbkEa6QU2XChYMyQ
+  source: Store
+  version: 1.6.10
+  actions:
+  - id: 3pyX37O89EenPV590WXfPQ
+    name: HTTP POST Request
+    description: POST {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.PostAction
+  - id: DiRlYudmtUGjjOgGCGzRIA
+    name: HTTP GET Request
+    description: GET {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.GetAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 57049348D63450C0C1534B4F42E978E4294D0D97EA54E3B9E46042611553E0B0
+- id: 0vl75E0Mr0G5TRI1xxul-w
+  source: Store
+  version: 1.7
+  actions:
+  - id: PtQW_tRIHEadppRuIxJNNg
+    name: Extract multiple JsonPaths
+    description: Extract multiple JsonPaths from {{jsonFile}}
+    className: actions.GetTenValuesFromJSON
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542

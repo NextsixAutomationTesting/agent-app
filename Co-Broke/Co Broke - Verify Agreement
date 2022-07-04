@@ -1,0 +1,1839 @@
+id: bTisYlTfO0qq8B6jhOuwrA
+projectId: gMe-5i6TlEGZDLCgoTwVNQ
+projectName: Agent App
+created: 2022-07-04T03:47:57.7936478Z
+protocol: 1
+tests:
+- id: 3sOJLQz9g023mPLL1NGbKw
+  name: Co Broke - Verify Agreement
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2021-06-18T01:13:22.0000000
+  modificationDate: 2021-08-13T02:10:39.0000000
+  settings:
+    automationAssistant: true
+    deviceId: a819ec3e
+    appId: kElKIqVg90iaE06V3xahLQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: kElKIqVg90iaE06V3xahLQ
+    androidActivity: host.exp.exponent.MainActivity
+    androidPackage: com.nextsix.proforma
+    name: NextSix Agent
+    platform: Android
+  steps:
+  - id: lVzk0c-29kKnl_D8VbMSyA
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UBFqOpCfhkqZo2VEt3wCnQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: HrnI3NuUFkCW5cKKImTthA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OTFZzIvcUUeroL5_SwZmbw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: -IK-J7EGe0m6JdZKfdxuXA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: username
+      value: '{{username}}'
+      direction: Input
+    - name: password
+      value: '{{password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rkdfmAwoT0KUOhA6U3sJcA
+    comments: 1. Click Co broke
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: P_asalquf0iSCGwVeejWPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9f8TetbdGUWGpqypYG-miA
+    comments: 1. Click Message Icon
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: B9Lj5GLxa0KKnGvEp71ahA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1NtTTA6KfUiki6k2ZDiHSQ
+    comments: 1. Pull API
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/cobroke/properties/search
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+            "agentId":"5e69ed25ca612e08545b0e3b"   
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: '{{Cobroke}}'
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RBJlHjQsdUaE0Pwm5-Cd4g
+    comments: 1. extract for detail co broke property
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{Cobroke}}'
+      direction: Input
+    - name: jsonPaths
+      value: >-
+        $.data[0].name
+
+        $.data[0].buy.price
+
+        $.data[0].beds
+
+        $.data[0].baths
+
+        $.data[0].carParks
+
+        $.data[0].buildup
+
+        $.data[0].unitNo
+
+        $.data[0].agent.name
+      direction: Input
+    - name: pathResultOne
+      value: '{{propertyName}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{propertyPrice}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{bedroom}}'
+      direction: Output
+    - name: pathResultFour
+      value: '{{bathroom}}'
+      direction: Output
+    - name: pathResultFive
+      value: '{{carkpark}}'
+      direction: Output
+    - name: pathResultSix
+      value: '{{squareFeet}}'
+      direction: Output
+    - name: pathResultSeven
+      value: '{{unitNo}}'
+      direction: Output
+    - name: pathResultEight
+      value: '{{agent}}'
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: piPAdT2TukajWKjulDW3KQ
+    comments: 1. verify agent name
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: CzakuaS5eEihWLU8XVdhdQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{agent}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Hbg42mRVVEqfemFNrsyTIg
+    comments: 1. verify property name
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: fTUpPfQc2UCuMdwqZ2rBXw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{propertyName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jmRliEEJdk6qyrnKBE8ddg
+    comments: 1. verify total bedroom
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: 7Y9JoLGClkKwB3M5hBQ15w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{bedroom}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uQqBhsnUh0O_isQTfb3kTQ
+    comments: 1. verify total bathroom
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: Pmar9MD71kqKeQix2_RfSA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{bathroom}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: i6ym5Vg3Q02p5mlyBzav-Q
+    comments: 1. verify total square feet
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: t48xTih_lkK6Qk5UTFPoNA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{squareFeet}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vVKmhwqiC0ysOk7dNaLNAA
+    comments: 1. verify sharing percentage
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: JWGTnsauT0-Y8lyuWnpAfg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{sharingpercentage}} Sharing'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dGJA_Bc5jEqHrcu5OmebSg
+    comments: 1. Click details co-broke document
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: 2oduRZwCrUOf78VbiotrSg
+    settings:
+      sleepTime: -1
+      timeout: 35000
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MpPSUE92gkC0y4s-bgEyMQ
+    comments: 1. Extract for co broke document
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{Cobroke}}'
+      direction: Input
+    - name: jsonPaths
+      value: >-
+        $.data[0].address.line1
+
+        $.data[0].address.line2
+
+        $.data[0].address.area
+
+        $.data[0].address.postcode
+
+        $.data[0].address.state
+
+        $.data[0].address.country
+
+        $.data[0].agent.branch
+
+        $.data[0].agent.mobile
+
+        $.data[0].vendorPercentage
+
+        $.data[0].purchaserPercentage
+      direction: Input
+    - name: pathResultOne
+      value: '{{address1}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{address2}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{area}}'
+      direction: Output
+    - name: pathResultFour
+      value: '{{postcode}}'
+      direction: Output
+    - name: pathResultFive
+      value: '{{state}}'
+      direction: Output
+    - name: pathResultSix
+      value: '{{country}}'
+      direction: Output
+    - name: pathResultSeven
+      value: '{{branch}}'
+      direction: Output
+    - name: pathResultEight
+      value: '{{mobile}}'
+      direction: Output
+    - name: pathResultNine
+      value: '{{sharingpercentage}}'
+      direction: Output
+    - name: pathResultTen
+      value: '{{purchaserPercentage}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lIQn0XaNfU-b2V6r2hUVlw
+    comments: 1. Verify the title of the document
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: s-fpB0_n40aat1ApFzsZaA
+    settings:
+      sleepTime: -1
+      timeout: 35000
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: S0J4MLq7FUWHEOb6c88VKw
+    comments: 1. verify property address
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: t1OrQ9AcIkao2UIonp_Kiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IcwAVTNtGEq2WhOX8ioP6g
+    comments: 1. verify country address
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: PIwKOvSfbU6RvPU7svaohQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{country}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6TjMTHMofk6ZHK7eLn82IA
+    comments: 1. agent signature part is present
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: 2yebMwL-aESxyZJ2UAUH-g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JJG7JlYvhEOxEFjMJn7DNA
+    comments: 1. verify agent branch
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: cj61N6jKVEiObbj145Wclw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: The Roof Realty Branch {{branch}}
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5t1VXCBPIEScyi_HqWnILg
+    comments: 1. verify agent's name
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: izKCrthvBUWtBidO-DaY0g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Vendor's / Landlord's Agent Name {{agent}}
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: l37pdvLUxUmqE4glpOimsw
+    comments: 1. verify contact number
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: tYV-C8FJCEGhpKH01hp4bg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Contact Number {{mobile}}
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KAMUSL5XFkmlHLNbhU495w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: IqF4BIOEOkG7PPyQs1kh9g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Sharing Percentage {{sharingpercentage}}%
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iVvGzb2N0UOh89Aia3lt4Q
+    comments: 1. Date is present
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: _ZTdq1eEyEm-yWfXXDrI_g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7kA_3EaRMkiQDUpODR3DtA
+    comments: 1. Agent signature is present
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: XV2CJdid8UWctxR3FkC22Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Agent Signature
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _xUe5vLswk6kBhnOFFwYuQ
+    comments: 1. Pull API user(agent) details
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/agents/id
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+        "id":"5e69ed25ca612e08545b0e3b"
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: '{{agentDetails}}'
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Qfftmm8lCU2hjQqJI0BWSg
+    comments: '1. Extract API '
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{agentDetails}}'
+      direction: Input
+    - name: jsonPaths
+      value: >-
+        $.branch
+
+        $.name
+
+        $.mobile
+      direction: Input
+    - name: pathResultOne
+      value: '{{userBranch}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{userAgentName}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{userMobile}}'
+      direction: Output
+    - name: pathResultFour
+      value: ''
+      direction: Output
+    - name: pathResultFive
+      value: ''
+      direction: Output
+    - name: pathResultSix
+      value: ''
+      direction: Output
+    - name: pathResultSeven
+      value: ''
+      direction: Output
+    - name: pathResultEight
+      value: ''
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nimC3PSi2EKRaEIkPw_8Yw
+    comments: 1. verify user HQ
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: SIZtGa-eQUyOoDLr2UafVw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: The Roof Realty Branch {{userBranch}}
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: p7qhz1UFL0-G_N7jV46uSQ
+    comments: 1. verify user(Agent) Name
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: K2hDgXph3Uq5KDf3kU5GIw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Purchaser's / Tenant's Agent Name {{userAgentName}}
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -i2QWXs-rEij5W43pNLl3Q
+    comments: 1. verify sharing percentage
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: MRdvYAYG8kKxhu06HsWsYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Sharing Percentage {{purchaserPercentage}}%
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4nkHou2lOU6t2nH4ugsLoA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -cMKLnV4qkSn3tKLPPewew
+      source: Store
+      addonId: O8dvNEcjpU-7-M1AcxRLLQ
+    parameterMaps:
+    - name: filePath
+      value: C:\Users\Nextsix\Desktop\New folder\XylXYcGYAgqnq9JQeCHrk7WhLayfESSE.pdf
+      direction: Input
+    - name: pageNumber
+      value: 1
+      direction: Input
+    - name: text
+      value: '{{address1}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3j_SYOCHCk2LDVc9xPdtfQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    elementId: t1OrQ9AcIkao2UIonp_Kiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: W7Jc0q5PokSxBVEg2FEHTw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: PIwKOvSfbU6RvPU7svaohQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pB-1nodUQ0S4wJlNoGXbAg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 34
+    repeat: 1
+    type: Action
+    elementId: MD0M21SS3UOVWQECfWi5Bg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2xuXZBQTykWjyyqH131jzg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 35
+    repeat: 1
+    type: Action
+    elementId: Tyy9AmyAZUeFXR7p558WMw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: K6e2Y2tuUEyrIJzyl86wUw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Action
+    elementId: MD0M21SS3UOVWQECfWi5Bg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: text
+      value: Property for sale / Rent at 2 Blok B3 Jalan 3 Ampang 46500 Wilyah Persekutuan
+    contexts: []
+  parameters:
+  - name: username
+    value: cayden
+    type: Input
+  - name: password
+    value: cayden
+    type: Input
+  - name: Cobroke
+    description: ''
+    value: ''
+    type: Input
+  - name: address1
+    description: ''
+    value: ''
+    type: Input
+  - name: address2
+    description: ''
+    value: ''
+    type: Input
+  - name: area
+    description: ''
+    value: ''
+    type: Input
+  - name: postcode
+    description: ''
+    value: ''
+    type: Input
+  - name: state
+    description: ''
+    value: ''
+    type: Input
+  - name: country
+    description: ''
+    value: ''
+    type: Input
+  - name: branch
+    description: ''
+    value: ''
+    type: Input
+  - name: agent
+    description: ''
+    value: ''
+    type: Input
+  - name: mobile
+    description: ''
+    value: ''
+    type: Input
+  - name: sharingpercentage
+    description: ''
+    value: ''
+    type: Input
+  - name: propertyName
+    description: ''
+    value: ''
+    type: Input
+  - name: propertyPrice
+    description: ''
+    value: ''
+    type: Input
+  - name: bedroom
+    description: ''
+    value: ''
+    type: Input
+  - name: bathroom
+    description: ''
+    value: ''
+    type: Input
+  - name: carkpark
+    description: ''
+    value: ''
+    type: Input
+  - name: squareFeet
+    description: ''
+    value: ''
+    type: Input
+  - name: unitNo
+    description: ''
+    value: ''
+    type: Input
+  - name: agentDetails
+    description: ''
+    value: ''
+    type: Input
+  - name: purchaserPercentage
+    description: ''
+    value: ''
+    type: Input
+  - name: userBranch
+    description: ''
+    value: ''
+    type: Input
+  - name: userAgentName
+    description: ''
+    value: ''
+    type: Input
+  - name: userMobile
+    description: ''
+    value: ''
+    type: Input
+  - name: pdftest
+    description: ''
+    value: ''
+    type: Input
+auxTests:
+- id: -IK-J7EGe0m6JdZKfdxuXA
+  name: Quick login
+  description: This test was auto generated from steps of the 'Account tab' test
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 1.0
+  creationDate: 2021-02-23T02:46:24.0000000
+  modificationDate: 2022-06-29T01:18:20.0000000
+  settings:
+    automationAssistant: true
+    deviceId: AQH0217B18001233
+    appId: kElKIqVg90iaE06V3xahLQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 0tA1NkfWg0WYW4fcKRgJ9A
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: fWimlrI6HEmxjqjHgFw5BA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{username}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8LaDKmoOMkCQJ4V_q-T4Qg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: bJkXiRFWzkq-sQyaTIaRcg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ViKR1nDwskqC-daxEB8f_A
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: OrS1H2hOJ0qQOQQi9cXFEw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oiMaTQZFxU-waVLDcNQ5iQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: u0sVuwtVPkm7_7isqW3S4w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: username
+    value: cayden
+    type: Input
+  - name: password
+    value: cayden
+    type: Input
+elements:
+- id: HrnI3NuUFkCW5cKKImTthA
+  name: While using the app
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.android.permissioncontroller:id/permission_allow_foreground_only_button
+    priority: 2
+  - name: XPATH
+    value: //android.widget.Button[@text = 'While using the app']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[1]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]
+    priority: 3
+- id: P_asalquf0iSCGwVeejWPA
+  name: Co-Broke1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Co-Broke']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[5]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.widget.TextView[1]
+    priority: 2
+- id: B9Lj5GLxa0KKnGvEp71ahA
+  name: Message7
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[@text = 'Message']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
+- id: CzakuaS5eEihWLU8XVdhdQ
+  name: Wilson4
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Wilson']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: fTUpPfQc2UCuMdwqZ2rBXw
+  name: W Residence2
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'W Residence']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: 7Y9JoLGClkKwB3M5hBQ15w
+  name: 1 + 13
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '1 + 1']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[4]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[4]
+    priority: 2
+- id: Pmar9MD71kqKeQix2_RfSA
+  name: 17
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[6][@text = '1']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[6]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[6]
+    priority: 2
+- id: t48xTih_lkK6Qk5UTFPoNA
+  name: 800 ft²3
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '800 ft²']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[10]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[10]
+    priority: 2
+- id: JWGTnsauT0-Y8lyuWnpAfg
+  name: 5% Sharing
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '5% Sharing']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: 2oduRZwCrUOf78VbiotrSg
+  name: ANDROID.WIDGET.IMAGEVIEW25
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[3]//android.widget.ImageView[1]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+    priority: 1
+- id: s-fpB0_n40aat1ApFzsZaA
+  name: Internal Co-Broke Arrangement
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[@text = 'Internal Co-Broke Arrangement']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]
+    priority: 2
+- id: t1OrQ9AcIkao2UIonp_Kiw
+  name: Property for sale / Rent at 2 Blok B3...
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[20]|//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[21]
+    priority: 0
+- id: PIwKOvSfbU6RvPU7svaohQ
+  name: Malaysia
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[20]|//android.view.View[21]
+    priority: 0
+- id: 2yebMwL-aESxyZJ2UAUH-g
+  name: Agent Signature
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[22][@text = 'Agent Signature']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[22]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[22]
+    priority: 2
+- id: cj61N6jKVEiObbj145Wclw
+  name: The Roof Realty Branch HQ
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[23][@text = 'The Roof Realty Branch HQ']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[23]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[23]
+    priority: 2
+- id: izKCrthvBUWtBidO-DaY0g
+  name: Vendor's / Landlord's Agent Name Wilson
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[@text = concat('Vendor', "'", 's / Landlord', "'", 's Agent Name Wilson')]
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[24]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[24]
+    priority: 2
+- id: tYV-C8FJCEGhpKH01hp4bg
+  name: Contact Number 0123394094
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[@text = 'Contact Number 0123394094']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[25]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[25]
+    priority: 2
+- id: IqF4BIOEOkG7PPyQs1kh9g
+  name: Sharing Percentage 5%2
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[26][@text = 'Sharing Percentage 5%']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[26]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[26]
+    priority: 2
+- id: _ZTdq1eEyEm-yWfXXDrI_g
+  name: Date
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[27][@text = 'Date']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[27]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[27]
+    priority: 2
+- id: XV2CJdid8UWctxR3FkC22Q
+  name: Agent Signature1
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[28][@text = 'Agent Signature']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[28]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[28]
+    priority: 2
+- id: SIZtGa-eQUyOoDLr2UafVw
+  name: The Roof Realty Branch HQ1
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[29][@text = 'The Roof Realty Branch HQ']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[29]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[29]
+    priority: 2
+- id: K2hDgXph3Uq5KDf3kU5GIw
+  name: Purchaser's / Tenant's Agent Name Cay...
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[@text = concat('Purchaser', "'", 's / Tenant', "'", 's Agent Name Cayden')]
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[30]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[30]
+    priority: 2
+- id: MRdvYAYG8kKxhu06HsWsYQ
+  name: Sharing Percentage 5%1
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[32][@text = 'Sharing Percentage 5%']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[32]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[32]
+    priority: 2
+- id: MD0M21SS3UOVWQECfWi5Bg
+  name: Property for sale / Rent at 2 Blok B3...
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[@text = 'Property for sale / Rent at 2 Blok B3 Jalan 3 Ampang 46500 Wilayah Persekutuan Kuala Lumpur']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[20]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[20]
+    priority: 2
+- id: Tyy9AmyAZUeFXR7p558WMw
+  name: Malaysia1
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.View[@text = 'Malaysia']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[21]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[21]
+    priority: 2
+- id: fWimlrI6HEmxjqjHgFw5BA
+  name: Username
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = '{{username}}']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.EditText[1]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]
+    priority: 2
+- id: bJkXiRFWzkq-sQyaTIaRcg
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = '{{password}}']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.EditText[2]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
+    priority: 2
+- id: OrS1H2hOJ0qQOQQi9cXFEw
+  name: 
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: u0sVuwtVPkm7_7isqW3S4w
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Sign In']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[4]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    priority: 2
+projectParameters: []
+addons:
+- id: Ujn6E4VbkEa6QU2XChYMyQ
+  source: Store
+  version: 1.6.10
+  actions:
+  - id: 3pyX37O89EenPV590WXfPQ
+    name: HTTP POST Request
+    description: POST {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.PostAction
+  - id: DiRlYudmtUGjjOgGCGzRIA
+    name: HTTP GET Request
+    description: GET {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.GetAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 57049348D63450C0C1534B4F42E978E4294D0D97EA54E3B9E46042611553E0B0
+- id: 0vl75E0Mr0G5TRI1xxul-w
+  source: Store
+  version: 1.7
+  actions:
+  - id: PtQW_tRIHEadppRuIxJNNg
+    name: Extract multiple JsonPaths
+    description: Extract multiple JsonPaths from {{jsonFile}}
+    className: actions.GetTenValuesFromJSON
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542
+- id: O8dvNEcjpU-7-M1AcxRLLQ
+  source: Store
+  version: 0.4
+  actions:
+  - id: -cMKLnV4qkSn3tKLPPewew
+    name: Contains text (match case)
+    description: Check for text in PDF with matching case
+    className: io.testproject.ContainsTextMatchCase
+  minSdkLevel: 2
+  minSdkVersion: 0.61.0
+  sdkGeneration: 1
+  language: Java
+  hash: 33B06B5F4F1B2BA6A9B3A52EA1B8A36DAB2D631FE32BEB119A45B1668DFBD0C9

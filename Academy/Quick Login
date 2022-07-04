@@ -1,0 +1,174 @@
+id: bWfi9OfOt0meRoBhFz30pw
+projectId: gMe-5i6TlEGZDLCgoTwVNQ
+projectName: Agent App
+created: 2022-07-04T03:48:27.1328213Z
+protocol: 1
+tests:
+- id: eTyaYMTXAUi3NaUW8hk2kQ
+  name: Quick Login
+  description: This test was auto generated from steps of the 'Administrator' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-03-02T08:53:50.0000000
+  modificationDate: 2022-03-02T08:53:50.0000000
+  settings:
+    automationAssistant: true
+    appId: lY2Ao93--UyV7-HIxkDCBg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: lY2Ao93--UyV7-HIxkDCBg
+    name: Admin
+    url: http://sit-admin.nextsix.com/
+    platform: Web
+  steps:
+  - id: NP3MVQa9GEqM2FJ12uR6dA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: xtNyv2f5KkmL4voG5koMaQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XQx0P-CtSk6p-2BC2s670w
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: xtNyv2f5KkmL4voG5koMaQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Ziqh
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: T2nNwW9PykyV6FP9lLwSSQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: BtbYZtdsCUileC3AcQtVXQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Ziqhru95
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SE2Z7Ni0pk6cb7_q_0COzg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: gYktG22AoUyoNBflgp0zdA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: xtNyv2f5KkmL4voG5koMaQ
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'User Name']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/div[1]/div/div/div/form/div[2]/input
+    priority: 3
+- id: BtbYZtdsCUileC3AcQtVXQ
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[3]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/div[1]/div/div/div/form/div[3]/input
+    priority: 3
+- id: gYktG22AoUyoNBflgp0zdA
+  name: Sign In
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 1
+  - name: XPATH
+    value: //button[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/main/div[1]/div/div/div/form/button[1]
+    priority: 2
+projectParameters: []
+addons: []
