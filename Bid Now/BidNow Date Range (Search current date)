@@ -1,7 +1,7 @@
-id: HY0VSQC0ekKBkjSxC6Y1aw
+id: L-jw71kqc025RBcxQOuNFw
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-04T03:48:36.2093836Z
+created: 2022-07-04T04:12:43.7251358Z
 protocol: 1
 tests:
 - id: zlEZgI2j90egCT_2kxpceA
@@ -19,7 +19,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-04T03:36:48.0000000
-  modificationDate: 2022-07-04T03:48:12.0000000
+  modificationDate: 2022-07-04T04:11:53.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -361,7 +361,7 @@ tests:
     validations: []
     contexts: []
   - id: GYUI6lVYHU-lHxoqm6pLRA
-    comments: ''
+    comments: extract auction property 0
     enabled: true
     invertResult: false
     order: 13
@@ -382,10 +382,7 @@ tests:
       value: '{{auctionList}}'
       direction: Input
     - name: jsonPaths
-      value: >-
-        $.data[0].address.line1
-
-        $.data[0].address.line2
+      value: "$.data[0].address.line1\n$.data[0].address.line2\n$.data[0].address.postcode\n$.data[0].address.city\n$.data[0].address.state\n$.data[0].price\n$.data[0].auctionDate "
       direction: Input
     - name: pathResultOne
       value: '{{addLine1}}'
@@ -394,19 +391,19 @@ tests:
       value: '{{addLine2}}'
       direction: Output
     - name: pathResultThree
-      value: ''
+      value: '{{postcode}}'
       direction: Output
     - name: pathResultFour
-      value: ''
+      value: '{{city}}'
       direction: Output
     - name: pathResultFive
-      value: ''
+      value: '{{state}}'
       direction: Output
     - name: pathResultSix
-      value: ''
+      value: '{{price}}'
       direction: Output
     - name: pathResultSeven
-      value: ''
+      value: '{{auctionDate}}'
       direction: Output
     - name: pathResultEight
       value: ''
@@ -417,6 +414,538 @@ tests:
     - name: pathResultTen
       value: ''
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zFQ_0TEP3k62_k881oW8AA
+    comments: extract auction property 1
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{auctionList}}'
+      direction: Input
+    - name: jsonPaths
+      value: "$.data[1].address.line1\n$.data[1].address.line2\n$.data[1].address.postcode\n$.data[1].address.city\n$.data[1].address.state\n$.data[1].price\n$.data[0].auctionDate "
+      direction: Input
+    - name: pathResultOne
+      value: '{{addLine11}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{addLine21}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{postcode1}}'
+      direction: Output
+    - name: pathResultFour
+      value: '{{city1}}'
+      direction: Output
+    - name: pathResultFive
+      value: '{{state1}}'
+      direction: Output
+    - name: pathResultSix
+      value: '{{price1}}'
+      direction: Output
+    - name: pathResultSeven
+      value: '{{auctionDate1}}'
+      direction: Output
+    - name: pathResultEight
+      value: ''
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4_L0VT4iRUuQRhIo4Zvi4A
+    comments: extract auction property 2
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{auctionList}}'
+      direction: Input
+    - name: jsonPaths
+      value: "$.data[2].address.line1\n$.data[2].address.line2\n$.data[2].address.postcode\n$.data[2].address.city\n$.data[2].address.state\n$.data[2].price\n$.data[2].auctionDate "
+      direction: Input
+    - name: pathResultOne
+      value: '{{addLine12}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{addLine22}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{postcode1}}'
+      direction: Output
+    - name: pathResultFour
+      value: '{{city1}}'
+      direction: Output
+    - name: pathResultFive
+      value: '{{state1}}'
+      direction: Output
+    - name: pathResultSix
+      value: '{{price1}}'
+      direction: Output
+    - name: pathResultSeven
+      value: '{{auctionDate1}}'
+      direction: Output
+    - name: pathResultEight
+      value: ''
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VohwolU0OEeVY3XtVfnWXw
+    comments: 0
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: Z9_K7EFRKEuXqJfymO7SoA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{addLine1}}, {{addLine2}}, {{postcode}} {{city}}, {{state}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xTmHZEE0YUGrox1HSRNhJQ
+    comments: 0
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: jkMD91-vj0mNT6b2BcPPyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{city}}, {{state}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uw5oHOQYZUOSkRhNb68BNg
+    comments: 0
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: -_AVKATZb02JXYi5g6XHdw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{amount}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8PvIdUqHkEWZmyI7aYTbAQ
+    comments: 0
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -DoDu7HvOEa-_xGdCWQH-Q
+      source: Store
+      addonId: GeAOQXvdY0CkfHDs9c_yHA
+    parameterMaps:
+    - name: input
+      value: '{{amount}}'
+      direction: Input
+    - name: output
+      value: '{{amount}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: output
+      value: '{{price}}'
+    contexts: []
+  - id: PIAAfL015k2dZoFBK6qhSQ
+    comments: 0
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5GV2lTHvjke3_Wo1NzOuHg
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: output
+      value: '{{auctionDate}}'
+      direction: Output
+    - name: regex
+      value: ^([^T])+
+      direction: Input
+    - name: input
+      value: '{{auctionDate}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: K_CsEeiTf0iNXQIspoDhxQ
+    comments: 0
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: ZrQnHZWNkkKqSMe6hGqh1Q
+      source: Store
+      addonId: 9k_I6NoN_06CR22QXqBpAQ
+    parameterMaps:
+    - name: format
+      value: yyyy-MM-dd
+      direction: Input
+    - name: result
+      value: '{{currentDate}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UHYYGNgWb0mN96YLm3o6nQ
+    comments: 0
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: O5qq26JTBkmp_D9rWE8SLQ
+      source: Store
+      addonId: MSHCupRETUmZoTYn1n4kiw
+    parameterMaps:
+    - name: dateOne
+      value: '{{currentDate}}'
+      direction: Input
+    - name: dateTwo
+      value: '{{auctionDate}}'
+      direction: Input
+    - name: format
+      value: yyyy-MM-dd
+      direction: Input
+    - name: result
+      value: '{{compareDate}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: result
+      value: '{{currentDate}} is before {{auctionDate}}'
+    contexts: []
+  - id: TWMAuwronEet3kd5TDWPnQ
+    comments: 1
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: VsobSx8d1US71AlQr6kl7Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{addLine11}}, {{addLine21}}, {{postcode1}} {{city1}}, {{state1}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fu2T2whdBEKuPWl8tUvdiA
+    comments: 1
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: IzhoCsSaZUqdy3sNZlkUEg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{city1}}, {{state1}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tQGS2kwOfUGAfxz9ba4fNA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: 8CtkuS4wFEu3Jx8ryQjpNQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{amount1}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mNXFVwNAbk249Mj-PPbMDw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -DoDu7HvOEa-_xGdCWQH-Q
+      source: Store
+      addonId: GeAOQXvdY0CkfHDs9c_yHA
+    parameterMaps:
+    - name: input
+      value: '{{amount1}}'
+      direction: Input
+    - name: output
+      value: '{{amount1}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: output
+      value: '{{price1}}'
+    contexts: []
+  - id: e6rWAnjYB0ui0c3zKkweow
+    comments: 1
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5GV2lTHvjke3_Wo1NzOuHg
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: output
+      value: '{{auctionDate1}}'
+      direction: Output
+    - name: regex
+      value: ^([^T])+
+      direction: Input
+    - name: input
+      value: '{{auctionDate1}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WPxxpok_TkKwQlL6Gira5Q
+    comments: 1
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: ZrQnHZWNkkKqSMe6hGqh1Q
+      source: Store
+      addonId: 9k_I6NoN_06CR22QXqBpAQ
+    parameterMaps:
+    - name: format
+      value: yyyy-MM-dd
+      direction: Input
+    - name: result
+      value: '{{currentDate1}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zIWHrh6DOkue6sL1f_kaYg
+    comments: 1
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: O5qq26JTBkmp_D9rWE8SLQ
+      source: Store
+      addonId: MSHCupRETUmZoTYn1n4kiw
+    parameterMaps:
+    - name: dateOne
+      value: '{{currentDate1}}'
+      direction: Input
+    - name: dateTwo
+      value: '{{auctionDate1}}'
+      direction: Input
+    - name: format
+      value: yyyy-MM-dd
+      direction: Input
+    - name: result
+      value: '{{compareDate1}}'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: result
+      value: '{{currentDate1}} is before {{auctionDate1}}'
+    contexts: []
+  - id: eIKye4YFFEGqf1tSo8p0pA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: RsMGBb6kAkO83n4NzXF6Ww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Jalan Jalil Perwira 2, Bukit Jalil, TESTING LINE 2, 47500 Bukit Jalil, Wilayah Persekutuan Kuala Lumpur
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -445,6 +974,74 @@ tests:
     description: ''
     value: ''
     type: Input
+  - name: price
+    description: ''
+    value: ''
+    type: Input
+  - name: amount
+    description: ''
+    value: ''
+    type: Input
+  - name: auctionDate
+    description: ''
+    value: ''
+    type: Input
+  - name: auctionDate1
+    description: ''
+    value: ''
+    type: Input
+  - name: addLine11
+    description: ''
+    value: ''
+    type: Input
+  - name: addLine21
+    description: ''
+    value: ''
+    type: Input
+  - name: postcode1
+    description: ''
+    value: ''
+    type: Input
+  - name: city1
+    description: ''
+    value: ''
+    type: Input
+  - name: state1
+    description: ''
+    value: ''
+    type: Input
+  - name: price1
+    description: ''
+    value: ''
+    type: Input
+  - name: currentDate
+    description: ''
+    value: ''
+    type: Input
+  - name: compareDate
+    description: ''
+    value: ''
+    type: Input
+  - name: amount1
+    description: ''
+    value: ''
+    type: Input
+  - name: currentDate1
+    description: ''
+    value: ''
+    type: Input
+  - name: compareDate1
+    description: ''
+    value: ''
+    type: Input
+  - name: addLine12
+    description: ''
+    value: ''
+    type: Input
+  - name: addLine22
+    description: ''
+    value: ''
+    type: Input
 auxTests: []
 elements:
 - id: HrnI3NuUFkCW5cKKImTthA
@@ -466,6 +1063,54 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]
     priority: 3
+- id: u0sVuwtVPkm7_7isqW3S4w
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Sign In']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[4]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    priority: 2
+- id: FOxKPOr2tkWhZIbJRM703w
+  name: 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
+- id: _0vV7EZTwkid4lENZf_ohQ
+  name: 
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
 - id: rtJCUvqrx0GCN1kb79yaZg
   name: Username2
   type:
@@ -497,38 +1142,6 @@ elements:
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
-    priority: 2
-- id: FOxKPOr2tkWhZIbJRM703w
-  name: 1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = '']
-    priority: 1
-  - name: XPATH
-    value: //android.view.ViewGroup[3]/android.widget.TextView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
-    priority: 2
-- id: u0sVuwtVPkm7_7isqW3S4w
-  name: Sign In1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Sign In']
-    priority: 1
-  - name: XPATH
-    value: //android.view.ViewGroup[4]/android.widget.TextView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
     priority: 2
 - id: Su93I_FtyUy3siJvfPFkPw
   name: Not Now1
@@ -562,21 +1175,21 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.widget.TextView[1]
     priority: 2
-- id: _0vV7EZTwkid4lENZf_ohQ
-  name: 
+- id: -_AVKATZb02JXYi5g6XHdw
+  name: RM 6,301,235.00
   type:
     id: jUwODgyNjAyNzk2NTk3NTE
     name: android.widget.TextView
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = '']
+    value: //android.widget.TextView[@text = 'RM 6,301,235.00']
     priority: 0
   - name: XPATH
-    value: //android.view.ViewGroup[2]/android.widget.TextView
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[4]
     priority: 1
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[4]
     priority: 2
 - id: gM7BzFUNm06mVgBSPRylKQ
   name: Search4
@@ -594,21 +1207,143 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
     priority: 2
+- id: Z9_K7EFRKEuXqJfymO7SoA
+  name: Blk C-3-7, Kuchai Exchange No 43, Jal...2
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{addLine1}}, {{addLine2}}, {{postcode}} {{city}}, {{state}}']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup[1]/android.view.ViewGroup[1]//android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: jkMD91-vj0mNT6b2BcPPyQ
+  name: Kuchai Lama, Wilayah Persekutuan Kual...3
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[@text = '{{city}}, {{state}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: VsobSx8d1US71AlQr6kl7Q
+  name: Blk C-3-7, Kuchai Exchange No 43, , J...1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{addLine11}}, {{addLine21}}, {{postcode1}} {{city1}}, {{state1}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: IzhoCsSaZUqdy3sNZlkUEg
+  name: Kuchai Lama, Wilayah Persekutuan Kual...5
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[2]//android.widget.TextView[@text = '{{city1}}, {{state1}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]//android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: 8CtkuS4wFEu3Jx8ryQjpNQ
+  name: RM 560,000.001
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'RM 560,000.00']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]//android.widget.TextView[4]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[4]
+    priority: 2
+- id: RsMGBb6kAkO83n4NzXF6Ww
+  name: Jalan Jalil Perwira 2, Bukit Jalil, T...1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Jalan Jalil Perwira 2, Bukit Jalil, TESTING LINE 2, 47500 Bukit Jalil, Wilayah Persekutuan Kuala Lumpur']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.view.ViewGroup/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
 projectParameters: []
 addons:
-- id: inW2AJJ04ku45E9-RN2zqA
+- id: GeAOQXvdY0CkfHDs9c_yHA
   source: Store
-  version: 2.10
+  version: 0.1
   actions:
-  - id: 01wpThLkuUmef1nLejuuew
-    name: Click if visible
-    description: Click {{element}} if it's visible
-    className: io.testproject.addon.ClickActions.ClickIfVisibleAndroid
+  - id: -DoDu7HvOEa-_xGdCWQH-Q
+    name: Remove non numeric characters
+    description: Remove all non numeric characters from {{input}}
+    className: io.testproject.addon.FilterDigits
   minSdkLevel: 2
-  minSdkVersion: 0.65.0
+  minSdkVersion: 0.52.0
   sdkGeneration: 1
   language: Java
-  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
+  hash: BE04F6E562274E0D603398030BD9EBF9EACC87977AF0496C8851A72740D33B7B
+- id: 9k_I6NoN_06CR22QXqBpAQ
+  source: Store
+  version: 1.4
+  actions:
+  - id: ZrQnHZWNkkKqSMe6hGqh1Q
+    name: Get the current DateTime
+    description: Get current date
+    className: Actions.CurrentDate
+  minSdkLevel: 2
+  minSdkVersion: 0.63.0
+  sdkGeneration: 1
+  language: Java
+  hash: FAB3FD2E0F114456BE22C986BC93E52A574EBC0E798B69C2858D65F09B58E84C
+- id: D5P7e9ZMO0aPwXNrWJE9iA
+  source: Store
+  version: 2.1
+  actions:
+  - id: 5GV2lTHvjke3_Wo1NzOuHg
+    name: Extract String using RegEx
+    description: Extract Sub-String from {{input}} using {{regex}}
+    className: ExtractStringUsingRegex
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 42D4FAE64133AB35515711887122D41D0D6B694DD2DE3BBF4E83294267283AAA
 - id: Ujn6E4VbkEa6QU2XChYMyQ
   source: Store
   version: 1.6.2
@@ -622,6 +1357,19 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: FA10C67EDC22B4905CC11ED9A527F6F6A0B836BABAB5E64ABD39FEF0C8C47AE0
+- id: MSHCupRETUmZoTYn1n4kiw
+  source: Store
+  version: 0.1
+  actions:
+  - id: O5qq26JTBkmp_D9rWE8SLQ
+    name: Compare Dates
+    description: Compare {{dateOne}} with {{dateTwo}}
+    className: CompareDates
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 3A9AA3C1C1568DC4F0A7AE79D2140C459CF41C8941E9B9F9A713DE4E52F36347
 - id: 0vl75E0Mr0G5TRI1xxul-w
   source: Store
   version: 1.7
@@ -635,3 +1383,16 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: 01wpThLkuUmef1nLejuuew
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleAndroid
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
