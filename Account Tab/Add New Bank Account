@@ -1,0 +1,3011 @@
+id: rqRwIK4wSk-L6z6v92cvPA
+projectId: gMe-5i6TlEGZDLCgoTwVNQ
+projectName: Agent App
+created: 2022-07-04T03:48:08.5835778Z
+protocol: 1
+tests:
+- id: 1ivCUnJYqUSwQo-7opEEkA
+  name: Add New Bank Account
+  description: >-
+    This test included
+
+    1. Add new Account
+
+    2. Set as default
+
+    3. Delete account
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 1.0
+  creationDate: 2021-08-20T09:38:03.0000000
+  modificationDate: 2022-06-20T08:36:50.0000000
+  settings:
+    automationAssistant: true
+    deviceId: AQH0217B18001233
+    appId: kElKIqVg90iaE06V3xahLQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: kElKIqVg90iaE06V3xahLQ
+    androidActivity: host.exp.exponent.MainActivity
+    androidPackage: com.nextsix.proforma
+    name: NextSix Agent
+    platform: Android
+  steps:
+  - id: xA2J726MvE63i7Nlj8qfdw
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xuwnc5HTWkmNN6NX45YPyA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: HrnI3NuUFkCW5cKKImTthA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: A2vNNv4bp0aRQjpqch7mXA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: -IK-J7EGe0m6JdZKfdxuXA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: username
+      value: '{{username}}'
+      direction: Input
+    - name: password
+      value: '{{password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Zog9adVvuEyOAbxn26sgLQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    elementId: Su93I_FtyUy3siJvfPFkPw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 01wpThLkuUmef1nLejuuew
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xioX52epEU29hoZwppgc6g
+    comments: 1. Click Account Tab
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: lVatzo8VakGqr3TejjpSew
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JFS9L27FvESvgzlpnvmwKg
+    comments: 1. Click Bank Account Info
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: THVWdBSML0Ca0SsrEB4JPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rYDlYCQk-0GHP2LlJnCJzA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 2
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 419
+      direction: Input
+    - name: startY
+      value: 1030
+      direction: Input
+    - name: endX
+      value: 426
+      direction: Input
+    - name: endY
+      value: 501
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fOem9NhKlE2y5JmrRbD0oQ
+    comments: 1.  Click Add Bank Account button
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 2LVyUIhaHU2DuMAZi20FvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rZW3ul_5LUu1OIcHYdSruQ
+    comments: 1. verify Add Bank Account title
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: akDk1Wfax0Sc-d8jkFu0tw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Add Bank Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: y4t3eJkc_kCRCxNcDwXjDQ
+    comments: 1. verify back button
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: pBZGX-ovOkK5i5TLV06GaQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PzZakYgwAE2tZKtSg8fNRw
+    comments: 1. verify bank subtitle
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: PAjU7zyd3ky_6aIO9kHfvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Bank
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Rm_7pmCJnEu-vBJJmPvAxw
+    comments: 1. verify placeholder for bank
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: YH0tHh0sAEirTTlLDv3XYA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 'Choose Bank '
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: F9epw5xWy0qNv0LH76f1eA
+    comments: 1. verify Name as per Bank Account subtitle
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: rdiDGUVp4kOf90tHYDPJ9g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Name as per Bank Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eOrA19HKU0KUNjxmeociRQ
+    comments: '1. Verify placeholder '
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: j00OOC587kmmEVCfah4tOA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Name
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eFtP6pgYNU6J3WbwNusXSg
+    comments: 1. verify Bank Account subtitle
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: -Dh2jGnIsEmuFIgfY_oRAw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Bank Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _RqpxxIRy0y4URUnVVz1PA
+    comments: 1.2 verify bank account subtitle
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: 9QLl1XxUF0WyL9Bd_CGS7Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ' (without hyphen or space)'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5YjY6bilIk6KkvFwCtLlVA
+    comments: 1. verify placeholder for bank account
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: GBjb5Qvl002EK_-dzrZC3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Bank Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WpPBxmoeG0KZZr4Ne46i4g
+    comments: 1. verify set as default
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: 3dSazmm8GUmn-ex7x97hlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Set As Default
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IgkCV3Fri0eb7iJ_mdJRNA
+    comments: 1. verify Add account button
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: WvrtU8L0vkGfAST4YB9Raw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9kSEFriGm0OC342AI2AbfA
+    comments: 1. Click dropdown button for bank
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: ipee4Qs8Fk2PBY5u0KlJeg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dIaX3gQE50GnbbgNlCbiyQ
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 473
+      direction: Input
+    - name: startY
+      value: 1083
+      direction: Input
+    - name: endX
+      value: 470
+      direction: Input
+    - name: endY
+      value: 329
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: O2vExBv-q0GeHIgET83djg
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 416
+      direction: Input
+    - name: startY
+      value: 304
+      direction: Input
+    - name: endX
+      value: 385
+      direction: Input
+    - name: endY
+      value: 1080
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vO9fASOadUGyN0dsciYqIg
+    comments: 1. Choose Alliance Bank
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: F1EDoDojNUSHdlO-KPBddw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: r3Fr_ejNOUOd7R9AkOYKIw
+    comments: 1. Click Name box
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: j00OOC587kmmEVCfah4tOA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VuOiH2pbnk2mNi4ZkdutWQ
+    comments: 1. type name as per bank account
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: j00OOC587kmmEVCfah4tOA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Cayden Cade
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Iu60YYMJw0yx1wX50c6WKA
+    comments: 1. Click Add Account
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: UJwGMFo3l0-ReWjaV2m2NQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: S_evD874AEePTO56OsW8sg
+    comments: 1. verify pop error
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: JpFOU1fmUkKpbRUsL5ATlw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Add Bank Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6DlH-dkDRkGZu9uedY8ixQ
+    comments: 1. verify pop error
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: M0QquJyoIEG92hVAb94o9g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Invalid
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vapezIaZpkKdJEdWiCB-qA
+    comments: 1. verify pop error
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: QtrRumD9jEyCl4jSbGr0zw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Please make sure all the fields are filled.
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: L651lpXbp0eLpeK6wSKHgA
+    comments: 1. verify 'X' button for pop error
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: dPx2vT10mEK-zbVU0Cs4Eg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vWCyiBljxkOG8ODfHtQsHQ
+    comments: 1.Click try again button
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: h6FM3jmDOUa1703jdTnv7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VMwhaNOkh0Wozbzo8IC4Xw
+    comments: 1. Click bank account box
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    elementId: GBjb5Qvl002EK_-dzrZC3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nHKWQjtGj0Os1Oerw563lA
+    comments: 1. fill in bank account
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: GBjb5Qvl002EK_-dzrZC3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 13012253212522
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: YH3IZjoqqUehUaQikLHhpQ
+    enabled: true
+    invertResult: false
+    order: 34
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 617
+      direction: Input
+    - name: startY
+      value: 601
+      direction: Input
+    - name: endX
+      value: 589
+      direction: Input
+    - name: endY
+      value: 203
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qoV3Fo4zBEiu4Dz-DIGhgg
+    comments: 1. Click set as default
+    enabled: true
+    invertResult: false
+    order: 35
+    repeat: 2
+    type: Action
+    elementId: uiphrkdYpUGS9WOQAuEVQA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xKtPnxdcFkOX78ouckT36w
+    comments: 1. Click Add account button
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Action
+    elementId: Xp3y2peiu0CUhocetL8iRg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -TinDdQQLUe_rkRE6ddrkw
+    comments: 1. Verify successful pop up
+    enabled: true
+    invertResult: false
+    order: 37
+    repeat: 1
+    type: Action
+    elementId: JpFOU1fmUkKpbRUsL5ATlw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Add Bank Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IEvZQ1kpf0yaq9aSvCd9Dg
+    comments: 1. Verify successful pop up
+    enabled: true
+    invertResult: false
+    order: 38
+    repeat: 1
+    type: Action
+    elementId: IHL2597gS062dSf3FNQOfA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Successful
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zyu-i5Zumkm6qJ17UJvIpw
+    comments: 1. Verify successful pop up
+    enabled: true
+    invertResult: false
+    order: 39
+    repeat: 1
+    type: Action
+    elementId: N3k7vkOLgUqFZfBeqZezmg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: You have successfully add bank account.
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iT5L7c__PEqWA3qtIdyfdw
+    comments: 1. Verify 'X' button for successful pop up
+    enabled: true
+    invertResult: false
+    order: 40
+    repeat: 1
+    type: Action
+    elementId: dPx2vT10mEK-zbVU0Cs4Eg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zlPeiE6UakOQbkdhzi44ZA
+    comments: 1. Click ok for successful button pop up
+    enabled: true
+    invertResult: false
+    order: 41
+    repeat: 1
+    type: Action
+    elementId: xg8WzgL1F02cqngQL96oeA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZNIs0l21fUqpjeflgCUTXg
+    comments: 1. Pull API Bank list
+    enabled: true
+    invertResult: false
+    order: 42
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/agents/5e69ed25ca612e08545b0e3b/banks/list
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: '{{bankList}}'
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sxItBa-hvEOnyXVoExkJDg
+    comments: 1. Extract API
+    enabled: true
+    invertResult: false
+    order: 43
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{bankList}}'
+      direction: Input
+    - name: jsonPaths
+      value: >-
+        $.[0].accountName
+
+        $.[0].accountNumber
+      direction: Input
+    - name: pathResultOne
+      value: '{{accName0}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{accNo0}}'
+      direction: Output
+    - name: pathResultThree
+      value: ''
+      direction: Output
+    - name: pathResultFour
+      value: ''
+      direction: Output
+    - name: pathResultFive
+      value: ''
+      direction: Output
+    - name: pathResultSix
+      value: ''
+      direction: Output
+    - name: pathResultSeven
+      value: ''
+      direction: Output
+    - name: pathResultEight
+      value: ''
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: puojugWIiU6fMmrmavHUsQ
+    comments: 1. verify account name
+    enabled: true
+    invertResult: false
+    order: 44
+    repeat: 1
+    type: Action
+    elementId: kxbMXDVf10OHM62jPFRZSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{accName0}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ogo9ErEd-UCmO7qXPA3jxA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 45
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -DoDu7HvOEa-_xGdCWQH-Q
+      source: Store
+      addonId: GeAOQXvdY0CkfHDs9c_yHA
+    parameterMaps:
+    - name: input
+      value: '{{accNo0}}'
+      direction: Input
+    - name: output
+      value: '{{accNo0}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zgxKAz-w0UerPKEYBJSZvQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 46
+    repeat: 1
+    type: Action
+    elementId: 6ldzemgHY0mTWM7HxqEB0g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{accNo0}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FIVqstwWdkK7knkhAcd63A
+    comments: 1. Default tag
+    enabled: true
+    invertResult: false
+    order: 47
+    repeat: 1
+    type: Action
+    elementId: 737ND61N10Kb_ReVD1oxgg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: (DEFAULT)
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QD12R4ApLEKFNaVl0w0nHw
+    comments: 1. Click set as default toggle
+    enabled: true
+    invertResult: false
+    order: 48
+    repeat: 1
+    type: Action
+    elementId: tT4St1QvOUmmgfoJSFJDMg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ukALXiVoN0mLy7AlRBwK8w
+    comments: 1. verify pop up set as default
+    enabled: true
+    invertResult: false
+    order: 49
+    repeat: 1
+    type: Action
+    elementId: XDFnCluZGUu-XxjF5qAF0Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Bank Account Info
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PhWn9fQi1k2ARmzUzUOBBQ
+    comments: 1. verify pop up set as default
+    enabled: true
+    invertResult: false
+    order: 50
+    repeat: 1
+    type: Action
+    elementId: XEagO7c0wkS63YqtAAlRIA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Confirmation
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Jn_Kpqp1qU-1AMQzhJtezg
+    comments: 1. verify pop up set as default
+    enabled: true
+    invertResult: false
+    order: 51
+    repeat: 1
+    type: Action
+    elementId: F0lYis96E0OGRl4iorIm7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Do you want to set this bank account as default?
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: G7KabfNlh0KCv42EfUW6ow
+    comments: 1. verify 'X' button pop up set as default
+    enabled: true
+    invertResult: false
+    order: 52
+    repeat: 1
+    type: Action
+    elementId: dPx2vT10mEK-zbVU0Cs4Eg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EOI_gJLUukOW4Zy6DGU-mQ
+    comments: 1. Click Confirm button
+    enabled: true
+    invertResult: false
+    order: 53
+    repeat: 1
+    type: Action
+    elementId: mCEzP3J_L0id-n4r3JjVvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dIoOOrlUVECIT2ul77pLMA
+    comments: 1. verify pop up successful set as default
+    enabled: true
+    invertResult: false
+    order: 54
+    repeat: 1
+    type: Action
+    elementId: n3iVMtUYOEyCWXMNiP-9qA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Set Default Bank Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mn7FehkLjkOk4vvpKNKE9w
+    comments: 1. verify pop up successful set as default
+    enabled: true
+    invertResult: false
+    order: 55
+    repeat: 1
+    type: Action
+    elementId: IHL2597gS062dSf3FNQOfA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Successful
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0S0F9eW4qkeqWQL_dju0aw
+    comments: 1. verify pop up successful set as default
+    enabled: true
+    invertResult: false
+    order: 56
+    repeat: 1
+    type: Action
+    elementId: VfGP33kKuUOnZE6eLh5lyA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: You have successfully set default the bank account.
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Y_Td5IpL-0u5LEyyaKHS4Q
+    comments: 1. verify 'X' button pop up successful set as default
+    enabled: true
+    invertResult: false
+    order: 57
+    repeat: 1
+    type: Action
+    elementId: dPx2vT10mEK-zbVU0Cs4Eg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uMWLPsQ_7U-vqXjHR5JW1Q
+    comments: 1. Click OK
+    enabled: true
+    invertResult: false
+    order: 58
+    repeat: 1
+    type: Action
+    elementId: xg8WzgL1F02cqngQL96oeA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WdE5I8YOQ0iVDy-rVqzOcA
+    comments: 1. Pull API Bank list
+    enabled: true
+    invertResult: false
+    order: 59
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/agents/5e69ed25ca612e08545b0e3b/banks/list
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: '{{bankList}}'
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AxDbCytreEGhWLYY_DYy_g
+    comments: 1. Extract API
+    enabled: true
+    invertResult: false
+    order: 60
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{bankList}}'
+      direction: Input
+    - name: jsonPaths
+      value: >-
+        $.[0].accountName
+
+        $.[0].accountNumber
+      direction: Input
+    - name: pathResultOne
+      value: '{{accName0}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{accNo0}}'
+      direction: Output
+    - name: pathResultThree
+      value: ''
+      direction: Output
+    - name: pathResultFour
+      value: ''
+      direction: Output
+    - name: pathResultFive
+      value: ''
+      direction: Output
+    - name: pathResultSix
+      value: ''
+      direction: Output
+    - name: pathResultSeven
+      value: ''
+      direction: Output
+    - name: pathResultEight
+      value: ''
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WEufIGoUmEiMmHN_D1HTgw
+    comments: 1. verify new default account name
+    enabled: true
+    invertResult: false
+    order: 61
+    repeat: 1
+    type: Action
+    elementId: vVLD0NpsNUWcRptPSdgIjg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{accName0}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gv9Sf1RPr0-Za0vqtShmBQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 62
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -DoDu7HvOEa-_xGdCWQH-Q
+      source: Store
+      addonId: GeAOQXvdY0CkfHDs9c_yHA
+    parameterMaps:
+    - name: input
+      value: '{{accNo0}}'
+      direction: Input
+    - name: output
+      value: '{{accNo0}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PcFMKOL9yUy3NDv39jS0Qw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 63
+    repeat: 1
+    type: Action
+    elementId: Bpuv86SD-kur-RZkZCVRCA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{accNo0}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3xE8MA7AxEG59EGmS3xLRQ
+    comments: 1. Default tag
+    enabled: true
+    invertResult: false
+    order: 64
+    repeat: 1
+    type: Action
+    elementId: 737ND61N10Kb_ReVD1oxgg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: (DEFAULT)
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tZ3e-AEqJkeewcwIN7YZew
+    comments: "1. Click 'X' button to Delete "
+    enabled: true
+    invertResult: false
+    order: 65
+    repeat: 1
+    type: Action
+    elementId: PW1Nhn9uUke-_6LwVrcjmQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Nuj-YZjVPkOqmiQK9dvhkA
+    comments: '1. verify Delete pop up '
+    enabled: true
+    invertResult: false
+    order: 66
+    repeat: 1
+    type: Action
+    elementId: XDFnCluZGUu-XxjF5qAF0Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Bank Account Info
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Nvs4wbwptEmb3xLgheAm-Q
+    comments: '1. verify Delete pop up '
+    enabled: true
+    invertResult: false
+    order: 67
+    repeat: 1
+    type: Action
+    elementId: FOKNzBdU5UCZoHURzjtaNg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Delete
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mhFOW0TAeESpbF2SBp12VA
+    comments: '1. verify Delete pop up '
+    enabled: true
+    invertResult: false
+    order: 68
+    repeat: 1
+    type: Action
+    elementId: OBy_JPkWKEKs9XFHL_X0Og
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Are you sure you want to remove this bank account info?
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: YQKd2slQHEm9Gco5y81AjA
+    comments: "1. verify 'X' button Delete pop up "
+    enabled: true
+    invertResult: false
+    order: 69
+    repeat: 1
+    type: Action
+    elementId: dPx2vT10mEK-zbVU0Cs4Eg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rz3ioAhUFEas0rA85pcv1w
+    comments: 1. Click Confirm
+    enabled: true
+    invertResult: false
+    order: 70
+    repeat: 1
+    type: Action
+    elementId: mCEzP3J_L0id-n4r3JjVvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _AZRLDT5XkKD68Jjqkg7Vg
+    comments: 1. Verify successful delete pop up
+    enabled: true
+    invertResult: false
+    order: 71
+    repeat: 1
+    type: Action
+    elementId: 2hcteJyWiEiePPVHV3MyxQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Delete Bank Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: i7kUsc1ueESU0Q0F3xgICw
+    comments: 1. Verify successful delete pop up
+    enabled: true
+    invertResult: false
+    order: 72
+    repeat: 1
+    type: Action
+    elementId: IHL2597gS062dSf3FNQOfA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Successful
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: C7H3WgjqA02kf7yslRXWCA
+    comments: 1. Verify successful delete pop up
+    enabled: true
+    invertResult: false
+    order: 73
+    repeat: 1
+    type: Action
+    elementId: iE13lP0baEiOsMazC1b-yQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: You have successfully removed the bank account.
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pIo8E0UDR0-Avm91u22-4Q
+    comments: 1. Contain X button on delete successful pop up
+    enabled: true
+    invertResult: false
+    order: 74
+    repeat: 1
+    type: Action
+    elementId: dPx2vT10mEK-zbVU0Cs4Eg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yAAkulM1WkC31Knx9hOrcg
+    comments: 1. Click OK
+    enabled: true
+    invertResult: false
+    order: 75
+    repeat: 1
+    type: Action
+    elementId: 773pTZK4KUS6EYK210smwg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sfa0SbGwHUqoW0E4J35zwQ
+    comments: 1. Click back
+    enabled: true
+    invertResult: false
+    order: 76
+    repeat: 1
+    type: Action
+    elementId: pBZGX-ovOkK5i5TLV06GaQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: username
+    value: cayden
+    type: Input
+  - name: password
+    value: cayden
+    type: Input
+  - name: bankList
+    description: ''
+    value: ''
+    type: Input
+  - name: accName0
+    description: ''
+    value: ''
+    type: Input
+  - name: accNo0
+    description: ''
+    value: ''
+    type: Input
+  tags:
+  - 23.8
+  - COMPLETE
+  - Regression
+auxTests:
+- id: -IK-J7EGe0m6JdZKfdxuXA
+  name: Quick login
+  description: This test was auto generated from steps of the 'Account tab' test
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 1.0
+  creationDate: 2021-02-23T02:46:24.0000000
+  modificationDate: 2022-06-29T01:18:20.0000000
+  settings:
+    automationAssistant: true
+    deviceId: AQH0217B18001233
+    appId: kElKIqVg90iaE06V3xahLQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 0tA1NkfWg0WYW4fcKRgJ9A
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: fWimlrI6HEmxjqjHgFw5BA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{username}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8LaDKmoOMkCQJ4V_q-T4Qg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: bJkXiRFWzkq-sQyaTIaRcg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ViKR1nDwskqC-daxEB8f_A
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: OrS1H2hOJ0qQOQQi9cXFEw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oiMaTQZFxU-waVLDcNQ5iQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: u0sVuwtVPkm7_7isqW3S4w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: username
+    value: cayden
+    type: Input
+  - name: password
+    value: cayden
+    type: Input
+elements:
+- id: HrnI3NuUFkCW5cKKImTthA
+  name: While using the app
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.android.permissioncontroller:id/permission_allow_foreground_only_button
+    priority: 2
+  - name: XPATH
+    value: //android.widget.Button[@text = 'While using the app']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[1]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]
+    priority: 3
+- id: Su93I_FtyUy3siJvfPFkPw
+  name: Not Now1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Not Now']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
+- id: lVatzo8VakGqr3TejjpSew
+  name: Account
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Account']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[5]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.Button[5]/android.widget.TextView[1]
+    priority: 2
+- id: THVWdBSML0Ca0SsrEB4JPg
+  name: 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.widget.TextView[@text = '']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[2]
+    priority: 2
+- id: 2LVyUIhaHU2DuMAZi20FvQ
+  name: + Add bank account
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '+ Add bank account']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[5]//android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: akDk1Wfax0Sc-d8jkFu0tw
+  name: Add Bank Account
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Add Bank Account']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: pBZGX-ovOkK5i5TLV06GaQ
+  name: 4
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: PAjU7zyd3ky_6aIO9kHfvQ
+  name: Bank
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Bank']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: YH0tHh0sAEirTTlLDv3XYA
+  name: Choose Bank
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Choose Bank ']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]
+    priority: 2
+- id: rdiDGUVp4kOf90tHYDPJ9g
+  name: Name as per Bank Account
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Name as per Bank Account']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 2
+- id: j00OOC587kmmEVCfah4tOA
+  name: Name
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Name']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup/android.widget.EditText[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]
+    priority: 2
+- id: -Dh2jGnIsEmuFIgfY_oRAw
+  name: Bank Account
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Bank Account']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: 9QLl1XxUF0WyL9Bd_CGS7Q
+  name: (without hyphen or space)
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = ' (without hyphen or space)']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[4]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[4]
+    priority: 2
+- id: GBjb5Qvl002EK_-dzrZC3w
+  name: Bank Account1
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Bank Account']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
+    priority: 2
+- id: 3dSazmm8GUmn-ex7x97hlQ
+  name: Set As Default2
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Set As Default']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[5]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[5]
+    priority: 2
+- id: WvrtU8L0vkGfAST4YB9Raw
+  name: ANDROID.VIEW.VIEWGROUP24
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDc
+    name: android.view.ViewGroup
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]
+    priority: 1
+- id: ipee4Qs8Fk2PBY5u0KlJeg
+  name: 3
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: F1EDoDojNUSHdlO-KPBddw
+  name: Alliance Bank
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Alliance Bank']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]//android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: UJwGMFo3l0-ReWjaV2m2NQ
+  name: Add Account
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Add Account']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]//android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: JpFOU1fmUkKpbRUsL5ATlw
+  name: Add Bank Account1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Add Bank Account']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: M0QquJyoIEG92hVAb94o9g
+  name: Invalid
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Invalid']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 2
+- id: QtrRumD9jEyCl4jSbGr0zw
+  name: Please make sure all the fields are f...
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Please make sure all the fields are filled.']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: dPx2vT10mEK-zbVU0Cs4Eg
+  name: ANDROID.WIDGET.IMAGEVIEW16
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+    priority: 1
+- id: h6FM3jmDOUa1703jdTnv7w
+  name: Try again1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Try again']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: uiphrkdYpUGS9WOQAuEVQA
+  name: ANDROID.VIEW.VIEWGROUP25
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDc
+    name: android.view.ViewGroup
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]
+    priority: 1
+- id: Xp3y2peiu0CUhocetL8iRg
+  name: Add Account1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Add Account']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: IHL2597gS062dSf3FNQOfA
+  name: Successful
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Successful']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 2
+- id: N3k7vkOLgUqFZfBeqZezmg
+  name: You have successfully add bank account.
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'You have successfully add bank account.']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: xg8WzgL1F02cqngQL96oeA
+  name: ANDROID.VIEW.VIEWGROUP21
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDc
+    name: android.view.ViewGroup
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[2]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]
+    priority: 1
+- id: kxbMXDVf10OHM62jPFRZSg
+  name: Cayden Cade
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{accName0}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 2
+- id: 6ldzemgHY0mTWM7HxqEB0g
+  name: 8800
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{accNo0}}']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: 737ND61N10Kb_ReVD1oxgg
+  name: (DEFAULT)
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '(DEFAULT)']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: tT4St1QvOUmmgfoJSFJDMg
+  name: ANDROID.VIEW.VIEWGROUP27
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDc
+    name: android.view.ViewGroup
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[7]/android.view.ViewGroup
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[7]/android.view.ViewGroup[1]
+    priority: 1
+- id: XDFnCluZGUu-XxjF5qAF0Q
+  name: Bank Account Info3
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Bank Account Info']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: XEagO7c0wkS63YqtAAlRIA
+  name: Confirmation
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Confirmation']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 2
+- id: F0lYis96E0OGRl4iorIm7g
+  name: Do you want to set this bank account ...
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Do you want to set this bank account as default?']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: mCEzP3J_L0id-n4r3JjVvQ
+  name: Confirm
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Confirm']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: n3iVMtUYOEyCWXMNiP-9qA
+  name: Set Default Bank Account1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Set Default Bank Account']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: VfGP33kKuUOnZE6eLh5lyA
+  name: You have successfully set default the...
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'You have successfully set default the bank account.']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: vVLD0NpsNUWcRptPSdgIjg
+  name: Cayden Tan1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{accName0}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 2
+- id: Bpuv86SD-kur-RZkZCVRCA
+  name: 88001
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{accNo0}}']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: PW1Nhn9uUke-_6LwVrcjmQ
+  name: ANDROID.WIDGET.IMAGEVIEW42
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[2]//android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+    priority: 1
+- id: FOKNzBdU5UCZoHURzjtaNg
+  name: Delete
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 2
+- id: OBy_JPkWKEKs9XFHL_X0Og
+  name: Are you sure you want to remove this ...
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Are you sure you want to remove this bank account info?']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: 2hcteJyWiEiePPVHV3MyxQ
+  name: Delete Bank Account
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Delete Bank Account']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: iE13lP0baEiOsMazC1b-yQ
+  name: You have successfully removed the ban...
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'You have successfully removed the bank account.']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: 773pTZK4KUS6EYK210smwg
+  name: Ok
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Ok']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: fWimlrI6HEmxjqjHgFw5BA
+  name: Username
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = '{{username}}']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.EditText[1]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]
+    priority: 2
+- id: bJkXiRFWzkq-sQyaTIaRcg
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = '{{password}}']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.EditText[2]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
+    priority: 2
+- id: OrS1H2hOJ0qQOQQi9cXFEw
+  name: 
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: u0sVuwtVPkm7_7isqW3S4w
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Sign In']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[4]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    priority: 2
+projectParameters: []
+addons:
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: 01wpThLkuUmef1nLejuuew
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleAndroid
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
+- id: Ujn6E4VbkEa6QU2XChYMyQ
+  source: Store
+  version: 1.6.10
+  actions:
+  - id: 3pyX37O89EenPV590WXfPQ
+    name: HTTP POST Request
+    description: POST {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.PostAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 57049348D63450C0C1534B4F42E978E4294D0D97EA54E3B9E46042611553E0B0
+- id: 0vl75E0Mr0G5TRI1xxul-w
+  source: Store
+  version: 1.7
+  actions:
+  - id: PtQW_tRIHEadppRuIxJNNg
+    name: Extract multiple JsonPaths
+    description: Extract multiple JsonPaths from {{jsonFile}}
+    className: actions.GetTenValuesFromJSON
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542
+- id: GeAOQXvdY0CkfHDs9c_yHA
+  source: Store
+  version: 0.1
+  actions:
+  - id: -DoDu7HvOEa-_xGdCWQH-Q
+    name: Remove non numeric characters
+    description: Remove all non numeric characters from {{input}}
+    className: io.testproject.addon.FilterDigits
+  minSdkLevel: 2
+  minSdkVersion: 0.52.0
+  sdkGeneration: 1
+  language: Java
+  hash: BE04F6E562274E0D603398030BD9EBF9EACC87977AF0496C8851A72740D33B7B
