@@ -1,7 +1,7 @@
-id: RDMF7zIA_EyQH0u8JYlm1Q
+id: hJdRBM4sW0O0RC9eJVtf0Q
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-06T08:48:09.9313913Z
+created: 2022-07-06T09:22:59.2692657Z
 protocol: 1
 tests:
 - id: WNrSDF6tEky6dy7HRDvn2A
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-06T07:52:14.0000000
-  modificationDate: 2022-07-06T08:48:10.0000000
+  modificationDate: 2022-07-06T09:14:30.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -97,9 +97,9 @@ tests:
     type: Action
     elementId: Su93I_FtyUy3siJvfPFkPw
     settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -215,8 +215,8 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: dgmcLPPnWUyuolaQhysLSg
-    comments: ''
+  - id: G1CX8AyERkakIZjW93Jbiw
+    comments: Generate random subject
     enabled: true
     invertResult: false
     order: 7
@@ -229,7 +229,7 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: Dp4aoAje7k23F2_aaELqHA
+      id: 0H2Hpx67IE2tJKJ9ekEZCw
       source: Store
       addonId: -kT4Fi1xFk6PF8xkHU4vDg
     parameterMaps:
@@ -239,8 +239,165 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: XpF7zvxOnEajxoR7XRtjgg
+    comments: generate random message
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PVqOSglr70ysRJAE5_mc1w
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: result
+      value: '{{message}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wzKD1S4_nk672jZDbY09sA
+    comments: Trigger user send a request to the merchant
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/enquiry/request
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+             "userId":"61bc51b2240122002f7e138e",
+
+             "merchantId":"6193d32a5a5a99002f7f9aaf",
+
+             "referralId":"62be4ea4371e0e0036fbd24d",
+
+             "name": "Parker",
+
+             "subject": "Requesting Loan for {{subject}}",
+
+             "mobile":"0146664311",
+
+             "message": "{{message}}"
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: ''
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dEHNzW9cAUS5qzj9jpsWLQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: hz9SNo8I00ye0nE7h_nEig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0PZzrIGAAUKieKo2_Y_EVQ
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: m6qx9ZLkukmbIFDDPw4Ztw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: subject
+    description: ''
+    value: ''
+    type: Input
+  - name: message
     description: ''
     value: ''
     type: Input
@@ -434,6 +591,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
     priority: 2
+- id: hz9SNo8I00ye0nE7h_nEig
+  name: Get My Referrals3
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Get My Referrals']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[6]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[6]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
 - id: Su93I_FtyUy3siJvfPFkPw
   name: Not Now1
   type:
@@ -450,16 +623,36 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
+- id: m6qx9ZLkukmbIFDDPw4Ztw
+  name: Case
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Case']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
 projectParameters: []
 addons:
 - id: -kT4Fi1xFk6PF8xkHU4vDg
   source: Store
   version: 2.1
   actions:
-  - id: Dp4aoAje7k23F2_aaELqHA
-    name: Random syllable
-    description: Generate random syllable
-    className: GenerateSyllable
+  - id: 0H2Hpx67IE2tJKJ9ekEZCw
+    name: Random city
+    description: Generate random city
+    className: GenerateCity
+  - id: PVqOSglr70ysRJAE5_mc1w
+    name: Random paragraph
+    description: Generate random paragraph
+    className: GenerateParagraph
   minSdkLevel: 2
   minSdkVersion: 0.60.0
   sdkGeneration: 1
