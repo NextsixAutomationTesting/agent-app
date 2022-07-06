@@ -1,7 +1,7 @@
-id: AaIaas8C7UGWO36G7yT6cA
+id: lxcFz6xiJECgmO1P--KjJw
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-06T08:21:15.8148835Z
+created: 2022-07-06T08:40:39.7131527Z
 protocol: 1
 tests:
 - id: WNrSDF6tEky6dy7HRDvn2A
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-06T07:52:14.0000000
-  modificationDate: 2022-07-06T08:21:16.0000000
+  modificationDate: 2022-07-06T08:31:58.0000000
   settings:
     automationAssistant: true
     appId: kElKIqVg90iaE06V3xahLQ
@@ -214,13 +214,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: wBpZ1MKh-UO-G0eQkWeB_A
+  - id: dgmcLPPnWUyuolaQhysLSg
+    comments: ''
     enabled: true
     invertResult: false
     order: 7
     repeat: 1
-    type: Action
-    elementId: hz9SNo8I00ye0nE7h_nEig
+    type: Addon
     settings:
       sleepTime: -1
       timeout: -1
@@ -228,13 +228,21 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+      id: Dp4aoAje7k23F2_aaELqHA
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: result
+      value: '{{subject}}'
+      direction: Output
     conditions: []
     validations: []
     contexts: []
-  parameters: []
+  parameters:
+  - name: subject
+    description: ''
+    value: ''
+    type: Input
 auxTests:
 - id: Wm9SC7a1UUGFiJbtMZDNNg
   name: Quick login - Hazim TRR Acc
@@ -425,22 +433,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
     priority: 2
-- id: hz9SNo8I00ye0nE7h_nEig
-  name: Get My Referrals3
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Get My Referrals']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[6]/android.view.ViewGroup/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[6]/android.view.ViewGroup[1]/android.widget.TextView[1]
-    priority: 2
 - id: Su93I_FtyUy3siJvfPFkPw
   name: Not Now1
   type:
@@ -459,6 +451,19 @@ elements:
     priority: 2
 projectParameters: []
 addons:
+- id: -kT4Fi1xFk6PF8xkHU4vDg
+  source: Store
+  version: 2.1
+  actions:
+  - id: Dp4aoAje7k23F2_aaELqHA
+    name: Random syllable
+    description: Generate random syllable
+    className: GenerateSyllable
+  minSdkLevel: 2
+  minSdkVersion: 0.60.0
+  sdkGeneration: 1
+  language: Java
+  hash: 4EAB7094998E173D5F2847B92C164DD1ADEF5A7EF67BAB20C10571FCEAA7009A
 - id: Ujn6E4VbkEa6QU2XChYMyQ
   source: Store
   version: 1.6.2
