@@ -1,7 +1,7 @@
-id: lxcFz6xiJECgmO1P--KjJw
+id: RDMF7zIA_EyQH0u8JYlm1Q
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-06T08:40:39.7131527Z
+created: 2022-07-06T08:48:09.9313913Z
 protocol: 1
 tests:
 - id: WNrSDF6tEky6dy7HRDvn2A
@@ -12,9 +12,10 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-06T07:52:14.0000000
-  modificationDate: 2022-07-06T08:31:58.0000000
+  modificationDate: 2022-07-06T08:48:10.0000000
   settings:
     automationAssistant: true
+    deviceId: AQH0217B18001233
     appId: kElKIqVg90iaE06V3xahLQ
     stepSleepTime: 500
     stepTimeout: 15000
