@@ -1,7 +1,7 @@
-id: 7uiMNRrKGEqOq_4HJRspzg
+id: ge18I3L7z0evR1nm_x2xSw
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-13T14:53:32.5827599Z
+created: 2022-07-13T14:59:44.6958662Z
 protocol: 1
 tests:
 - id: ZNPri5jqVk6TF3IIz3t9jw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T03:38:32.0000000
-  modificationDate: 2022-07-13T14:52:31.0000000
+  modificationDate: 2022-07-13T14:59:10.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1162,12 +1162,45 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: Mstia9U5HEerZUjAVMNgdg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 37
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 9d8Tj6Nc5E-7JdQMyhE8kw
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: replacement
+      value: Contacted
+      direction: Input
+    - name: result
+      value: '{{AIList}}'
+      direction: Output
+    - name: target
+      value: '{{contacted}}'
+      direction: Input
+    - name: inputString
+      value: '{{AIList}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   - id: 0xMkbPhmFk2nu4w5TX9avw
     comments: >
       extract AI Listing
     enabled: true
     invertResult: false
-    order: 37
+    order: 38
     repeat: 1
     type: Addon
     settings:
@@ -1220,39 +1253,6 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Mstia9U5HEerZUjAVMNgdg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 38
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 9d8Tj6Nc5E-7JdQMyhE8kw
-      source: Store
-      addonId: D5P7e9ZMO0aPwXNrWJE9iA
-    parameterMaps:
-    - name: replacement
-      value: Contacted
-      direction: Input
-    - name: result
-      value: '{{AIList}}'
-      direction: Output
-    - name: target
-      value: '{{contacted}}'
-      direction: Input
-    - name: inputString
-      value: '{{AIList}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: lH1ICsi0_E-77DUtvsRs1Q
     comments: ''
     enabled: true
@@ -1273,30 +1273,6 @@ tests:
     parameterMaps:
     - name: text
       value: '{{contacted}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: CKVw9uP65UaPE5TBnOg5kw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 40
-    repeat: 1
-    type: Action
-    elementId: YEWh4l6Sd0CTHmShg9vyOA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: Contacted
       direction: Input
     conditions: []
     validations: []
@@ -1734,22 +1710,6 @@ elements:
     priority: 2
 - id: 1SYmwbofQkeKeu7OGzDYFw
   name: Contacted
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]//android.widget.TextView[@text = 'Contacted']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.widget.TextView[1]
-    priority: 2
-- id: YEWh4l6Sd0CTHmShg9vyOA
-  name: Contacted1
   type:
     id: jUwODgyNjAyNzk2NTk3NTE
     name: android.widget.TextView
