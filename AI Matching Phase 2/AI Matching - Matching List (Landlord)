@@ -1,7 +1,7 @@
-id: 2HbZJl5Tfkyg8DZ47_jx1g
+id: RJkFnxI_PkeJDJtafhGqHQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-13T15:00:12.4737241Z
+created: 2022-07-13T15:25:35.5775838Z
 protocol: 1
 tests:
 - id: ZNPri5jqVk6TF3IIz3t9jw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T03:38:32.0000000
-  modificationDate: 2022-07-13T15:00:12.0000000
+  modificationDate: 2022-07-13T15:25:33.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1187,7 +1187,7 @@ tests:
       value: '{{AIList}}'
       direction: Output
     - name: target
-      value: '{{contacted}}'
+      value: true
       direction: Input
     - name: inputString
       value: '{{AIList}}'
