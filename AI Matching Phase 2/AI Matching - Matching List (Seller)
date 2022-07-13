@@ -1,18 +1,18 @@
-id: ixYnKt5n6UGRAThbKEiILg
+id: 9mwRP8s9xkySeBXS2uPs-w
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-13T14:59:55.4270280Z
+created: 2022-07-13T15:00:58.1734046Z
 protocol: 1
 tests:
 - id: FqBuuBhXukOuemzmcMnoMA
-  name: AI Matching - Matching List (Landlord) - copy
+  name: AI Matching - Matching List (Seller)
   description: ''
   platform: Android
   type: Mobile
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T14:59:54.0000000
-  modificationDate: 2022-07-13T14:59:54.0000000
+  modificationDate: 2022-07-13T15:00:58.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
