@@ -1,7 +1,7 @@
-id: 9mwRP8s9xkySeBXS2uPs-w
+id: tJ8daan1fk-uDaGY8NSk0g
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-13T15:00:58.1734046Z
+created: 2022-07-13T15:25:05.4475478Z
 protocol: 1
 tests:
 - id: FqBuuBhXukOuemzmcMnoMA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T14:59:54.0000000
-  modificationDate: 2022-07-13T15:00:58.0000000
+  modificationDate: 2022-07-13T15:24:46.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -179,11 +179,41 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: RQTJd0o7jU-QVFOoEv4eew
-    comments: generate rental price
+  - id: l6avOHglTkirCMOj6Jr_og
+    comments: Generate random Sell price
     enabled: true
     invertResult: false
     order: 8
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nHBKyka6qkCOqAudow9lbg
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: min
+      value: 100000
+      direction: Input
+    - name: max
+      value: 1000000
+      direction: Input
+    - name: result
+      value: '{{sellPrice}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RQTJd0o7jU-QVFOoEv4eew
+    comments: generate rental price
+    enabled: false
+    invertResult: false
+    order: 9
     repeat: 1
     type: Addon
     settings:
@@ -213,7 +243,7 @@ tests:
     comments: Generate AI Match from User App
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Addon
     settings:
@@ -242,15 +272,15 @@ tests:
 
         "userId":"61bc51b2240122002f7e138e",
 
-        "role":"Landlord",
+        "role":"Seller",
 
         "state":"Wilayah Persekutuan Kuala Lumpur",
 
         "area":"Kuchai Lama",
 
-        "type": "Bungalow Land",
+        "type": "Flat",
 
-        "targetPrice": {{rentalPrice}}
+        "targetPrice": {{sellPrice}}
 
         }
       direction: Input
@@ -300,7 +330,7 @@ tests:
     comments: Pull API AI listing
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Addon
     settings:
@@ -377,11 +407,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: cpIgWo6nmEif74jvINwjIA
+  - id: H8mt2GlaJUiRA0Q-MITDMg
     comments: ''
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Addon
     settings:
@@ -395,18 +425,18 @@ tests:
       source: Store
       addonId: D5P7e9ZMO0aPwXNrWJE9iA
     parameterMaps:
+    - name: inputString
+      value: '{{AIList}}'
+      direction: Input
+    - name: target
+      value: Seller
+      direction: Input
     - name: replacement
-      value: Rent
+      value: Sale
       direction: Input
     - name: result
       value: '{{AIList}}'
       direction: Output
-    - name: target
-      value: Landlord
-      direction: Input
-    - name: inputString
-      value: '{{AIList}}'
-      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -414,7 +444,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Addon
     settings:
@@ -448,7 +478,7 @@ tests:
       extract AI Listing
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Addon
     settings:
@@ -504,7 +534,7 @@ tests:
   - id: n0s4kiVuy0qwufDYwSxvBA
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     settings:
@@ -539,7 +569,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     elementId: zzaEjk_HlEyr7NsBEGpUHw
@@ -563,7 +593,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     elementId: n-eew6EgdEeKjbHaakS-Aw
@@ -586,7 +616,7 @@ tests:
   - id: 11LGrS_plEmUL8oZmNLSbA
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: jxM68nn1gk26kvDgrd55IQ
@@ -606,7 +636,7 @@ tests:
   - id: xg8R6YoypE2nK8yWWGRIrg
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     elementId: HTstie1AcUqrcX08X6tEoQ
@@ -626,7 +656,7 @@ tests:
   - id: xltxbA-cAkmknaMhxm862A
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Action
     elementId: X8viJXzDIk-Rlt2j7DkH1w
@@ -647,7 +677,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Action
     elementId: Vy5sx8g9UECMq0Cj-L9bwA
@@ -671,7 +701,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Action
     elementId: Nll-UAoSBkyqsh6HATjzIw
@@ -695,7 +725,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: Nll-UAoSBkyqsh6HATjzIw
@@ -719,7 +749,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     elementId: 4Ow-NegCqEiyweunq57OiA
@@ -739,11 +769,35 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: eY1zV9VZWUuHBWkgigTJGA
+  - id: Igi_cMl8Y0SlMIjoSyN8QA
     comments: ''
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: j7cBgquGuUCRTjw0lqT_aA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 'Target Price: RM{{sellPrice}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eY1zV9VZWUuHBWkgigTJGA
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 26
     repeat: 1
     type: Action
     elementId: WnICL64Pa0ebpdWEaeYvtQ
@@ -767,7 +821,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 25
+    order: 27
     repeat: 1
     type: Action
     elementId: DShwNsm0Pk6MB4BUsX-Gfg
@@ -791,7 +845,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 26
+    order: 28
     repeat: 1
     type: Action
     elementId: KkEEQAj2VkGFPtzRWH22Xw
@@ -812,7 +866,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 27
+    order: 29
     repeat: 1
     type: Action
     elementId: jempJLWtUE6jlklgzESymA
@@ -836,7 +890,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 28
+    order: 30
     repeat: 1
     type: Action
     elementId: 27M0W24Er0GC2KADpDb5WQ
@@ -860,7 +914,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 29
+    order: 31
     repeat: 1
     type: Action
     elementId: ajNoHmRZakCmxzSBjVu5pA
@@ -884,7 +938,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 30
+    order: 32
     repeat: 1
     type: Action
     elementId: 5KbGvXL4aUW6fD9-vrkgFg
@@ -904,11 +958,35 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 9FiM_1KDEkWwR6PA-9RmhQ
+  - id: Zgu6cAEMn0eQvCkWNHZI3A
     comments: ''
     enabled: true
     invertResult: false
-    order: 31
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: JlLseZs-7Ee_w7jmYAlfIA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 'Target Sale: RM {{sellPrice}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9FiM_1KDEkWwR6PA-9RmhQ
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 34
     repeat: 1
     type: Action
     elementId: gJs9aQKkeUe1XwjD1_CaVQ
@@ -932,7 +1010,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 32
+    order: 35
     repeat: 1
     type: Addon
     settings:
@@ -962,7 +1040,7 @@ tests:
     comments: Trigger Message from user
     enabled: true
     invertResult: false
-    order: 33
+    order: 36
     repeat: 1
     type: Addon
     settings:
@@ -1041,7 +1119,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 34
+    order: 37
     repeat: 1
     type: Action
     elementId: d44Qm8SFBUqLV1wtWe_dfQ
@@ -1064,7 +1142,7 @@ tests:
   - id: _hg2ItEjZ06KnRCh-AegDA
     enabled: true
     invertResult: false
-    order: 35
+    order: 38
     repeat: 1
     type: Action
     elementId: xR897bYiPE-CdWrVsW5vAg
@@ -1085,7 +1163,7 @@ tests:
     comments: Pull API AI listing
     enabled: true
     invertResult: false
-    order: 36
+    order: 39
     repeat: 1
     type: Addon
     settings:
@@ -1166,7 +1244,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 37
+    order: 40
     repeat: 1
     type: Addon
     settings:
@@ -1187,7 +1265,7 @@ tests:
       value: '{{AIList}}'
       direction: Output
     - name: target
-      value: '{{contacted}}'
+      value: true
       direction: Input
     - name: inputString
       value: '{{AIList}}'
@@ -1200,7 +1278,7 @@ tests:
       extract AI Listing
     enabled: true
     invertResult: false
-    order: 38
+    order: 41
     repeat: 1
     type: Addon
     settings:
@@ -1257,7 +1335,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 39
+    order: 42
     repeat: 1
     type: Action
     elementId: 1SYmwbofQkeKeu7OGzDYFw
@@ -1319,6 +1397,10 @@ tests:
     value: ''
     type: Input
   - name: randomMessage
+    description: ''
+    value: ''
+    type: Input
+  - name: sellPrice
     description: ''
     value: ''
     type: Input
@@ -1723,6 +1805,38 @@ elements:
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: j7cBgquGuUCRTjw0lqT_aA
+  name: 'Target Price: RM518155'
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: "//android.widget.TextView[@text = 'Target Price: RM{{sellPrice}} ']"
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: JlLseZs-7Ee_w7jmYAlfIA
+  name: 'Target Sale: RM 518155'
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: "//android.widget.TextView[@text = 'Target Sale: RM {{sellPrice}} ']"
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
     priority: 2
 projectParameters: []
 addons:
