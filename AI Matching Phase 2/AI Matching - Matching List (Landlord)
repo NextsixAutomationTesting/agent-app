@@ -1,7 +1,7 @@
-id: BFU3afdwdEq-1dujJ_F50w
+id: lL9SyIDG1E2BokB6C1rL7g
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-13T13:10:16.9163661Z
+created: 2022-07-13T14:28:17.0012886Z
 protocol: 1
 tests:
 - id: ZNPri5jqVk6TF3IIz3t9jw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T03:38:32.0000000
-  modificationDate: 2022-07-13T13:08:34.0000000
+  modificationDate: 2022-07-13T14:28:15.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -315,7 +315,7 @@ tests:
       addonId: Ujn6E4VbkEa6QU2XChYMyQ
     parameterMaps:
     - name: uri
-      value: https://sit-apps.nextsix.com/aiMatching/a/61bc51b2240122002f7e138e
+      value: https://sit-apps.nextsix.com/aiMatching/a/629ebd516b855200306b3a19
       direction: Input
     - name: query
       value: ''
@@ -377,12 +377,78 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: PA7KyoEgbkaBRm3T1tzutw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 9d8Tj6Nc5E-7JdQMyhE8kw
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: replacement
+      value: Rent
+      direction: Input
+    - name: result
+      value: '{{AIList}}'
+      direction: Output
+    - name: target
+      value: Landlord
+      direction: Input
+    - name: inputString
+      value: '{{AIList}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pzTAuqK920eMLtWSYKF0nw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 9d8Tj6Nc5E-7JdQMyhE8kw
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: replacement
+      value: Matched
+      direction: Input
+    - name: result
+      value: '{{AIList}}'
+      direction: Output
+    - name: target
+      value: true
+      direction: Input
+    - name: inputString
+      value: '{{AIList}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   - id: JnSiTL8OAkKHU5DfKHtIbw
     comments: >
       extract AI Listing
     enabled: true
     invertResult: false
-    order: 11
+    order: 13
     repeat: 1
     type: Addon
     settings:
@@ -400,7 +466,7 @@ tests:
       value: '{{AIList}}'
       direction: Input
     - name: jsonPaths
-      value: "$.data[0].type\n$.data[0].role\n$.data[0].area\n$.data[0].state "
+      value: "$.data[0].type\n$.data[0].role\n$.data[0].area\n$.data[0].state\n$.data[0].targetPrice\n$.data[0].user.name \n$.data[0].matched "
       direction: Input
     - name: pathResultOne
       value: '{{propertyType}}'
@@ -415,13 +481,13 @@ tests:
       value: '{{state}}'
       direction: Output
     - name: pathResultFive
-      value: ''
+      value: '{{price}}'
       direction: Output
     - name: pathResultSix
-      value: ''
+      value: '{{owner}}'
       direction: Output
     - name: pathResultSeven
-      value: ''
+      value: '{{matched}}'
       direction: Output
     - name: pathResultEight
       value: ''
@@ -438,7 +504,7 @@ tests:
   - id: Ju5v1Kd3wUeRiwx6hIwS1w
     enabled: true
     invertResult: false
-    order: 12
+    order: 14
     repeat: 1
     type: Action
     settings:
@@ -473,7 +539,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 13
+    order: 15
     repeat: 1
     type: Action
     elementId: zzaEjk_HlEyr7NsBEGpUHw
@@ -497,7 +563,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 14
+    order: 16
     repeat: 1
     type: Action
     elementId: n-eew6EgdEeKjbHaakS-Aw
@@ -520,7 +586,7 @@ tests:
   - id: 3hF1sqG4YES06TMGiepvgw
     enabled: true
     invertResult: false
-    order: 15
+    order: 17
     repeat: 1
     type: Action
     elementId: jxM68nn1gk26kvDgrd55IQ
@@ -540,7 +606,7 @@ tests:
   - id: x59Wi-h7KUuYy_PMPzODJQ
     enabled: true
     invertResult: false
-    order: 16
+    order: 18
     repeat: 1
     type: Action
     elementId: HTstie1AcUqrcX08X6tEoQ
@@ -560,10 +626,473 @@ tests:
   - id: nTLsevUBnkSvxmJzs3J7ug
     enabled: true
     invertResult: false
-    order: 17
+    order: 19
     repeat: 1
     type: Action
     elementId: X8viJXzDIk-Rlt2j7DkH1w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3G_FRrxr2EuYaL4KMFBaaw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: Vy5sx8g9UECMq0Cj-L9bwA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{propertyType}} for {{role}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: W12ANRF5ZEevXZnbuFFdMw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: Nll-UAoSBkyqsh6HATjzIw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{area}}, {{state}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ex4KOVRsQUO6rYmzp_-CeQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: Nll-UAoSBkyqsh6HATjzIw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Kuchai Lama, Wilayah Persekutuan Kuala Lumpur
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gSOq5dJph0SMerm1H5vAQQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: 4Ow-NegCqEiyweunq57OiA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{matched}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RDrMRJoG10mr-Rw4-BJxGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: WnICL64Pa0ebpdWEaeYvtQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 'Target Rental: RM{{price}} / Month'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HSMagRye5UazoTzKcpR90w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: DShwNsm0Pk6MB4BUsX-Gfg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{owner}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zYUiyucnkkCuv-Arz6aznA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: KkEEQAj2VkGFPtzRWH22Xw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _ZWNXK_Cfkmaw3KcuGWDOQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: jempJLWtUE6jlklgzESymA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{owner}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: quFh5jvIhk2-WfK4f3MQ5A
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: xR897bYiPE-CdWrVsW5vAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IS7qbb5kPUakjuG1wJ6wew
+    comments: Pull API AI listing
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/aiMatching/a/629ebd516b855200306b3a19
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+            "paging": {
+
+          "page": 1
+
+          }
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: '{{AIList}}'
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0xMkbPhmFk2nu4w5TX9avw
+    comments: >
+      extract AI Listing
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{AIList}}'
+      direction: Input
+    - name: jsonPaths
+      value: "$.data[0].type\n$.data[0].role\n$.data[0].area\n$.data[0].state\n$.data[0].targetPrice\n$.data[0].user.name \n$.data[0].matched\n$.data[0].engagements[0].contacted "
+      direction: Input
+    - name: pathResultOne
+      value: '{{propertyType}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{role}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{area}}'
+      direction: Output
+    - name: pathResultFour
+      value: '{{state}}'
+      direction: Output
+    - name: pathResultFive
+      value: '{{price}}'
+      direction: Output
+    - name: pathResultSix
+      value: '{{owner}}'
+      direction: Output
+    - name: pathResultSeven
+      value: '{{matched}}'
+      direction: Output
+    - name: pathResultEight
+      value: '{{contacted}}'
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mstia9U5HEerZUjAVMNgdg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 9d8Tj6Nc5E-7JdQMyhE8kw
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: replacement
+      value: contacted
+      direction: Input
+    - name: result
+      value: '{{AIList}}'
+      direction: Output
+    - name: target
+      value: '{{contacted}}'
+      direction: Input
+    - name: inputString
+      value: '{{AIList}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: weArVNtXm0S9UiCogscI9w
+    comments: >
+      extract AI Listing
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{AIList}}'
+      direction: Input
+    - name: jsonPaths
+      value: "$.data[0].type\n$.data[0].role\n$.data[0].area\n$.data[0].state\n$.data[0].targetPrice\n$.data[0].user.name \n$.data[0].matched "
+      direction: Input
+    - name: pathResultOne
+      value: '{{propertyType}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{role}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{area}}'
+      direction: Output
+    - name: pathResultFour
+      value: '{{state}}'
+      direction: Output
+    - name: pathResultFive
+      value: '{{price}}'
+      direction: Output
+    - name: pathResultSix
+      value: '{{owner}}'
+      direction: Output
+    - name: pathResultSeven
+      value: '{{matched}}'
+      direction: Output
+    - name: pathResultEight
+      value: ''
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: pathResultSeven
+      value: contacted
+    contexts: []
+  - id: Ty16mrr_2k-o5Z1zYBhdKw
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: xR897bYiPE-CdWrVsW5vAg
     settings:
       sleepTime: -1
       timeout: -1
@@ -599,6 +1128,22 @@ tests:
     value: ''
     type: Input
   - name: state
+    description: ''
+    value: ''
+    type: Input
+  - name: price
+    description: ''
+    value: ''
+    type: Input
+  - name: owner
+    description: ''
+    value: ''
+    type: Input
+  - name: matched
+    description: ''
+    value: ''
+    type: Input
+  - name: contacted
     description: ''
     value: ''
     type: Input
@@ -706,6 +1251,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
     priority: 2
+- id: xR897bYiPE-CdWrVsW5vAg
+  name: 6
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
 - id: Su93I_FtyUy3siJvfPFkPw
   name: Not Now1
   type:
@@ -751,6 +1312,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[4]/android.widget.TextView[1]
     priority: 2
+- id: jempJLWtUE6jlklgzESymA
+  name: AI Matching1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{owner}}']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
 - id: zzaEjk_HlEyr7NsBEGpUHw
   name: Congrats! You have been matched with ...
   type:
@@ -783,6 +1360,99 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[4]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
     priority: 2
+- id: Vy5sx8g9UECMq0Cj-L9bwA
+  name: Bungalow Land for Rent
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[@text = '{{propertyType}} for {{role}}']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: Nll-UAoSBkyqsh6HATjzIw
+  name: Kuchai Lama, Wilayah Persekutuan Kual...6
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[@text = '{{area}}, {{state}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[4]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[4]
+    priority: 2
+- id: 4Ow-NegCqEiyweunq57OiA
+  name: Matched
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[@text = '{{matched}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[5]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[5]
+    priority: 2
+- id: WnICL64Pa0ebpdWEaeYvtQ
+  name: 'Target Rental: RM602 / Month1'
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: "//android.widget.TextView[@text = 'Target Rental: RM{{price}} / Month']"
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: DShwNsm0Pk6MB4BUsX-Gfg
+  name: Parker1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[@text = '{{owner}}']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[2]
+    priority: 2
+- id: KkEEQAj2VkGFPtzRWH22Xw
+  name: ANDROID.VIEW.VIEWGROUP65
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDc
+    name: android.view.ViewGroup
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup/android.view.ViewGroup
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.view.ViewGroup[1]
+    priority: 1
 projectParameters: []
 addons:
 - id: -kT4Fi1xFk6PF8xkHU4vDg
@@ -798,6 +1468,19 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 4EAB7094998E173D5F2847B92C164DD1ADEF5A7EF67BAB20C10571FCEAA7009A
+- id: D5P7e9ZMO0aPwXNrWJE9iA
+  source: Store
+  version: 2.1
+  actions:
+  - id: 9d8Tj6Nc5E-7JdQMyhE8kw
+    name: Replace substrings
+    description: Replace all occurrences of {{target}} with {{replacement}} in {{inputString}}
+    className: ReplaceSubstrings
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 42D4FAE64133AB35515711887122D41D0D6B694DD2DE3BBF4E83294267283AAA
 - id: Ujn6E4VbkEa6QU2XChYMyQ
   source: Store
   version: 1.6.2
