@@ -1,7 +1,7 @@
-id: hJdRBM4sW0O0RC9eJVtf0Q
+id: PzhhbkmeTUu2JWBNm5k4lg
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-06T09:22:59.2692657Z
+created: 2022-07-14T02:38:56.6143252Z
 protocol: 1
 tests:
 - id: WNrSDF6tEky6dy7HRDvn2A
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-06T07:52:14.0000000
-  modificationDate: 2022-07-06T09:14:30.0000000
+  modificationDate: 2022-07-14T02:33:38.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -392,12 +392,201 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: Ng3lAcb9jE6v8VmLZQYxTg
+    comments: Pull API New Referral List
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://sit-apps.nextsix.com/enquiry/referral/listing/byAgent
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+            "agentId":"6119d3e633d285329c95a315",
+
+             "status":"New"
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: '{{NewRefList}}'
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2i7TE4_91ESRaE3egqWt8w
+    comments: Extract New
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: PtQW_tRIHEadppRuIxJNNg
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{NewRefList}}'
+      direction: Input
+    - name: jsonPaths
+      value: "$.data[0].merchant.companyName\n$.data[0].status\n$.data[0].name\n$.data[0].created "
+      direction: Input
+    - name: pathResultOne
+      value: '{{MerchantName}}'
+      direction: Output
+    - name: pathResultTwo
+      value: '{{status}}'
+      direction: Output
+    - name: pathResultThree
+      value: '{{userName}}'
+      direction: Output
+    - name: pathResultFour
+      value: '{{createdDate}}'
+      direction: Output
+    - name: pathResultFive
+      value: ''
+      direction: Output
+    - name: pathResultSix
+      value: ''
+      direction: Output
+    - name: pathResultSeven
+      value: ''
+      direction: Output
+    - name: pathResultEight
+      value: ''
+      direction: Output
+    - name: pathResultNine
+      value: ''
+      direction: Output
+    - name: pathResultTen
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0FYynIjmrEKFz1C2ATrd0w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: K3kkotC6ak6gPtyZAovb4Q
+      source: Store
+      addonId: 9k_I6NoN_06CR22QXqBpAQ
+    parameterMaps:
+    - name: dateTimeValue
+      value: '{{createdDate}}'
+      direction: Input
+    - name: dateTimeFormat
+      value: yyyy-MM-dd HH:mm
+      direction: Input
+    - name: suffix
+      value: true
+      direction: Input
+    - name: result
+      value: '{{createdDate}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: subject
     description: ''
     value: ''
     type: Input
   - name: message
+    description: ''
+    value: ''
+    type: Input
+  - name: NewRefList
+    description: ''
+    value: ''
+    type: Input
+  - name: MerchantName
+    description: ''
+    value: ''
+    type: Input
+  - name: status
+    description: ''
+    value: ''
+    type: Input
+  - name: userName
+    description: ''
+    value: ''
+    type: Input
+  - name: createdDate
     description: ''
     value: ''
     type: Input
@@ -641,23 +830,19 @@ elements:
     priority: 2
 projectParameters: []
 addons:
-- id: -kT4Fi1xFk6PF8xkHU4vDg
+- id: 9k_I6NoN_06CR22QXqBpAQ
   source: Store
-  version: 2.1
+  version: 1.4
   actions:
-  - id: 0H2Hpx67IE2tJKJ9ekEZCw
-    name: Random city
-    description: Generate random city
-    className: GenerateCity
-  - id: PVqOSglr70ysRJAE5_mc1w
-    name: Random paragraph
-    description: Generate random paragraph
-    className: GenerateParagraph
+  - id: K3kkotC6ak6gPtyZAovb4Q
+    name: Get hour from a DateTime object in a string format
+    description: Get hour to string from {{dateTimeValue}}
+    className: Actions.Getters.Hours.GetHourInStringFormat
   minSdkLevel: 2
-  minSdkVersion: 0.60.0
+  minSdkVersion: 0.63.0
   sdkGeneration: 1
   language: Java
-  hash: 4EAB7094998E173D5F2847B92C164DD1ADEF5A7EF67BAB20C10571FCEAA7009A
+  hash: FAB3FD2E0F114456BE22C986BC93E52A574EBC0E798B69C2858D65F09B58E84C
 - id: Ujn6E4VbkEa6QU2XChYMyQ
   source: Store
   version: 1.6.2
@@ -671,3 +856,33 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: FA10C67EDC22B4905CC11ED9A527F6F6A0B836BABAB5E64ABD39FEF0C8C47AE0
+- id: -kT4Fi1xFk6PF8xkHU4vDg
+  source: Store
+  version: 2.2
+  actions:
+  - id: 0H2Hpx67IE2tJKJ9ekEZCw
+    name: Random city
+    description: Generate random city
+    className: GenerateCity
+  - id: PVqOSglr70ysRJAE5_mc1w
+    name: Random paragraph
+    description: Generate random paragraph
+    className: GenerateParagraph
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: B8E84E0F0EE92A1E8BB93EB3C515DB4F0106CAA6087A437A171B1B0191F14F88
+- id: 0vl75E0Mr0G5TRI1xxul-w
+  source: Store
+  version: 1.7
+  actions:
+  - id: PtQW_tRIHEadppRuIxJNNg
+    name: Extract multiple JsonPaths
+    description: Extract multiple JsonPaths from {{jsonFile}}
+    className: actions.GetTenValuesFromJSON
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542
