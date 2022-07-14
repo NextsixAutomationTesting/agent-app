@@ -1,7 +1,7 @@
-id: PzhhbkmeTUu2JWBNm5k4lg
+id: 1jU6zGiHTUqFcex5UEPpvQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-14T02:38:56.6143252Z
+created: 2022-07-14T03:08:10.3962503Z
 protocol: 1
 tests:
 - id: WNrSDF6tEky6dy7HRDvn2A
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-06T07:52:14.0000000
-  modificationDate: 2022-07-14T02:33:38.0000000
+  modificationDate: 2022-07-14T02:56:57.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -528,11 +528,41 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 0FYynIjmrEKFz1C2ATrd0w
+  - id: TCXX4Jj_-UK_7EaFwvEFGQ
     comments: ''
     enabled: true
     invertResult: false
     order: 14
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5GV2lTHvjke3_Wo1NzOuHg
+      source: Store
+      addonId: D5P7e9ZMO0aPwXNrWJE9iA
+    parameterMaps:
+    - name: output
+      value: '{{createdDate}}'
+      direction: Output
+    - name: regex
+      value: '[^TZ]'
+      direction: Input
+    - name: input
+      value: '{{createdDate}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0FYynIjmrEKFz1C2ATrd0w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
     repeat: 1
     type: Addon
     settings:
@@ -843,6 +873,19 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: FAB3FD2E0F114456BE22C986BC93E52A574EBC0E798B69C2858D65F09B58E84C
+- id: D5P7e9ZMO0aPwXNrWJE9iA
+  source: Store
+  version: 2.1
+  actions:
+  - id: 5GV2lTHvjke3_Wo1NzOuHg
+    name: Extract String using RegEx
+    description: Extract Sub-String from {{input}} using {{regex}}
+    className: ExtractStringUsingRegex
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 42D4FAE64133AB35515711887122D41D0D6B694DD2DE3BBF4E83294267283AAA
 - id: Ujn6E4VbkEa6QU2XChYMyQ
   source: Store
   version: 1.6.2
