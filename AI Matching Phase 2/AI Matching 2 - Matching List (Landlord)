@@ -1,7 +1,7 @@
-id: 3d7rPq8mJkCYJ9A8H3HXfQ
+id: 7AlsBlADgkOVIX_XuRYStg
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-19T07:30:29.5868350Z
+created: 2022-07-19T07:33:19.7858255Z
 protocol: 1
 tests:
 - id: ZNPri5jqVk6TF3IIz3t9jw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T03:38:32.0000000
-  modificationDate: 2022-07-19T07:27:24.0000000
+  modificationDate: 2022-07-19T07:31:27.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -240,7 +240,7 @@ tests:
       value: >-
         {
 
-        "userId":"62d5fea10bb753004a482f9a",
+        "userId":"61bc51b2240122002f7e138e",
 
         "role":"Landlord",
 
