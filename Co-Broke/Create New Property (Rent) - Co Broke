@@ -1,7 +1,7 @@
-id: 1VukPQCsL0-ybN9GHKLsNg
+id: H7zWruilfUaXwabELNXJWA
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-19T01:43:03.0484853Z
+created: 2022-07-21T02:10:04.9417281Z
 protocol: 1
 tests:
 - id: -eMPK6XqS0WRWvNqrgRkjg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-25T10:17:01.0000000
-  modificationDate: 2022-07-19T01:38:10.0000000
+  modificationDate: 2022-07-21T02:06:37.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1295,11 +1295,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: DLrhcZUIxEm9eSb2Y6h18A
+  - id: AdPCEzhc3UeUu4jppoitpw
     enabled: true
     invertResult: false
     order: 58
-    repeat: 2
+    repeat: 4
     type: Action
     settings:
       sleepTime: -1
@@ -1312,16 +1312,16 @@ tests:
       source: System
     parameterMaps:
     - name: startX
-      value: 451
+      value: 313
       direction: Input
     - name: startY
-      value: 902
+      value: 883
       direction: Input
     - name: endX
-      value: 448
+      value: 313
       direction: Input
     - name: endY
-      value: 645
+      value: 764
       direction: Input
     - name: duration
       value: 300
