@@ -1,7 +1,7 @@
-id: cyFPDjN4dEa7T1BJSGT8jQ
+id: nhNCemEcN0aPQ0zez6D0HQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-04T03:48:27.1319454Z
+created: 2022-07-26T05:50:02.0725441Z
 protocol: 1
 tests:
 - id: oumJhyyUx06j6v-mULo50Q
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-02-22T07:58:26.0000000
-  modificationDate: 2022-06-30T01:26:01.0000000
+  modificationDate: 2022-07-26T05:50:02.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1983,6 +1983,38 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]
     priority: 3
+- id: u0sVuwtVPkm7_7isqW3S4w
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Sign In']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[4]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    priority: 2
+- id: FOxKPOr2tkWhZIbJRM703w
+  name: 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
 - id: rtJCUvqrx0GCN1kb79yaZg
   name: Username2
   type:
@@ -2014,38 +2046,6 @@ elements:
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
-    priority: 2
-- id: FOxKPOr2tkWhZIbJRM703w
-  name: 1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = '']
-    priority: 1
-  - name: XPATH
-    value: //android.view.ViewGroup[3]/android.widget.TextView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
-    priority: 2
-- id: u0sVuwtVPkm7_7isqW3S4w
-  name: Sign In1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Sign In']
-    priority: 1
-  - name: XPATH
-    value: //android.view.ViewGroup[4]/android.widget.TextView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
     priority: 2
 - id: 7bmQr_pOwk2VeSOUkoG1yA
   name: Still Available?
@@ -2079,22 +2079,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
     priority: 2
-- id: Rvtim1y_O024Ak9-A9lDmQ
-  name: Proceed
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Proceed']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[2]/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
-    priority: 2
 - id: Su93I_FtyUy3siJvfPFkPw
   name: Not Now1
   type:
@@ -2110,6 +2094,22 @@ elements:
     priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
+- id: Rvtim1y_O024Ak9-A9lDmQ
+  name: Proceed
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Proceed']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
     priority: 2
 - id: 9P6UuxGhoE2by0NabC80Tw
   name: 'Subscription: Pro Pack'
@@ -2159,22 +2159,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
-- id: hXx2ydpLC0WxZ8_1A4ZOLg
-  name: RENT1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'RENT']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.widget.TextView[1]
-    priority: 2
 - id: q8z7XzUskkKUU10jBufdGg
   name: RM 700,000.00
   type:
@@ -2190,22 +2174,6 @@ elements:
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
-    priority: 2
-- id: Ry5-6_RpjU2l8lDcNy7e7g
-  name: 48
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = '{{Bedroom0}}']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.TextView[3]
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[3]
     priority: 2
 - id: rDGRWmtwvEWqzESiIxAqtw
   name: 317
@@ -2239,6 +2207,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[7]
     priority: 2
+- id: I9f6V_egFUenxhfj5ayeQQ
+  name: 3200 ft²
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{BuildUp1}} ft²']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[7]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[7]
+    priority: 2
 - id: nBKi_CtX7ECSTlTrnNX6lA
   name: 21-Feb-2022
   type:
@@ -2254,22 +2238,6 @@ elements:
     priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[9]
-    priority: 2
-- id: deDqNhXtF0-rsSGRAhLCuA
-  name: Maintain
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Maintain']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
 - id: Y13USmOMnE6x4mWkTqk9QA
   name: Garui Residence
@@ -2303,22 +2271,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.widget.TextView[1]
     priority: 2
-- id: 2UDireW_30Ctydjv2QcOyQ
-  name: RM 2,500.002
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'RM 2,500.00']
-    priority: 1
-  - name: XPATH
-    value: //android.view.ViewGroup[4]/android.widget.TextView[1]
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
-    priority: 2
 - id: f35JiGMn4Euayxa3B2f0AA
   name: 21-Feb-20221
   type:
@@ -2334,6 +2286,38 @@ elements:
     priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[9]
+    priority: 2
+- id: deDqNhXtF0-rsSGRAhLCuA
+  name: Maintain
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Maintain']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
+- id: jsPpEGpQFUWQOSq_71VD5Q
+  name: Drop
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Drop']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
     priority: 2
 - id: yYmfjdthSUugi8mToMI3CQ
   name: 215
@@ -2366,38 +2350,6 @@ elements:
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[5]
-    priority: 2
-- id: I9f6V_egFUenxhfj5ayeQQ
-  name: 3200 ft²
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = '{{BuildUp1}} ft²']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.TextView[7]
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[7]
-    priority: 2
-- id: jsPpEGpQFUWQOSq_71VD5Q
-  name: Drop
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Drop']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[2]/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
     priority: 2
 - id: eOJZu-n8WE2zjYhFkO2psw
   name: Thanks for your time!
@@ -2447,6 +2399,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
+- id: hXx2ydpLC0WxZ8_1A4ZOLg
+  name: RENT1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'RENT']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
 - id: 993H83r140upIk_vwePZLg
   name: My Property3
   type:
@@ -2462,22 +2430,6 @@ elements:
     priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]/android.widget.TextView[1]
-    priority: 2
-- id: M8yP8jGtOEiiA7QBCY52-A
-  name: FOR RENT5
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'FOR RENT']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.TextView[2]
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.TextView[2]
     priority: 2
 - id: SELVBcX9_UygN42YSYy8Tg
   name: Yes3
@@ -2495,51 +2447,56 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
     priority: 2
+- id: 2UDireW_30Ctydjv2QcOyQ
+  name: RM 2,500.002
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'RM 2,500.00']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[4]/android.widget.TextView[1]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    priority: 2
+- id: M8yP8jGtOEiiA7QBCY52-A
+  name: FOR RENT5
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'FOR RENT']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.TextView[2]
+    priority: 2
+- id: Ry5-6_RpjU2l8lDcNy7e7g
+  name: 48
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '{{Bedroom0}}']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[3]
+    priority: 2
 projectParameters: []
 addons:
-- id: Ujn6E4VbkEa6QU2XChYMyQ
-  source: Store
-  version: 1.6.2
-  actions:
-  - id: 3pyX37O89EenPV590WXfPQ
-    name: HTTP POST Request
-    description: POST {{uri}}?{{query}}
-    className: io.testproject.addon.restfulapiclient.actions.PostAction
-  minSdkLevel: 2
-  minSdkVersion: 0.63.0
-  sdkGeneration: 1
-  language: Java
-  hash: FA10C67EDC22B4905CC11ED9A527F6F6A0B836BABAB5E64ABD39FEF0C8C47AE0
-- id: 0vl75E0Mr0G5TRI1xxul-w
-  source: Store
-  version: 1.7
-  actions:
-  - id: PtQW_tRIHEadppRuIxJNNg
-    name: Extract multiple JsonPaths
-    description: Extract multiple JsonPaths from {{jsonFile}}
-    className: actions.GetTenValuesFromJSON
-  minSdkLevel: 2
-  minSdkVersion: 0.65.0
-  sdkGeneration: 1
-  language: Java
-  hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542
-- id: D5P7e9ZMO0aPwXNrWJE9iA
-  source: Store
-  version: 2.1
-  actions:
-  - id: 5GV2lTHvjke3_Wo1NzOuHg
-    name: Extract String using RegEx
-    description: Extract Sub-String from {{input}} using {{regex}}
-    className: ExtractStringUsingRegex
-  - id: YWULeuajV06uk87N2HceEQ
-    name: Convert string to uppercase
-    description: Converts {{inputString}} to uppercase
-    className: ConvertStringToUpperCase
-  minSdkLevel: 2
-  minSdkVersion: 0.63.1
-  sdkGeneration: 1
-  language: Java
-  hash: 42D4FAE64133AB35515711887122D41D0D6B694DD2DE3BBF4E83294267283AAA
 - id: GeAOQXvdY0CkfHDs9c_yHA
   source: Store
   version: 0.1
@@ -2570,6 +2527,36 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: FAB3FD2E0F114456BE22C986BC93E52A574EBC0E798B69C2858D65F09B58E84C
+- id: D5P7e9ZMO0aPwXNrWJE9iA
+  source: Store
+  version: 2.1
+  actions:
+  - id: YWULeuajV06uk87N2HceEQ
+    name: Convert string to uppercase
+    description: Converts {{inputString}} to uppercase
+    className: ConvertStringToUpperCase
+  - id: 5GV2lTHvjke3_Wo1NzOuHg
+    name: Extract String using RegEx
+    description: Extract Sub-String from {{input}} using {{regex}}
+    className: ExtractStringUsingRegex
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 42D4FAE64133AB35515711887122D41D0D6B694DD2DE3BBF4E83294267283AAA
+- id: Ujn6E4VbkEa6QU2XChYMyQ
+  source: Store
+  version: 1.6.2
+  actions:
+  - id: 3pyX37O89EenPV590WXfPQ
+    name: HTTP POST Request
+    description: POST {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.PostAction
+  minSdkLevel: 2
+  minSdkVersion: 0.63.0
+  sdkGeneration: 1
+  language: Java
+  hash: FA10C67EDC22B4905CC11ED9A527F6F6A0B836BABAB5E64ABD39FEF0C8C47AE0
 - id: MSHCupRETUmZoTYn1n4kiw
   source: Store
   version: 0.1
@@ -2583,3 +2570,16 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 3A9AA3C1C1568DC4F0A7AE79D2140C459CF41C8941E9B9F9A713DE4E52F36347
+- id: 0vl75E0Mr0G5TRI1xxul-w
+  source: Store
+  version: 1.7
+  actions:
+  - id: PtQW_tRIHEadppRuIxJNNg
+    name: Extract multiple JsonPaths
+    description: Extract multiple JsonPaths from {{jsonFile}}
+    className: actions.GetTenValuesFromJSON
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542
