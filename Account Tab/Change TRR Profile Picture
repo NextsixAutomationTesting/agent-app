@@ -1,7 +1,7 @@
-id: 2opnyvF48UKXLnN5MdKJng
+id: N2yZ9wt5nkqIiLZzRENGrw
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-04T03:48:08.5844500Z
+created: 2022-07-28T01:22:14.9588411Z
 protocol: 1
 tests:
 - id: KjAheJgwQkmQHHLRMwscoQ
@@ -15,7 +15,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-24T07:52:24.0000000
-  modificationDate: 2022-06-29T01:30:59.0000000
+  modificationDate: 2022-07-28T01:22:15.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1071,6 +1071,86 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]
     priority: 3
+- id: lVatzo8VakGqr3TejjpSew
+  name: Account
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Account']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[5]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.Button[5]/android.widget.TextView[1]
+    priority: 2
+- id: u0sVuwtVPkm7_7isqW3S4w
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Sign In']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[4]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    priority: 2
+- id: FOxKPOr2tkWhZIbJRM703w
+  name: 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
+- id: dPx2vT10mEK-zbVU0Cs4Eg
+  name: ANDROID.WIDGET.IMAGEVIEW16
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+    priority: 1
+- id: M2hLVj1T8USB2RzzllEISg
+  name: ALLOW
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.android.permissioncontroller:id/permission_allow_button
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = 'ALLOW']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[1]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]
+    priority: 3
 - id: rtJCUvqrx0GCN1kb79yaZg
   name: Username2
   type:
@@ -1103,230 +1183,35 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
     priority: 2
-- id: FOxKPOr2tkWhZIbJRM703w
-  name: 1
+- id: IHL2597gS062dSf3FNQOfA
+  name: Successful
   type:
     id: jUwODgyNjAyNzk2NTk3NTE
     name: android.widget.TextView
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = '']
-    priority: 1
-  - name: XPATH
-    value: //android.view.ViewGroup[3]/android.widget.TextView
+    value: //android.widget.TextView[@text = 'Successful']
     priority: 0
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
-    priority: 2
-- id: u0sVuwtVPkm7_7isqW3S4w
-  name: Sign In1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Sign In']
+    value: //android.widget.TextView[2]
     priority: 1
   - name: XPATH
-    value: //android.view.ViewGroup[4]/android.widget.TextView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
     priority: 2
-- id: Su93I_FtyUy3siJvfPFkPw
-  name: Not Now1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Not Now']
-    priority: 1
-  - name: XPATH
-    value: //android.view.ViewGroup[3]/android.widget.TextView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
-    priority: 2
-- id: lVatzo8VakGqr3TejjpSew
-  name: Account
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Account']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.Button[5]/android.widget.TextView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.Button[5]/android.widget.TextView[1]
-    priority: 2
-- id: YNLyM3SvzUmVSBSV8Xd1bQ
-  name: CHANGE
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'CHANGE']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
-    priority: 2
-- id: xy6x1n-R2kuinup2oTN2pA
-  name: ANDROID.VIEW.VIEWGROUP30
+- id: xg8WzgL1F02cqngQL96oeA
+  name: ANDROID.VIEW.VIEWGROUP21
   type:
     id: jUwODgyNjAyNzk2NTk4NDc
     name: android.view.ViewGroup
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]
+    value: //android.view.ViewGroup[2]
     priority: 0
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]
     priority: 1
-- id: 5Gc-0xYZ2EKclpZGcdnx8g
-  name: Choose Photo1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Choose Photo']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[2]/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
-    priority: 2
-- id: TqCaa6AEZUmp-xXfJT5hIg
-  name: ANDROID.VIEW.VIEWGROUP31
-  type:
-    id: jUwODgyNjAyNzk2NTk4NDc
-    name: android.view.ViewGroup
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.view.ViewGroup[3]
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]
-    priority: 1
-- id: M2hLVj1T8USB2RzzllEISg
-  name: ALLOW
-  type:
-    id: jUwODgyNjAyNzk2NTk4NDU
-    name: android.widget.Button
-    source: System
-  locators:
-  - name: ID
-    value: com.android.permissioncontroller:id/permission_allow_button
-    priority: 0
-  - name: XPATH
-    value: //android.widget.Button[@text = 'ALLOW']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.Button[1]
-    priority: 2
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]
-    priority: 3
-- id: pgEkrjKO-0iaqXDp0nJ9vw
-  name: Show root directories
-  type:
-    id: jUwODgyNjAyNzk2NTk3MjA
-    name: android.widget.ImageButton
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.ImageButton[@content-desc = 'Show root directories']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.ImageButton
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]
-    priority: 2
-- id: sosDLRuqhUqPAq8bEKBGGg
-  name: Files
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Files']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.LinearLayout[4]/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[1]
-    priority: 2
-- id: moB2UFi73EGugAL283wYvA
-  name: Internal storage
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: ID
-    value: com.huawei.hidisk:id/file_name
-    priority: 0
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Internal storage']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.RelativeLayout/android.widget.TextView[1]
-    priority: 2
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
-    priority: 3
-- id: MjF_LOq_SkuXIkK5IFwglg
-  name: profile picture1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'profile picture']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.RelativeLayout[8]//android.widget.TextView[1]
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[8]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]
-    priority: 2
-- id: o_py9NOWiUm8Ku5UpaKK4w
-  name: keanu-reeves-9454211-1-402.jpg
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'keanu-reeves-9454211-1-402.jpg']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]//android.widget.TextView[1]
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]
-    priority: 2
 - id: _QNMqki75E2H3AQjv2bOQw
   name: CROP
   type:
@@ -1346,6 +1231,38 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.TextView[3]
     priority: 3
+- id: YNLyM3SvzUmVSBSV8Xd1bQ
+  name: CHANGE
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'CHANGE']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: 5Gc-0xYZ2EKclpZGcdnx8g
+  name: Choose Photo1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Choose Photo']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
 - id: G0xR07GY0ESOdQwZHZ186Q
   name: Change Profile Photo
   type:
@@ -1394,19 +1311,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
     priority: 2
-- id: dPx2vT10mEK-zbVU0Cs4Eg
-  name: ANDROID.WIDGET.IMAGEVIEW16
-  type:
-    id: jUwODgyNjAyNzk2NTk3MjI
-    name: android.widget.ImageView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.ImageView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
-    priority: 1
 - id: D2soInVOJEmyKYoXb9SOzg
   name: Try Again2
   type:
@@ -1423,21 +1327,98 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
     priority: 2
-- id: Ywh4LR1hHUizFPY4hoSRBw
-  name: CHANGE1
+- id: v4Wqm9gXO0K-icou7CcZvQ
+  name: You have successfully changed profile...
   type:
     id: jUwODgyNjAyNzk2NTk3NTE
     name: android.widget.TextView
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = 'CHANGE']
+    value: //android.widget.TextView[@text = 'You have successfully changed profile photo.']
     priority: 0
   - name: XPATH
-    value: //android.view.ViewGroup[3]/android.view.ViewGroup//android.widget.TextView
+    value: //android.widget.TextView[3]
     priority: 1
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    priority: 2
+- id: xy6x1n-R2kuinup2oTN2pA
+  name: ANDROID.VIEW.VIEWGROUP30
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDc
+    name: android.view.ViewGroup
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]
+    priority: 1
+- id: TqCaa6AEZUmp-xXfJT5hIg
+  name: ANDROID.VIEW.VIEWGROUP31
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDc
+    name: android.view.ViewGroup
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[3]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]
+    priority: 1
+- id: sosDLRuqhUqPAq8bEKBGGg
+  name: Files
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Files']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.LinearLayout[4]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[1]
+    priority: 2
+- id: moB2UFi73EGugAL283wYvA
+  name: Internal storage
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.huawei.hidisk:id/file_name
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Internal storage']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.RelativeLayout/android.widget.TextView[1]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+    priority: 3
+- id: o_py9NOWiUm8Ku5UpaKK4w
+  name: keanu-reeves-9454211-1-402.jpg
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'keanu-reeves-9454211-1-402.jpg']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]//android.widget.TextView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]
     priority: 2
 - id: 1lbBUTDYtkGvTxtWj5UMxQ
   name: Roger.jpg
@@ -1471,51 +1452,70 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]
     priority: 2
-- id: IHL2597gS062dSf3FNQOfA
-  name: Successful
+- id: MjF_LOq_SkuXIkK5IFwglg
+  name: profile picture1
   type:
     id: jUwODgyNjAyNzk2NTk3NTE
     name: android.widget.TextView
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = 'Successful']
+    value: //android.widget.TextView[@text = 'profile picture']
     priority: 0
   - name: XPATH
-    value: //android.widget.TextView[2]
+    value: //android.widget.RelativeLayout[8]//android.widget.TextView[1]
     priority: 1
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[8]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]
     priority: 2
-- id: v4Wqm9gXO0K-icou7CcZvQ
-  name: You have successfully changed profile...
+- id: Su93I_FtyUy3siJvfPFkPw
+  name: Not Now1
   type:
     id: jUwODgyNjAyNzk2NTk3NTE
     name: android.widget.TextView
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = 'You have successfully changed profile photo.']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.TextView[3]
+    value: //android.widget.TextView[@text = 'Not Now']
     priority: 1
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]
+    value: //android.view.ViewGroup[3]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
-- id: xg8WzgL1F02cqngQL96oeA
-  name: ANDROID.VIEW.VIEWGROUP21
+- id: pgEkrjKO-0iaqXDp0nJ9vw
+  name: Show root directories
   type:
-    id: jUwODgyNjAyNzk2NTk4NDc
-    name: android.view.ViewGroup
+    id: jUwODgyNjAyNzk2NTk3MjA
+    name: android.widget.ImageButton
     source: System
   locators:
   - name: XPATH
-    value: //android.view.ViewGroup[2]
+    value: //android.widget.ImageButton[@content-desc = 'Show root directories']
     priority: 0
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]
+    value: //android.widget.ImageButton
     priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]
+    priority: 2
+- id: Ywh4LR1hHUizFPY4hoSRBw
+  name: CHANGE1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'CHANGE']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.view.ViewGroup//android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
 projectParameters: []
 addons:
 - id: inW2AJJ04ku45E9-RN2zqA
