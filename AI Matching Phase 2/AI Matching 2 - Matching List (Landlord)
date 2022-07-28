@@ -1,7 +1,7 @@
-id: 7AlsBlADgkOVIX_XuRYStg
+id: PbfOV4EB-USzWEZacr9VhQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-19T07:33:19.7858255Z
+created: 2022-07-28T03:28:06.0518782Z
 protocol: 1
 tests:
 - id: ZNPri5jqVk6TF3IIz3t9jw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T03:38:32.0000000
-  modificationDate: 2022-07-19T07:31:27.0000000
+  modificationDate: 2022-07-28T03:28:06.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1498,10 +1498,10 @@ elements:
   locators:
   - name: XPATH
     value: //android.widget.TextView[@text = 'AI Matching']
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
     priority: 2
