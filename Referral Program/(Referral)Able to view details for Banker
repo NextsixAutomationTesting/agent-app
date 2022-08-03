@@ -1,7 +1,7 @@
-id: NvDD8HDVvEuOHjXANMMf9A
+id: DPvFIJgcYk2ttORpbB28iA
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-29T00:56:10.7896905Z
+created: 2022-08-03T02:30:49.1929198Z
 protocol: 1
 tests:
 - id: k7NJptv-G0uC1jjzRb2Bmg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-11-12T09:04:29.0000000
-  modificationDate: 2022-07-29T00:56:11.0000000
+  modificationDate: 2022-08-03T02:29:43.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -94,7 +94,7 @@ tests:
     invertResult: false
     order: 4
     repeat: 1
-    type: Action
+    type: Addon
     elementId: Su93I_FtyUy3siJvfPFkPw
     settings:
       sleepTime: 2000
@@ -103,9 +103,13 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+      id: 01wpThLkuUmef1nLejuuew
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: ''
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -1174,6 +1178,10 @@ addons:
   source: Store
   version: 2.10
   actions:
+  - id: 01wpThLkuUmef1nLejuuew
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleAndroid
   - id: YuKMS_yIfUKKmTMjXxdWZg
     name: Contains text? (if visible)
     description: '{{element}} contains text {{text}}?'
