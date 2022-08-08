@@ -1,7 +1,7 @@
-id: LlIrnhWVCkqX2qxzkK1AMQ
+id: iVTgUkat40u6-2I4E4siHA
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-08T02:30:11.1623256Z
+created: 2022-08-08T02:31:07.2951983Z
 protocol: 1
 tests:
 - id: L2b05eYtqUu_rPquaxMuug
@@ -19,7 +19,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-02-23T02:09:22.0000000
-  modificationDate: 2022-08-08T02:30:11.0000000
+  modificationDate: 2022-08-08T02:30:29.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -286,9 +286,9 @@ tests:
     type: Addon
     elementId: Su93I_FtyUy3siJvfPFkPw
     settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
