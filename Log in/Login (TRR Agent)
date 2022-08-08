@@ -1,7 +1,7 @@
-id: hNtYCpX7sUWd_H5iFF2gRA
+id: LlIrnhWVCkqX2qxzkK1AMQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-26T07:53:32.9062303Z
+created: 2022-08-08T02:30:11.1623256Z
 protocol: 1
 tests:
 - id: L2b05eYtqUu_rPquaxMuug
@@ -19,7 +19,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-02-23T02:09:22.0000000
-  modificationDate: 2022-07-26T07:53:33.0000000
+  modificationDate: 2022-08-08T02:30:11.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
