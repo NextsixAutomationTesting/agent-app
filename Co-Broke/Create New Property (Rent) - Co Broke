@@ -1,7 +1,7 @@
-id: MmTY_np800KtTILp-6I8cg
+id: SrpZjSAvCUS9qr43ux9ZUw
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-26T07:48:25.7062007Z
+created: 2022-08-08T02:33:51.8355101Z
 protocol: 1
 tests:
 - id: -eMPK6XqS0WRWvNqrgRkjg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-25T10:17:01.0000000
-  modificationDate: 2022-07-26T07:48:25.0000000
+  modificationDate: 2022-08-08T02:33:52.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
