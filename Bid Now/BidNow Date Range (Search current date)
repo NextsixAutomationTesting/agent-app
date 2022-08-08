@@ -1,7 +1,7 @@
-id: 9UuLLFoSn0S0ibdEZjq0EQ
+id: XqNxqTcgTEaYKLTBvyTU3w
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-08T02:22:49.2562955Z
+created: 2022-08-08T02:24:54.8518946Z
 protocol: 1
 tests:
 - id: zlEZgI2j90egCT_2kxpceA
@@ -19,7 +19,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-04T03:36:48.0000000
-  modificationDate: 2022-08-08T02:22:49.0000000
+  modificationDate: 2022-08-08T02:24:01.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -186,10 +186,44 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: W4N86gYGBkWHdcJUuzLmRQ
+  - id: MQttikkHw0iQE53Y78gZtA
     enabled: true
     invertResult: false
     order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 451
+      direction: Input
+    - name: startY
+      value: 679
+      direction: Input
+    - name: endX
+      value: 435
+      direction: Input
+    - name: endY
+      value: 203
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: W4N86gYGBkWHdcJUuzLmRQ
+    enabled: true
+    invertResult: false
+    order: 9
     repeat: 1
     type: Action
     elementId: Yo1zToCD8E60Ibif4iLtcw
@@ -210,7 +244,7 @@ tests:
     comments: Click search bar
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: _0vV7EZTwkid4lENZf_ohQ
@@ -230,7 +264,7 @@ tests:
   - id: zXfdX31TpUyFtazURlKW9Q
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     settings:
@@ -264,7 +298,7 @@ tests:
   - id: 7l1BIgLMOkaD0XB0Q7MXXQ
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: gM7BzFUNm06mVgBSPRylKQ
@@ -285,7 +319,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Addon
     settings:
@@ -364,7 +398,7 @@ tests:
     comments: extract auction property 0
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Addon
     settings:
@@ -421,7 +455,7 @@ tests:
     comments: extract auction property 1
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Addon
     settings:
@@ -478,7 +512,7 @@ tests:
     comments: extract auction property 2
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Addon
     settings:
@@ -535,7 +569,7 @@ tests:
     comments: 0
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     elementId: Z9_K7EFRKEuXqJfymO7SoA
@@ -559,7 +593,7 @@ tests:
     comments: 0
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: jkMD91-vj0mNT6b2BcPPyQ
@@ -583,7 +617,7 @@ tests:
     comments: 0
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     elementId: -_AVKATZb02JXYi5g6XHdw
@@ -607,7 +641,7 @@ tests:
     comments: 0
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Addon
     settings:
@@ -638,7 +672,7 @@ tests:
     comments: 0
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Addon
     settings:
@@ -668,7 +702,7 @@ tests:
     comments: 0
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Addon
     settings:
@@ -695,7 +729,7 @@ tests:
     comments: 0
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Addon
     settings:
@@ -732,7 +766,7 @@ tests:
     comments: 1
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     elementId: VsobSx8d1US71AlQr6kl7Q
@@ -756,7 +790,7 @@ tests:
     comments: 1
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
     repeat: 1
     type: Action
     elementId: IzhoCsSaZUqdy3sNZlkUEg
@@ -780,7 +814,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 25
+    order: 26
     repeat: 1
     type: Action
     elementId: 8CtkuS4wFEu3Jx8ryQjpNQ
@@ -804,7 +838,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 26
+    order: 27
     repeat: 1
     type: Addon
     settings:
@@ -835,7 +869,7 @@ tests:
     comments: 1
     enabled: true
     invertResult: false
-    order: 27
+    order: 28
     repeat: 1
     type: Addon
     settings:
@@ -865,7 +899,7 @@ tests:
     comments: 1
     enabled: true
     invertResult: false
-    order: 28
+    order: 29
     repeat: 1
     type: Addon
     settings:
@@ -892,7 +926,7 @@ tests:
     comments: 1
     enabled: true
     invertResult: false
-    order: 29
+    order: 30
     repeat: 1
     type: Addon
     settings:
@@ -929,7 +963,7 @@ tests:
     comments: 2
     enabled: false
     invertResult: false
-    order: 30
+    order: 31
     repeat: 1
     type: Action
     elementId: RsMGBb6kAkO83n4NzXF6Ww
@@ -953,7 +987,7 @@ tests:
     comments: 2
     enabled: false
     invertResult: false
-    order: 31
+    order: 32
     repeat: 1
     type: Action
     elementId: bIdtzkpS1EywjqFfFvNCUQ
@@ -977,7 +1011,7 @@ tests:
     comments: 2
     enabled: false
     invertResult: false
-    order: 32
+    order: 33
     repeat: 1
     type: Action
     elementId: VJIJooeE10WTzcB309LkJg
@@ -1001,7 +1035,7 @@ tests:
     comments: 2
     enabled: false
     invertResult: false
-    order: 33
+    order: 34
     repeat: 1
     type: Addon
     settings:
@@ -1032,7 +1066,7 @@ tests:
     comments: 2
     enabled: false
     invertResult: false
-    order: 34
+    order: 35
     repeat: 1
     type: Addon
     settings:
@@ -1062,7 +1096,7 @@ tests:
     comments: 2
     enabled: false
     invertResult: false
-    order: 35
+    order: 36
     repeat: 1
     type: Addon
     settings:
@@ -1089,7 +1123,7 @@ tests:
     comments: 2
     enabled: false
     invertResult: false
-    order: 36
+    order: 37
     repeat: 1
     type: Addon
     settings:
