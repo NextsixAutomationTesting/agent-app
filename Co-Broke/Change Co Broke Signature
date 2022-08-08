@@ -1,7 +1,7 @@
-id: CaJ_SeWshk2G1UQGEDdbbw
+id: iEFxkcF9_UmMWE1oHqcK9A
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-08T03:28:06.5103295Z
+created: 2022-08-08T03:35:28.1058785Z
 protocol: 1
 tests:
 - id: ZkDeLQX9a0mCG53kvhTbng
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-04-15T08:03:25.0000000
-  modificationDate: 2022-08-08T03:28:06.0000000
+  modificationDate: 2022-08-08T03:35:04.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1049,7 +1049,7 @@ tests:
     invertResult: false
     order: 31
     repeat: 1
-    type: Action
+    type: Addon
     elementId: asN4Elq0a0a7rI4jXya9BQ
     settings:
       sleepTime: 2000
@@ -1058,9 +1058,13 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+      id: 01wpThLkuUmef1nLejuuew
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: ''
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -1195,73 +1199,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Q0wYTEe9n0Ouq8bv4FAddg
-    comments: 1. click to view the agreement
-    enabled: true
-    invertResult: false
-    order: 37
-    repeat: 1
-    type: Action
-    elementId: jI4Re96h3Uyw_ZCg1PFnxQ
-    settings:
-      sleepTime: 2000
-      timeout: 35000
-      sleepTiming: Before
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Ndc2mVYmU0qxfU3abEiBxg
-    enabled: true
-    invertResult: false
-    order: 38
-    repeat: 1
-    type: Action
-    elementId: rErZnoOJgUadkbq0FmGVUw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: C61ZPdOpH0yuBrLMaZ-kQA
-    comments: 1. click to view the agreement
-    enabled: true
-    invertResult: false
-    order: 39
-    repeat: 1
-    type: Action
-    elementId: jI4Re96h3Uyw_ZCg1PFnxQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: Eu_S4XEiM0256CKJ5El1_g
     comments: Get latest signature from DB
     enabled: true
     invertResult: false
-    order: 40
+    order: 37
     repeat: 1
     type: Addon
     settings:
@@ -1356,7 +1298,7 @@ tests:
     comments: Get signature from API and compare with DB
     enabled: true
     invertResult: false
-    order: 41
+    order: 38
     repeat: 1
     type: Addon
     settings:
@@ -1422,11 +1364,97 @@ tests:
       field: response
       value: '"{{signFromDB}}"'
     contexts: []
-  - id: GlL02hNdjU6-BgPdzVqYxQ
+  - id: ISD-VXpnD0q8i6uMDJ5lsg
+    comments: 1. click to view the agreement
+    enabled: true
+    invertResult: false
+    order: 39
+    repeat: 1
+    type: Action
+    elementId: hS_RwpTAF06B7qVvT9Qo8A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ij2cjEFcd0OA4WGq-wxzrw
     comments: 1. verify agreement
     enabled: true
     invertResult: false
+    order: 40
+    repeat: 1
+    type: Action
+    elementId: QAOwebw6FEiEcoIsaXyejA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Internal Co-Broke Arrangement
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ndc2mVYmU0qxfU3abEiBxg
+    enabled: false
+    invertResult: false
+    order: 41
+    repeat: 1
+    type: Action
+    elementId: rErZnoOJgUadkbq0FmGVUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: C61ZPdOpH0yuBrLMaZ-kQA
+    comments: 1. click to view the agreement
+    enabled: false
+    invertResult: false
     order: 42
+    repeat: 1
+    type: Action
+    elementId: jI4Re96h3Uyw_ZCg1PFnxQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GlL02hNdjU6-BgPdzVqYxQ
+    comments: 1. verify agreement
+    enabled: false
+    invertResult: false
+    order: 43
     repeat: 1
     type: Action
     elementId: QAOwebw6FEiEcoIsaXyejA
@@ -1901,6 +1929,19 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
     priority: 2
+- id: hS_RwpTAF06B7qVvT9Qo8A
+  name: ANDROID.WIDGET.IMAGEVIEW77
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[3]//android.widget.ImageView[1]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+    priority: 1
 projectParameters: []
 addons:
 - id: Ujn6E4VbkEa6QU2XChYMyQ
