@@ -1,7 +1,7 @@
-id: cEwZt92BHESCeO7bO1-CHA
+id: tm2r5H4EnEqBs1zvb5KimA
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-08T01:45:44.5108053Z
+created: 2022-08-08T01:51:17.4213849Z
 protocol: 1
 tests:
 - id: mPcNcvmL6Ui7iKzm4NUgwQ
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-04T07:28:39.0000000
-  modificationDate: 2022-08-08T01:45:44.0000000
+  modificationDate: 2022-08-08T01:51:17.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -160,7 +160,7 @@ tests:
     invertResult: false
     order: 7
     repeat: 1
-    type: Action
+    type: Addon
     elementId: Su93I_FtyUy3siJvfPFkPw
     settings:
       sleepTime: 2000
@@ -169,16 +169,54 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 01wpThLkuUmef1nLejuuew
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Jl6vJo-r8Eq15zrpRwkJqw
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
       source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: startX
+      value: 398
+      direction: Input
+    - name: startY
+      value: 1077
+      direction: Input
+    - name: endX
+      value: 369
+      direction: Input
+    - name: endY
+      value: 291
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
     conditions: []
     validations: []
     contexts: []
   - id: uUS5A1XpMkSaAB_WUgc3cw
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: Yo1zToCD8E60Ibif4iLtcw
@@ -199,7 +237,7 @@ tests:
     comments: Click search bar
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: _0vV7EZTwkid4lENZf_ohQ
@@ -219,7 +257,7 @@ tests:
   - id: phM2K-jvj0SXscFhgSGhFA
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: Zqml0WDm00KWN8P5aFjhRA
@@ -239,7 +277,7 @@ tests:
   - id: LjAl9PpOaE6JSkXX3gEtgg
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: znWFNRa83kORz1oLeoORPQ
@@ -259,7 +297,7 @@ tests:
   - id: -W4Sxmw43kyzjEzmeNXfeA
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: 7hAjWuibVEGQ4j1JUy5eIQ
@@ -279,7 +317,7 @@ tests:
   - id: MfOa4e-tSESN0q5xk1_btw
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: 3v_KHQVux06wClxus7Ggbw
@@ -300,7 +338,7 @@ tests:
     comments: Filter State
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Addon
     settings:
@@ -377,7 +415,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Addon
     settings:
@@ -434,7 +472,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     elementId: _CrVsxa2u0aMfCLkWHT7Rw
@@ -458,7 +496,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: WS1Z5imb50epavBfdkEH6w
@@ -482,7 +520,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Addon
     settings:
@@ -513,7 +551,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Addon
     settings:
@@ -543,7 +581,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Addon
     settings:
@@ -570,7 +608,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Addon
     settings:
@@ -606,7 +644,7 @@ tests:
   - id: 65IS4LlUgEuvWq9EkKusfg
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: _0vV7EZTwkid4lENZf_ohQ
@@ -626,7 +664,7 @@ tests:
   - id: MqjgtDExdEGbk2bC8or0AA
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     settings:
@@ -660,7 +698,7 @@ tests:
   - id: 2bC53Ofrpkiw-2mdSR6Qbw
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
     repeat: 1
     type: Action
     elementId: 69jdWaIwXUmvGlmoxqkjWw
@@ -683,7 +721,7 @@ tests:
   - id: y6jOwAe380OEn-ysgLq2Tw
     enabled: true
     invertResult: false
-    order: 25
+    order: 26
     repeat: 1
     type: Action
     elementId: Rpo3ydYKhEuGy8Y0eyxKSA
@@ -706,7 +744,7 @@ tests:
   - id: aKRONn0zO0aWqYlV7YMwgw
     enabled: true
     invertResult: false
-    order: 26
+    order: 27
     repeat: 1
     type: Action
     elementId: RLB1Y3fkIE-NkC5KZXrguQ
@@ -727,7 +765,7 @@ tests:
     comments: Filter State and Price
     enabled: true
     invertResult: false
-    order: 27
+    order: 28
     repeat: 1
     type: Addon
     settings:
@@ -814,7 +852,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 28
+    order: 29
     repeat: 1
     type: Addon
     settings:
@@ -871,7 +909,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 29
+    order: 30
     repeat: 1
     type: Action
     elementId: TF_954B8OE6zaWYVCBq4rQ
@@ -895,7 +933,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 30
+    order: 31
     repeat: 1
     type: Action
     elementId: 5DN_P7MzfEqep2HnruLeTg
@@ -919,7 +957,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 31
+    order: 32
     repeat: 1
     type: Addon
     settings:
@@ -957,7 +995,7 @@ tests:
   - id: zyjLRSKp-U28fQvmRqBZAA
     enabled: true
     invertResult: false
-    order: 32
+    order: 33
     repeat: 1
     type: Action
     elementId: _0vV7EZTwkid4lENZf_ohQ
@@ -977,7 +1015,7 @@ tests:
   - id: FeUXj73gVUiKxf1a9jOkHA
     enabled: true
     invertResult: false
-    order: 33
+    order: 34
     repeat: 1
     type: Action
     settings:
@@ -1011,7 +1049,7 @@ tests:
   - id: zcLD29gRjUuzI4eQroi7cg
     enabled: true
     invertResult: false
-    order: 34
+    order: 35
     repeat: 1
     type: Action
     elementId: deZCKxt6CUiY1O5xZG4YTw
@@ -1034,7 +1072,7 @@ tests:
   - id: hs7nvn-cRU6f6-zjXK9TLw
     enabled: true
     invertResult: false
-    order: 35
+    order: 36
     repeat: 1
     type: Action
     elementId: VMU_HIgp5Uip_4weUo8iIg
@@ -1057,7 +1095,7 @@ tests:
   - id: Si99cG6ZTUuik7r6zXY4eQ
     enabled: true
     invertResult: false
-    order: 36
+    order: 37
     repeat: 1
     type: Action
     elementId: RLB1Y3fkIE-NkC5KZXrguQ
@@ -1078,7 +1116,7 @@ tests:
     comments: Filter State and Price
     enabled: true
     invertResult: false
-    order: 37
+    order: 38
     repeat: 1
     type: Addon
     settings:
@@ -1173,7 +1211,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 38
+    order: 39
     repeat: 1
     type: Addon
     settings:
@@ -1230,7 +1268,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 39
+    order: 40
     repeat: 1
     type: Action
     elementId: PcB4qBX_jEC_3ZKur_Hgkg
@@ -1254,7 +1292,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 40
+    order: 41
     repeat: 1
     type: Action
     elementId: asI-ndK6nUGJQcz8QIvyjA
@@ -1277,7 +1315,7 @@ tests:
   - id: FsgyndFk5kC_NfPBpHYVCA
     enabled: true
     invertResult: false
-    order: 41
+    order: 42
     repeat: 1
     type: Action
     elementId: _0vV7EZTwkid4lENZf_ohQ
@@ -1297,7 +1335,7 @@ tests:
   - id: HjnYRkdu8ECoILeQT8U_1w
     enabled: true
     invertResult: false
-    order: 42
+    order: 43
     repeat: 1
     type: Action
     settings:
@@ -1331,7 +1369,7 @@ tests:
   - id: 2mbqNhEvL0WF52VjtR20LA
     enabled: true
     invertResult: false
-    order: 43
+    order: 44
     repeat: 1
     type: Action
     elementId: W_8rJfelbka4CzhjxGnfEw
@@ -1351,7 +1389,7 @@ tests:
   - id: yNBKu-kQZE-FqLZuCFmrLw
     enabled: true
     invertResult: false
-    order: 44
+    order: 45
     repeat: 1
     type: Action
     elementId: W_8rJfelbka4CzhjxGnfEw
@@ -1374,7 +1412,7 @@ tests:
   - id: UiwsyafaIUaL_bKzS_6VTQ
     enabled: true
     invertResult: false
-    order: 45
+    order: 46
     repeat: 1
     type: Action
     elementId: CfGC31xDIka36-KRAnxLrw
@@ -1394,7 +1432,7 @@ tests:
   - id: uwWKUBJRpk-WwKfWSfNXBQ
     enabled: true
     invertResult: false
-    order: 46
+    order: 47
     repeat: 1
     type: Action
     elementId: CfGC31xDIka36-KRAnxLrw
@@ -1418,7 +1456,7 @@ tests:
     comments: Filter State and Price
     enabled: true
     invertResult: false
-    order: 47
+    order: 48
     repeat: 1
     type: Addon
     settings:
@@ -1521,7 +1559,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 48
+    order: 49
     repeat: 1
     type: Addon
     settings:
@@ -1585,7 +1623,7 @@ tests:
   - id: 5iFefXLrHk2JyG2Wm3x0tw
     enabled: true
     invertResult: false
-    order: 49
+    order: 50
     repeat: 1
     type: Action
     elementId: RLB1Y3fkIE-NkC5KZXrguQ
@@ -1606,7 +1644,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 50
+    order: 51
     repeat: 1
     type: Action
     elementId: omOjOT3xyUyUogAO4deGkw
@@ -2194,3 +2232,16 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: 01wpThLkuUmef1nLejuuew
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleAndroid
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
