@@ -1,7 +1,7 @@
-id: kLmEduM6u0uRvtCu-AAWMA
+id: 5jqpRzPCmEqBrjRdTHLyOQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-11T01:51:19.1139195Z
+created: 2022-08-11T01:56:49.6307629Z
 protocol: 1
 tests:
 - id: 1p-u8vHqO06d8W_Mr7TF3A
@@ -16,7 +16,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-11T08:17:57.0000000
-  modificationDate: 2022-08-11T01:51:19.0000000
+  modificationDate: 2022-08-11T01:55:21.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -73,11 +73,97 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: IUu_tC8e10eS5KEuneoXmA
-    comments: This step was auto generated from several steps
+  - id: qBPh0XkNt0u5KWnfh7cM1g
     enabled: true
     invertResult: false
     order: 3
+    repeat: 1
+    type: Action
+    elementId: rtJCUvqrx0GCN1kb79yaZg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: mike@gmail.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: b7ROfFLRPEacRyRHClYPIw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: xwRY7ItutUqX9wDhsAQwrQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 123
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NoDeZ2QGkUegKEnRDNbxyA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: FOxKPOr2tkWhZIbJRM703w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CB8B5N56f0-NQ61uf5AARQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: u0sVuwtVPkm7_7isqW3S4w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IUu_tC8e10eS5KEuneoXmA
+    comments: This step was auto generated from several steps
+    enabled: false
+    invertResult: false
+    order: 7
     repeat: 1
     type: Test
     targetTestId: -IK-J7EGe0m6JdZKfdxuXA
@@ -102,7 +188,7 @@ tests:
   - id: y-cz8g8uDUaWDkwAICKWgA
     enabled: true
     invertResult: false
-    order: 4
+    order: 8
     repeat: 1
     type: Addon
     elementId: Su93I_FtyUy3siJvfPFkPw
@@ -126,7 +212,7 @@ tests:
   - id: _p99KzkhN0CcOL10RxJLKQ
     enabled: true
     invertResult: false
-    order: 5
+    order: 9
     repeat: 1
     type: Action
     elementId: lVatzo8VakGqr3TejjpSew
@@ -147,7 +233,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 6
+    order: 10
     repeat: 1
     type: Action
     elementId: gpv7Rl44rUmNHyE64juR2A
@@ -171,7 +257,7 @@ tests:
     comments: call api agent details
     enabled: true
     invertResult: false
-    order: 7
+    order: 11
     repeat: 1
     type: Addon
     settings:
@@ -252,7 +338,7 @@ tests:
   - id: yLb_-JQdL0anyQEQdqMmbw
     enabled: true
     invertResult: false
-    order: 8
+    order: 12
     repeat: 1
     type: Addon
     settings:
@@ -324,7 +410,7 @@ tests:
     comments: verify agent name
     enabled: true
     invertResult: false
-    order: 9
+    order: 13
     repeat: 1
     type: Action
     elementId: 3DI29JiVJ0OXjXN8qp-atA
@@ -348,7 +434,7 @@ tests:
     comments: verify email
     enabled: true
     invertResult: false
-    order: 10
+    order: 14
     repeat: 1
     type: Action
     elementId: PDe7EZ7Oe06jOye03JQIsg
@@ -372,7 +458,7 @@ tests:
     comments: verify phone number
     enabled: true
     invertResult: false
-    order: 11
+    order: 15
     repeat: 1
     type: Action
     elementId: 3BxVatPe60KT9TQ1vX9o2g
@@ -396,7 +482,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 12
+    order: 16
     repeat: 1
     type: Action
     elementId: CImFOG5pFECDcMH14pB2OA
@@ -420,7 +506,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 13
+    order: 17
     repeat: 1
     type: Action
     elementId: aZhTb76kP0uHUlLYN0F61A
@@ -444,7 +530,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 14
+    order: 18
     repeat: 1
     type: Action
     elementId: q3TNGw-0VUWyyfWoHkEdkw
@@ -467,7 +553,7 @@ tests:
   - id: T-2OpJ4BrU-4sbnySL5o2w
     enabled: true
     invertResult: false
-    order: 15
+    order: 19
     repeat: 1
     type: Action
     elementId: CImFOG5pFECDcMH14pB2OA
@@ -488,7 +574,7 @@ tests:
     comments: verify agent name
     enabled: true
     invertResult: false
-    order: 16
+    order: 20
     repeat: 1
     type: Action
     elementId: JMY6glSxmU-B7VZOZpI2-w
@@ -512,7 +598,7 @@ tests:
     comments: verify email add
     enabled: true
     invertResult: false
-    order: 17
+    order: 21
     repeat: 1
     type: Action
     elementId: d-DfBMj4OEG79eHi8WJk9g
@@ -536,7 +622,7 @@ tests:
     comments: verify nick name
     enabled: true
     invertResult: false
-    order: 18
+    order: 22
     repeat: 1
     type: Action
     elementId: W7hmk5XqQkaPsR9zo0VeVA
@@ -560,7 +646,7 @@ tests:
     comments: verify gender
     enabled: true
     invertResult: false
-    order: 19
+    order: 23
     repeat: 1
     type: Action
     elementId: 36DHMF9UD02idomg26RlBQ
@@ -584,7 +670,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 20
+    order: 24
     repeat: 1
     type: Addon
     settings:
@@ -614,7 +700,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 25
     repeat: 1
     type: Addon
     settings:
@@ -649,7 +735,7 @@ tests:
   - id: JkeEweuSsU6bfSyHCfPlDQ
     enabled: true
     invertResult: false
-    order: 22
+    order: 26
     repeat: 1
     type: Action
     settings:
@@ -684,7 +770,7 @@ tests:
     comments: 1. verify DOB
     enabled: true
     invertResult: false
-    order: 23
+    order: 27
     repeat: 1
     type: Action
     elementId: NQE6jGOJ6UKL93cvdkWp2Q
@@ -708,7 +794,7 @@ tests:
     comments: 1. verify about me
     enabled: true
     invertResult: false
-    order: 24
+    order: 28
     repeat: 1
     type: Action
     elementId: QXF3RRv4O0KBnJFB-n-7Ig
@@ -732,7 +818,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 25
+    order: 29
     repeat: 1
     type: Action
     elementId: mCEzP3J_L0id-n4r3JjVvQ
@@ -755,7 +841,7 @@ tests:
   - id: 3Ph7rMnFtEWTQuueo2ikIA
     enabled: true
     invertResult: false
-    order: 26
+    order: 30
     repeat: 1
     type: Action
     elementId: 4hVqaoMDHE2rjSiCZy_UBg
@@ -778,7 +864,7 @@ tests:
   - id: U6R57GzkgEyxVpqqUlM_Kg
     enabled: true
     invertResult: false
-    order: 27
+    order: 31
     repeat: 1
     type: Action
     elementId: mCEzP3J_L0id-n4r3JjVvQ
@@ -798,7 +884,7 @@ tests:
   - id: SBng11XRDkK23cw7CqPfmw
     enabled: true
     invertResult: false
-    order: 28
+    order: 32
     repeat: 1
     type: Action
     elementId: 773pTZK4KUS6EYK210smwg
@@ -819,7 +905,7 @@ tests:
     comments: click back button
     enabled: true
     invertResult: false
-    order: 29
+    order: 33
     repeat: 1
     type: Action
     elementId: TI0lJts1mU-MoMbBsPJccQ
@@ -839,7 +925,7 @@ tests:
   - id: HUhX7LGMAEeDVGCiHcnzjA
     enabled: true
     invertResult: false
-    order: 30
+    order: 34
     repeat: 1
     type: Action
     elementId: aZhTb76kP0uHUlLYN0F61A
@@ -860,7 +946,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 31
+    order: 35
     repeat: 1
     type: Action
     elementId: vOU9NssC0kG6wrrqcGb1bw
@@ -883,7 +969,7 @@ tests:
   - id: Q9OqkSDim0CJBzbQE6iV3Q
     enabled: true
     invertResult: false
-    order: 32
+    order: 36
     repeat: 5
     type: Action
     settings:
@@ -917,7 +1003,7 @@ tests:
   - id: PXzTUhLH7U-Zg89Z1IQvAA
     enabled: true
     invertResult: false
-    order: 33
+    order: 37
     repeat: 1
     type: Action
     elementId: rWMGILr6LECv5H5fPvxReg
@@ -938,7 +1024,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 34
+    order: 38
     repeat: 1
     type: Action
     elementId: vOU9NssC0kG6wrrqcGb1bw
@@ -961,7 +1047,7 @@ tests:
   - id: kc3jpqaRHEGA5-pqXdMaZQ
     enabled: true
     invertResult: false
-    order: 35
+    order: 39
     repeat: 1
     type: Action
     elementId: hD3IpHjEyEuwECyQeVwnHg
@@ -982,7 +1068,7 @@ tests:
     comments: 1. Click Sign Out button
     enabled: true
     invertResult: false
-    order: 36
+    order: 40
     repeat: 1
     type: Action
     elementId: -n-BtkH9aU-K_3bism6xaQ
@@ -1570,6 +1656,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
     priority: 2
+- id: FOxKPOr2tkWhZIbJRM703w
+  name: 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
 - id: rWMGILr6LECv5H5fPvxReg
   name: totop
   type:
@@ -1615,6 +1717,38 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
+- id: rtJCUvqrx0GCN1kb79yaZg
+  name: Username2
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Username']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]
+    priority: 2
+- id: xwRY7ItutUqX9wDhsAQwrQ
+  name: Password3
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Password']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]
+    priority: 2
 - id: -n-BtkH9aU-K_3bism6xaQ
   name: ANDROID.WIDGET.IMAGEVIEW45
   type:
@@ -1653,13 +1787,13 @@ elements:
   locators:
   - name: XPATH
     value: //android.widget.TextView[@text = 'PLEASE READ THESE TERMS THOROUGHLY AND CAREFULLY BEFPORE YOU PROCEED TO USE THE APPLICATION.']
-    priority: 0
+    priority: 2
   - name: XPATH
     value: //android.view.View/android.view.View/android.widget.TextView[2]
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[2]
-    priority: 2
+    priority: 0
 - id: Su93I_FtyUy3siJvfPFkPw
   name: Not Now1
   type:
