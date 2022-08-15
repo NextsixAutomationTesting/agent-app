@@ -1,7 +1,7 @@
-id: H-9KlanZ-EuEvbmnjUwCbg
+id: N4-Dfkx3Y0KLTWz899xf7w
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-10T03:45:44.8536889Z
+created: 2022-08-15T07:49:04.6658085Z
 protocol: 1
 tests:
 - id: FqBuuBhXukOuemzmcMnoMA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T14:59:54.0000000
-  modificationDate: 2022-08-10T03:45:45.0000000
+  modificationDate: 2022-08-15T07:46:19.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -633,7 +633,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: xg8R6YoypE2nK8yWWGRIrg
+  - id: LbACpxfsz0ieGYnmQ0wI5w
     enabled: true
     invertResult: false
     order: 19
@@ -653,10 +653,50 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: xltxbA-cAkmknaMhxm862A
+  - id: 8HSXPE21BE6fHN1O8_or8A
     enabled: true
     invertResult: false
     order: 20
+    repeat: 1
+    type: Action
+    elementId: 7VA5KLXVxkKlkiT8wLLbJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xg8R6YoypE2nK8yWWGRIrg
+    enabled: false
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: HTstie1AcUqrcX08X6tEoQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xltxbA-cAkmknaMhxm862A
+    enabled: false
+    invertResult: false
+    order: 22
     repeat: 1
     type: Action
     elementId: X8viJXzDIk-Rlt2j7DkH1w
@@ -677,7 +717,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 23
     repeat: 1
     type: Action
     elementId: Vy5sx8g9UECMq0Cj-L9bwA
@@ -701,7 +741,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 22
+    order: 24
     repeat: 1
     type: Action
     elementId: Nll-UAoSBkyqsh6HATjzIw
@@ -725,7 +765,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 23
+    order: 25
     repeat: 1
     type: Action
     elementId: Nll-UAoSBkyqsh6HATjzIw
@@ -749,7 +789,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 24
+    order: 26
     repeat: 1
     type: Action
     elementId: 4Ow-NegCqEiyweunq57OiA
@@ -773,7 +813,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 25
+    order: 27
     repeat: 1
     type: Action
     elementId: j7cBgquGuUCRTjw0lqT_aA
@@ -797,7 +837,7 @@ tests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 26
+    order: 28
     repeat: 1
     type: Action
     elementId: WnICL64Pa0ebpdWEaeYvtQ
@@ -821,7 +861,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 27
+    order: 29
     repeat: 1
     type: Action
     elementId: DShwNsm0Pk6MB4BUsX-Gfg
@@ -845,7 +885,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 28
+    order: 30
     repeat: 1
     type: Action
     elementId: KkEEQAj2VkGFPtzRWH22Xw
@@ -866,7 +906,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 29
+    order: 31
     repeat: 1
     type: Action
     elementId: jempJLWtUE6jlklgzESymA
@@ -890,7 +930,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 30
+    order: 32
     repeat: 1
     type: Action
     elementId: 27M0W24Er0GC2KADpDb5WQ
@@ -914,7 +954,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 31
+    order: 33
     repeat: 1
     type: Action
     elementId: ajNoHmRZakCmxzSBjVu5pA
@@ -938,7 +978,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 32
+    order: 34
     repeat: 1
     type: Action
     elementId: 5KbGvXL4aUW6fD9-vrkgFg
@@ -962,7 +1002,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 33
+    order: 35
     repeat: 1
     type: Action
     elementId: JlLseZs-7Ee_w7jmYAlfIA
@@ -986,7 +1026,7 @@ tests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 34
+    order: 36
     repeat: 1
     type: Action
     elementId: gJs9aQKkeUe1XwjD1_CaVQ
@@ -1010,7 +1050,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 35
+    order: 37
     repeat: 1
     type: Addon
     settings:
@@ -1040,7 +1080,7 @@ tests:
     comments: Trigger Message from user
     enabled: true
     invertResult: false
-    order: 36
+    order: 38
     repeat: 1
     type: Addon
     settings:
@@ -1119,7 +1159,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 37
+    order: 39
     repeat: 1
     type: Action
     elementId: d44Qm8SFBUqLV1wtWe_dfQ
@@ -1142,7 +1182,7 @@ tests:
   - id: _hg2ItEjZ06KnRCh-AegDA
     enabled: true
     invertResult: false
-    order: 38
+    order: 40
     repeat: 1
     type: Action
     elementId: xR897bYiPE-CdWrVsW5vAg
@@ -1163,7 +1203,7 @@ tests:
     comments: Pull API AI listing
     enabled: true
     invertResult: false
-    order: 39
+    order: 41
     repeat: 1
     type: Addon
     settings:
@@ -1244,7 +1284,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 40
+    order: 42
     repeat: 1
     type: Addon
     settings:
@@ -1278,7 +1318,7 @@ tests:
       extract AI Listing
     enabled: true
     invertResult: false
-    order: 41
+    order: 43
     repeat: 1
     type: Addon
     settings:
@@ -1335,7 +1375,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 42
+    order: 44
     repeat: 1
     type: Action
     elementId: 1SYmwbofQkeKeu7OGzDYFw
@@ -1539,6 +1579,22 @@ elements:
   - name: XPATH
     value: //android.view.ViewGroup[3]/android.widget.TextView
     priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
+    priority: 2
+- id: 7VA5KLXVxkKlkiT8wLLbJQ
+  name: Got It
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Got It']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[3]/android.widget.TextView
+    priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
