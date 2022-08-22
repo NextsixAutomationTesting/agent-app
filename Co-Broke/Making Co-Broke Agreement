@@ -1,7 +1,7 @@
-id: 3XvIDkpLkkOVO-ogFmqQ0A
+id: OQEzYZBi4U-Zk9mZpiQ3rQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-08T03:10:10.1241924Z
+created: 2022-08-22T02:27:43.4880206Z
 protocol: 1
 tests:
 - id: Y_8wNMdT7UijGvFZSYLaTw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-25T06:58:27.0000000
-  modificationDate: 2022-08-08T03:10:05.0000000
+  modificationDate: 2022-08-22T02:27:43.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1496,10 +1496,10 @@ elements:
   locators:
   - name: XPATH
     value: //android.widget.TextView[@text = 'Internal Co-Broke Arrangement']
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View/android.widget.TextView[2]
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[2]
     priority: 2
