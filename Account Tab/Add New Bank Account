@@ -1,7 +1,7 @@
-id: UkAkSxpj-kanBBP7wv8GqA
+id: ZZsVc1lNREKjrdLDBWk56w
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-11T02:09:48.1769865Z
+created: 2022-08-23T01:43:09.6366170Z
 protocol: 1
 tests:
 - id: 1ivCUnJYqUSwQo-7opEEkA
@@ -19,7 +19,7 @@ tests:
   driverType: Appium_Android
   version: 1.0
   creationDate: 2021-08-20T09:38:03.0000000
-  modificationDate: 2022-08-11T02:09:48.0000000
+  modificationDate: 2022-08-23T01:43:09.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -2049,7 +2049,7 @@ auxTests:
   driverType: Appium_Android
   version: 1.0
   creationDate: 2021-02-23T02:46:24.0000000
-  modificationDate: 2022-08-10T03:46:05.0000000
+  modificationDate: 2022-08-11T02:11:21.0000000
   settings:
     automationAssistant: true
     appId: kElKIqVg90iaE06V3xahLQ
@@ -2166,7 +2166,7 @@ auxTests:
     validations: []
     contexts: []
   - id: TSR4r7IlKUq5ft-Fj815QQ
-    enabled: true
+    enabled: false
     invertResult: false
     order: 6
     repeat: 1
@@ -2186,7 +2186,7 @@ auxTests:
     validations: []
     contexts: []
   - id: ZRK2vU2HZEizkmW_lyWJzQ
-    enabled: true
+    enabled: false
     invertResult: false
     order: 7
     repeat: 1
@@ -2221,7 +2221,7 @@ auxTests:
     contexts: []
   - id: NM1c4nfz9Eef14ohhzbfBg
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 8
     repeat: 1
