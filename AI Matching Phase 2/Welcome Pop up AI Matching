@@ -1,7 +1,7 @@
-id: GujMVyWFGkyokDgFEsXx0w
+id: b0F1uCA880SPRR5iZeQ42w
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-07-13T05:54:35.4176702Z
+created: 2022-08-29T03:30:11.9127256Z
 protocol: 1
 tests:
 - id: exoWxQftsUyigSvDHO7oVg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-06-20T08:39:17.0000000
-  modificationDate: 2022-07-13T05:50:06.0000000
+  modificationDate: 2022-08-29T03:30:12.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -528,10 +528,10 @@ elements:
   locators:
   - name: XPATH
     value: //android.widget.TextView[@text = 'Got It']
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //android.view.ViewGroup[3]/android.widget.TextView
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
@@ -543,13 +543,13 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = 'Ai Matching']
+    value: //android.view.ViewGroup[5]/android.view.ViewGroup[4]/android.widget.TextView
     priority: 0
   - name: XPATH
-    value: //android.view.ViewGroup[5]/android.view.ViewGroup[4]/android.widget.TextView
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[4]/android.widget.TextView[1]
     priority: 1
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    value: //android.widget.TextView[@text = 'Ai Matching']
     priority: 2
 - id: eYXTB9vn-U2PFP0kYMxGuw
   name: Welcome to Ai Matching
@@ -592,10 +592,10 @@ elements:
   locators:
   - name: XPATH
     value: //android.widget.TextView[@text = 'AI Matching']
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
     priority: 2
