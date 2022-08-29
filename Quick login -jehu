@@ -1,18 +1,18 @@
-id: nUoFA7cpik6r_9LRqDsa6g
+id: hA5Fs5PBMUiE_PUcf_DJug
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-29T07:34:05.0105337Z
+created: 2022-08-29T07:34:12.6434366Z
 protocol: 1
 tests:
 - id: qilANYrZnUuDtG1N6OifAA
-  name: Quick login - copy
+  name: Quick login -jehu
   description: This test was auto generated from steps of the 'Account tab' test
   platform: Android
   type: Mobile
   driverType: Appium_Android
   version: 1.0
   creationDate: 2022-08-29T07:34:05.0000000
-  modificationDate: 2022-08-29T07:34:05.0000000
+  modificationDate: 2022-08-29T07:34:12.0000000
   settings:
     automationAssistant: true
     appId: kElKIqVg90iaE06V3xahLQ
