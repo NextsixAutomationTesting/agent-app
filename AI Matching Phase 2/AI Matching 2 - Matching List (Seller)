@@ -1,7 +1,7 @@
-id: bRA5AAXkuESCnIO2syCq2g
+id: lymChPF96EGoZHIsQutulA
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-08-29T03:36:38.2727302Z
+created: 2022-09-14T06:13:31.6056944Z
 protocol: 1
 tests:
 - id: FqBuuBhXukOuemzmcMnoMA
@@ -15,7 +15,6 @@ tests:
   modificationDate: 2022-08-29T03:36:38.0000000
   settings:
     automationAssistant: true
-    deviceId: AQH0217B18001233
     appId: kElKIqVg90iaE06V3xahLQ
     stepSleepTime: 500
     stepTimeout: 15000
