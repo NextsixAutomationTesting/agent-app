@@ -1,7 +1,7 @@
-id: QH4ItU3j0U6hY2O61r9ZMA
+id: Yqh2IxXtYkyYRameDp6euQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-09-14T05:34:10.2094113Z
+created: 2022-10-20T06:15:16.2327741Z
 protocol: 1
 tests:
 - id: KjAheJgwQkmQHHLRMwscoQ
@@ -15,7 +15,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-24T07:52:24.0000000
-  modificationDate: 2022-09-14T05:34:10.0000000
+  modificationDate: 2022-10-20T06:15:16.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1394,13 +1394,13 @@ elements:
   locators:
   - name: ID
     value: com.huawei.hidisk:id/file_name
-    priority: 0
+    priority: 2
   - name: XPATH
     value: //android.widget.TextView[@text = 'Internal storage']
     priority: 1
   - name: XPATH
     value: //android.widget.RelativeLayout/android.widget.TextView[1]
-    priority: 2
+    priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
     priority: 3
