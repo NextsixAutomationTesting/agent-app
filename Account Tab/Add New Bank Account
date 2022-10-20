@@ -1,7 +1,7 @@
-id: yxrte8DEGUeXgt4vRXG2Tw
+id: 1UOeGkM0aEWU0Z8o2R2a_g
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-09-14T05:30:58.4118176Z
+created: 2022-10-20T06:01:32.6387824Z
 protocol: 1
 tests:
 - id: 1ivCUnJYqUSwQo-7opEEkA
@@ -19,7 +19,7 @@ tests:
   driverType: Appium_Android
   version: 1.0
   creationDate: 2021-08-20T09:38:03.0000000
-  modificationDate: 2022-09-14T05:30:58.0000000
+  modificationDate: 2022-10-20T06:01:32.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -2293,10 +2293,10 @@ elements:
   locators:
   - name: XPATH
     value: //android.widget.TextView[@text = '']
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //android.view.ViewGroup[2]/android.widget.TextView
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
     priority: 2
