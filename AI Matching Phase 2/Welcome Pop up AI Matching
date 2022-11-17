@@ -1,7 +1,7 @@
-id: YzKhlX8nZkSmWCGHi2N_oA
+id: gDEn6zHJLES-At0M-RhS5g
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-11-17T07:43:12.2415548Z
+created: 2022-11-17T08:00:24.9702620Z
 protocol: 1
 tests:
 - id: exoWxQftsUyigSvDHO7oVg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-06-20T08:39:17.0000000
-  modificationDate: 2022-11-17T07:43:12.0000000
+  modificationDate: 2022-11-17T07:59:05.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -179,13 +179,47 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: B13IDKjohEC3wENibrsjRg
+  - id: mM8QHzGNzUGphNsvcjFgCA
     enabled: true
     invertResult: false
     order: 8
     repeat: 1
     type: Action
-    elementId: HTstie1AcUqrcX08X6tEoQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 537
+      direction: Input
+    - name: startY
+      value: 707
+      direction: Input
+    - name: endX
+      value: 532
+      direction: Input
+    - name: endY
+      value: 339
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1XTvHHvZ9E2qjy3DdjyVZw
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: mWQl9OQXMUyYhQPuOOBdTQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -203,7 +237,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: eYXTB9vn-U2PFP0kYMxGuw
@@ -227,7 +261,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: mzg9iWmqvUmc1_J6NIxhGw
@@ -250,7 +284,7 @@ tests:
   - id: suSdyyDmdU2dhn4yS9av1A
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: 7VA5KLXVxkKlkiT8wLLbJQ
@@ -270,7 +304,7 @@ tests:
   - id: d7muPwxVRUehUE5j9Gpavw
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: xR897bYiPE-CdWrVsW5vAg
@@ -287,13 +321,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: t3ytHzpoNE2hbjhZc3R_FA
+  - id: sF6JW-GPFk6NsBwfyopAqg
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
-    elementId: HTstie1AcUqrcX08X6tEoQ
+    elementId: mWQl9OQXMUyYhQPuOOBdTQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -311,7 +345,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: true
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: eYXTB9vn-U2PFP0kYMxGuw
@@ -335,7 +369,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: true
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     elementId: mzg9iWmqvUmc1_J6NIxhGw
@@ -351,30 +385,6 @@ tests:
     parameterMaps:
     - name: text
       value: There are owners wish to sell or rent their properties. Check them out and engage owners immediately!
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: JsSjoyQDQE6UflInYx2h5w
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 16
-    repeat: 1
-    type: Action
-    elementId: jempJLWtUE6jlklgzESymA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: AI Matching
       direction: Input
     conditions: []
     validations: []
@@ -535,22 +545,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]
     priority: 2
-- id: HTstie1AcUqrcX08X6tEoQ
-  name: Ai Matching
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.view.ViewGroup[5]/android.view.ViewGroup[4]/android.widget.TextView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[4]/android.widget.TextView[1]
-    priority: 1
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Ai Matching']
-    priority: 2
 - id: eYXTB9vn-U2PFP0kYMxGuw
   name: Welcome to Ai Matching
   type:
@@ -583,21 +577,21 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[4]
     priority: 2
-- id: jempJLWtUE6jlklgzESymA
-  name: AI Matching1
+- id: mWQl9OQXMUyYhQPuOOBdTQ
+  name: Ai Matching2
   type:
     id: jUwODgyNjAyNzk2NTk3NTE
     name: android.widget.TextView
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = 'AI Matching']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView
+    value: //android.widget.TextView[@text = 'Ai Matching']
     priority: 0
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    value: //android.view.ViewGroup[5]/android.view.ViewGroup[5]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[5]/android.widget.TextView[1]
     priority: 2
 projectParameters: []
 addons:
