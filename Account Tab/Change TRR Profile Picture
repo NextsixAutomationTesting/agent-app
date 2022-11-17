@@ -1,7 +1,7 @@
-id: 0nWhlWDwuEqva_F5zKORjg
+id: j1k9ZlmAWU-uuWQG_XxAvg
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-11-17T05:30:53.7095357Z
+created: 2022-11-17T05:34:47.5314149Z
 protocol: 1
 tests:
 - id: KjAheJgwQkmQHHLRMwscoQ
@@ -15,7 +15,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-24T07:52:24.0000000
-  modificationDate: 2022-11-17T05:30:53.0000000
+  modificationDate: 2022-11-17T05:33:53.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -166,9 +166,9 @@ tests:
     type: Addon
     elementId: Su93I_FtyUy3siJvfPFkPw
     settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -409,13 +409,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: qn3dVWyaK0WYtWwq-QyIkQ
+  - id: UsQQjOSw4Ue4NB1gLDfVsw
     enabled: true
     invertResult: false
     order: 18
     repeat: 1
     type: Action
-    elementId: moB2UFi73EGugAL283wYvA
+    elementId: 3dKElMOLCEWFuME2sIL1mQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -754,13 +754,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 3zv4sh_eM0eHgBuXlCl7vQ
+  - id: jNjFqapYLk2k0ZQaZpitSQ
     enabled: true
     invertResult: false
     order: 33
     repeat: 1
     type: Action
-    elementId: moB2UFi73EGugAL283wYvA
+    elementId: 3dKElMOLCEWFuME2sIL1mQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1385,25 +1385,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[1]
     priority: 2
-- id: moB2UFi73EGugAL283wYvA
-  name: Internal storage
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: ID
-    value: com.huawei.hidisk:id/file_name
-    priority: 2
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Internal storage']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.RelativeLayout/android.widget.TextView[1]
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
-    priority: 3
 - id: o_py9NOWiUm8Ku5UpaKK4w
   name: keanu-reeves-9454211-1-402.jpg
   type:
@@ -1516,6 +1497,28 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
     priority: 2
+- id: 3dKElMOLCEWFuME2sIL1mQ
+  name: 'Storage used: 32.27 GB.Total 128 GB'
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.huawei.filemanager:id/file_subinfo
+    priority: 0
+  - name: XPATH
+    value: "//android.widget.TextView[@content-desc = 'Storage used: 32.27 GB.Total 128 GB']"
+    priority: 1
+  - name: XPATH
+    value: "//android.widget.TextView[@text = 'Storage used: 32.27 GB/128 GB']"
+    priority: 2
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 3
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 4
 projectParameters: []
 addons:
 - id: inW2AJJ04ku45E9-RN2zqA
