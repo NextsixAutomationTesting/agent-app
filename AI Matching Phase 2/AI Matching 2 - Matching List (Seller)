@@ -1,7 +1,7 @@
-id: lymChPF96EGoZHIsQutulA
+id: UzecCZPxqEGOBUcWR6hSOQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-09-14T06:13:31.6056944Z
+created: 2022-11-17T08:05:58.8345821Z
 protocol: 1
 tests:
 - id: FqBuuBhXukOuemzmcMnoMA
@@ -12,9 +12,10 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T14:59:54.0000000
-  modificationDate: 2022-08-29T03:36:38.0000000
+  modificationDate: 2022-11-17T08:05:59.0000000
   settings:
     automationAssistant: true
+    deviceId: AQH0217B18001233
     appId: kElKIqVg90iaE06V3xahLQ
     stepSleepTime: 500
     stepTimeout: 15000
@@ -1897,19 +1898,6 @@ elements:
     priority: 2
 projectParameters: []
 addons:
-- id: -kT4Fi1xFk6PF8xkHU4vDg
-  source: Store
-  version: 2.1
-  actions:
-  - id: nHBKyka6qkCOqAudow9lbg
-    name: Random number in a range
-    description: Generate random number between {{min}} and {{max}}
-    className: GenerateNumberInRange
-  minSdkLevel: 2
-  minSdkVersion: 0.60.0
-  sdkGeneration: 1
-  language: Java
-  hash: 4EAB7094998E173D5F2847B92C164DD1ADEF5A7EF67BAB20C10571FCEAA7009A
 - id: D5P7e9ZMO0aPwXNrWJE9iA
   source: Store
   version: 2.1
@@ -1936,6 +1924,19 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: FA10C67EDC22B4905CC11ED9A527F6F6A0B836BABAB5E64ABD39FEF0C8C47AE0
+- id: -kT4Fi1xFk6PF8xkHU4vDg
+  source: Store
+  version: 2.2
+  actions:
+  - id: nHBKyka6qkCOqAudow9lbg
+    name: Random number in a range
+    description: Generate random number between {{min}} and {{max}}
+    className: GenerateNumberInRange
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: B8E84E0F0EE92A1E8BB93EB3C515DB4F0106CAA6087A437A171B1B0191F14F88
 - id: 0vl75E0Mr0G5TRI1xxul-w
   source: Store
   version: 1.7
