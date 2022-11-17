@@ -1,7 +1,7 @@
-id: 42MreRJhWUGl1bNwtXaosQ
+id: CIXNY3kY3k2MpYxJwrIinw
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-11-17T07:39:02.0396213Z
+created: 2022-11-17T07:42:45.2803617Z
 protocol: 1
 tests:
 - id: 4IaPC9zpZUOfqRggwdFrSw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-04-20T05:01:22.0000000
-  modificationDate: 2022-11-17T07:39:02.0000000
+  modificationDate: 2022-11-17T07:41:27.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -308,11 +308,31 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: Or6-KRvTmUCBMIiBXZ3_Yw
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: YwUU9oDwnkCtJasFRLWGcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: -AjEiiCfy0qW4phy0uIuJw
     comments: verify package name
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: 3urXu_EIEE2fgv7kU3A-JQ
@@ -336,7 +356,7 @@ tests:
     comments: verify total active listing
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: hyTsMSn4hkOuX7emg-C4ow
@@ -360,7 +380,7 @@ tests:
     comments: verify description 1
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: 7XdvBfFP2EyeHycLU2tPbA
@@ -385,7 +405,7 @@ tests:
       verify description 2
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: fONIr7oVq0irmvXQYc0ODw
@@ -410,7 +430,7 @@ tests:
       verify description 3
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: JSDDTd7PckqHFk0M7JaE6w
@@ -435,7 +455,7 @@ tests:
       verify description 4
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: y_PqQyWvS062oQw-9MmI5A
@@ -459,7 +479,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     elementId: y_PqQyWvS062oQw-9MmI5A
@@ -483,7 +503,7 @@ tests:
     comments: verify listing title
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     elementId: 8Ui4ZKIwB0-Vj8dKexdSUw
@@ -504,7 +524,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: 3j_Nc-OCNEmya5VVK2CZRQ
@@ -528,7 +548,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     elementId: v00ko9uQO0e1faO2VByXng
@@ -552,7 +572,7 @@ tests:
     comments: Pull API for property listing
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Addon
     settings:
@@ -629,7 +649,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Addon
     settings:
@@ -686,7 +706,7 @@ tests:
     comments: 'Total up active listing '
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Addon
     settings:
@@ -713,7 +733,7 @@ tests:
     comments: verify total active listing
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: yAMSG3S4lkiStbCRG_Lukg
@@ -737,7 +757,7 @@ tests:
     comments: verify total inactive listing
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     elementId: 8wmFg69q50CKksSYolbv0g
@@ -761,7 +781,7 @@ tests:
     comments: 'Total up All listing '
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
     repeat: 1
     type: Addon
     settings:
@@ -789,7 +809,7 @@ tests:
       verify total listing
     enabled: true
     invertResult: false
-    order: 25
+    order: 26
     repeat: 1
     type: Action
     elementId: Dvq_BY-6M0mjIoCF1jM1Ow
@@ -813,7 +833,7 @@ tests:
     comments: 'Click Plotting '
     enabled: true
     invertResult: false
-    order: 26
+    order: 27
     repeat: 1
     type: Action
     elementId: hHKNWJazhEqvpNkILRWALg
@@ -834,7 +854,7 @@ tests:
     comments: Called  and extract plotted address
     enabled: true
     invertResult: false
-    order: 27
+    order: 28
     repeat: 1
     type: Addon
     settings:
@@ -921,7 +941,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 28
+    order: 29
     repeat: 1
     type: Action
     elementId: zUyt-upaZ0ioER2eGfyrzA
@@ -945,7 +965,7 @@ tests:
     comments: verify title "New'
     enabled: true
     invertResult: false
-    order: 29
+    order: 30
     repeat: 1
     type: Action
     elementId: C-YWucsRqkSxvvahDPerng
@@ -969,7 +989,7 @@ tests:
     comments: verify title 'Message'
     enabled: true
     invertResult: false
-    order: 30
+    order: 31
     repeat: 1
     type: Action
     elementId: nD2CIJabekWTDls1q2iVrw
@@ -993,7 +1013,7 @@ tests:
     comments: Get total unread chat
     enabled: true
     invertResult: false
-    order: 31
+    order: 32
     repeat: 1
     type: Addon
     settings:
@@ -1059,7 +1079,7 @@ tests:
     comments: verify total new message
     enabled: true
     invertResult: false
-    order: 32
+    order: 33
     repeat: 1
     type: Action
     elementId: 74nDxMwzIUS--qcAsKCJ-g
@@ -1087,7 +1107,7 @@ tests:
     comments: verify title "New'
     enabled: true
     invertResult: false
-    order: 33
+    order: 34
     repeat: 1
     type: Action
     elementId: KEtUSNJyMUiK4z2yesAWjA
@@ -1111,7 +1131,7 @@ tests:
     comments: verify total 'Appointment'
     enabled: true
     invertResult: false
-    order: 34
+    order: 35
     repeat: 1
     type: Action
     elementId: us0XBB40dU6fHm7sc4EsRQ
@@ -1135,7 +1155,7 @@ tests:
     comments: extract total new appointment from DB
     enabled: false
     invertResult: false
-    order: 35
+    order: 36
     repeat: 1
     type: Addon
     settings:
@@ -1242,7 +1262,7 @@ tests:
     comments: Verify total New appointment
     enabled: false
     invertResult: false
-    order: 36
+    order: 37
     repeat: 1
     type: Action
     elementId: ssCysMmdDUOE38fnjXPW5w
@@ -1270,7 +1290,7 @@ tests:
     comments: Extract total Guidance Available
     enabled: true
     invertResult: false
-    order: 37
+    order: 38
     repeat: 1
     type: Addon
     settings:
@@ -1347,7 +1367,7 @@ tests:
     comments: Verify title 'Guidance'
     enabled: true
     invertResult: false
-    order: 38
+    order: 39
     repeat: 1
     type: Action
     elementId: ATRbd_86xkqx480uk_1KaA
@@ -1371,7 +1391,7 @@ tests:
     comments: Verify title 'Available'
     enabled: true
     invertResult: false
-    order: 39
+    order: 40
     repeat: 1
     type: Action
     elementId: pvEbf2xs20apDeF3pN3_KA
@@ -1395,7 +1415,7 @@ tests:
     comments: Verify total assessment taken
     enabled: true
     invertResult: false
-    order: 40
+    order: 41
     repeat: 1
     type: Action
     elementId: mliM-HoDKkiGKilC8C7lyg
