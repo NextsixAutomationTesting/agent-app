@@ -1,7 +1,7 @@
-id: Tcv01iER20uTw4wDXrioXg
+id: IZ1NwKFmjkGnvVFO7vNTVQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-11-17T05:35:07.5583444Z
+created: 2022-11-17T05:38:28.6760013Z
 protocol: 1
 tests:
 - id: OaNWVC2XIUCdKZKwifuLHA
@@ -15,7 +15,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-25T06:16:22.0000000
-  modificationDate: 2022-11-17T05:35:07.0000000
+  modificationDate: 2022-11-17T05:37:31.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -405,13 +405,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: ke1iGJPLCka2iwkmJ1eIjw
+  - id: FLIiOMBGg0qpdtzwDyuKgg
     enabled: true
     invertResult: false
     order: 18
     repeat: 1
     type: Action
-    elementId: moB2UFi73EGugAL283wYvA
+    elementId: 3dKElMOLCEWFuME2sIL1mQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -784,13 +784,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: AnVqB6yXD0KsoSL-LUwWkA
+  - id: BpAhV09eHEOs-8kygKtARA
     enabled: true
     invertResult: false
     order: 34
     repeat: 1
     type: Action
-    elementId: moB2UFi73EGugAL283wYvA
+    elementId: 3dKElMOLCEWFuME2sIL1mQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1415,25 +1415,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[1]
     priority: 2
-- id: moB2UFi73EGugAL283wYvA
-  name: Internal storage
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: ID
-    value: com.huawei.hidisk:id/file_name
-    priority: 2
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Internal storage']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.RelativeLayout/android.widget.TextView[1]
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
-    priority: 3
 - id: Dpay0Ono8Uu8sz73Feu4vQ
   name: aziz1.transformed_0.jpg
   type:
@@ -1546,5 +1527,27 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
     priority: 2
+- id: 3dKElMOLCEWFuME2sIL1mQ
+  name: 'Storage used: 32.27 GB.Total 128 GB'
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.huawei.filemanager:id/file_subinfo
+    priority: 0
+  - name: XPATH
+    value: "//android.widget.TextView[@content-desc = 'Storage used: 32.27 GB.Total 128 GB']"
+    priority: 1
+  - name: XPATH
+    value: "//android.widget.TextView[@text = 'Storage used: 32.27 GB/128 GB']"
+    priority: 2
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 3
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[2]
+    priority: 4
 projectParameters: []
 addons: []
