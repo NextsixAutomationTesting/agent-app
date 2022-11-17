@@ -1,7 +1,7 @@
-id: KGu6ZTe84EOvo5G9lJkjrA
+id: im4GMelNM0GcoFKs2R5oYQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-09-14T06:02:55.0163184Z
+created: 2022-11-17T07:34:50.1129967Z
 protocol: 1
 tests:
 - id: ZkDeLQX9a0mCG53kvhTbng
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-04-15T08:03:25.0000000
-  modificationDate: 2022-09-14T06:02:55.0000000
+  modificationDate: 2022-11-17T07:34:50.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -1665,10 +1665,10 @@ elements:
   locators:
   - name: XPATH
     value: //android.widget.TextView[@text = '{{messageIndicator}}']
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //android.widget.Button/android.view.ViewGroup//android.widget.TextView
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.widget.Button[4]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
     priority: 2
