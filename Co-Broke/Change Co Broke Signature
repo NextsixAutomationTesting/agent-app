@@ -1,7 +1,7 @@
-id: im4GMelNM0GcoFKs2R5oYQ
+id: qHSZHkjH_EGOQ7iZqVW3yQ
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-11-17T07:34:50.1129967Z
+created: 2022-11-17T07:38:29.8601883Z
 protocol: 1
 tests:
 - id: ZkDeLQX9a0mCG53kvhTbng
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-04-15T08:03:25.0000000
-  modificationDate: 2022-11-17T07:34:50.0000000
+  modificationDate: 2022-11-17T07:37:14.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -606,7 +606,7 @@ tests:
     enabled: true
     invertResult: false
     order: 17
-    repeat: 1
+    repeat: 2
     type: Action
     elementId: E8VCcYtmuECYvVDz0qbxWQ
     settings:
