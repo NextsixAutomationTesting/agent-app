@@ -1,7 +1,7 @@
-id: UzecCZPxqEGOBUcWR6hSOQ
+id: sRrxMzXi-kGHTQz_zki4og
 projectId: gMe-5i6TlEGZDLCgoTwVNQ
 projectName: Agent App
-created: 2022-11-17T08:05:58.8345821Z
+created: 2022-11-17T08:16:58.7916694Z
 protocol: 1
 tests:
 - id: FqBuuBhXukOuemzmcMnoMA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-07-13T14:59:54.0000000
-  modificationDate: 2022-11-17T08:05:59.0000000
+  modificationDate: 2022-11-17T08:12:02.0000000
   settings:
     automationAssistant: true
     deviceId: AQH0217B18001233
@@ -163,9 +163,9 @@ tests:
     type: Addon
     elementId: Su93I_FtyUy3siJvfPFkPw
     settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -633,17 +633,51 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 6v9sHvktBUGw8oUiZkjkeQ
+  - id: FOIwOFXbS0CnJzOdsyhJTQ
     enabled: true
     invertResult: false
     order: 19
     repeat: 1
     type: Action
-    elementId: HTstie1AcUqrcX08X6tEoQ
     settings:
-      sleepTime: 2000
-      timeout: 35000
-      sleepTiming: Before
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 429
+      direction: Input
+    - name: startY
+      value: 601
+      direction: Input
+    - name: endX
+      value: 422
+      direction: Input
+    - name: endY
+      value: 160
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: U2seXr9d70m5ekHIlWZkyA
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: dGB3gJupIkK3jieLzJlFXQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -656,7 +690,7 @@ tests:
   - id: 8HSXPE21BE6fHN1O8_or8A
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Action
     elementId: 7VA5KLXVxkKlkiT8wLLbJQ
@@ -676,7 +710,7 @@ tests:
   - id: xg8R6YoypE2nK8yWWGRIrg
     enabled: false
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Action
     elementId: HTstie1AcUqrcX08X6tEoQ
@@ -696,7 +730,7 @@ tests:
   - id: xltxbA-cAkmknaMhxm862A
     enabled: false
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: X8viJXzDIk-Rlt2j7DkH1w
@@ -717,7 +751,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     elementId: Vy5sx8g9UECMq0Cj-L9bwA
@@ -741,7 +775,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
     repeat: 1
     type: Action
     elementId: Nll-UAoSBkyqsh6HATjzIw
@@ -765,7 +799,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 25
+    order: 26
     repeat: 1
     type: Action
     elementId: Nll-UAoSBkyqsh6HATjzIw
@@ -789,7 +823,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 26
+    order: 27
     repeat: 1
     type: Action
     elementId: 4Ow-NegCqEiyweunq57OiA
@@ -813,7 +847,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 27
+    order: 28
     repeat: 1
     type: Action
     elementId: j7cBgquGuUCRTjw0lqT_aA
@@ -837,7 +871,7 @@ tests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 28
+    order: 29
     repeat: 1
     type: Action
     elementId: WnICL64Pa0ebpdWEaeYvtQ
@@ -861,7 +895,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 29
+    order: 30
     repeat: 1
     type: Action
     elementId: DShwNsm0Pk6MB4BUsX-Gfg
@@ -885,7 +919,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 30
+    order: 31
     repeat: 1
     type: Action
     elementId: KkEEQAj2VkGFPtzRWH22Xw
@@ -906,7 +940,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 31
+    order: 32
     repeat: 1
     type: Action
     elementId: jempJLWtUE6jlklgzESymA
@@ -930,7 +964,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 32
+    order: 33
     repeat: 1
     type: Action
     elementId: 27M0W24Er0GC2KADpDb5WQ
@@ -954,7 +988,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 33
+    order: 34
     repeat: 1
     type: Action
     elementId: ajNoHmRZakCmxzSBjVu5pA
@@ -978,7 +1012,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 34
+    order: 35
     repeat: 1
     type: Action
     elementId: 5KbGvXL4aUW6fD9-vrkgFg
@@ -1002,7 +1036,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 35
+    order: 36
     repeat: 1
     type: Action
     elementId: JlLseZs-7Ee_w7jmYAlfIA
@@ -1026,7 +1060,7 @@ tests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 36
+    order: 37
     repeat: 1
     type: Action
     elementId: gJs9aQKkeUe1XwjD1_CaVQ
@@ -1050,7 +1084,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 37
+    order: 38
     repeat: 1
     type: Addon
     settings:
@@ -1080,7 +1114,7 @@ tests:
     comments: Trigger Message from user
     enabled: true
     invertResult: false
-    order: 38
+    order: 39
     repeat: 1
     type: Addon
     settings:
@@ -1159,7 +1193,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 39
+    order: 40
     repeat: 1
     type: Action
     elementId: d44Qm8SFBUqLV1wtWe_dfQ
@@ -1179,17 +1213,17 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Dvd_B0KiiEiAZyq1rv8FdA
+  - id: GjCA3c0OD0CmaW2_nzQopQ
     enabled: true
     invertResult: false
-    order: 40
+    order: 41
     repeat: 1
     type: Action
     elementId: xR897bYiPE-CdWrVsW5vAg
     settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -1203,7 +1237,7 @@ tests:
     comments: Pull API AI listing
     enabled: true
     invertResult: false
-    order: 41
+    order: 42
     repeat: 1
     type: Addon
     settings:
@@ -1284,7 +1318,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 42
+    order: 43
     repeat: 1
     type: Addon
     settings:
@@ -1318,7 +1352,7 @@ tests:
       extract AI Listing
     enabled: true
     invertResult: false
-    order: 43
+    order: 44
     repeat: 1
     type: Addon
     settings:
@@ -1375,7 +1409,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 44
+    order: 45
     repeat: 1
     type: Action
     elementId: 1SYmwbofQkeKeu7OGzDYFw
@@ -1895,6 +1929,22 @@ elements:
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: dGB3gJupIkK3jieLzJlFXQ
+  name: Ai Matching3
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Ai Matching']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[5]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[5]/android.widget.TextView[1]
     priority: 2
 projectParameters: []
 addons:
